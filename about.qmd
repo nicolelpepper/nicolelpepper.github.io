@@ -2,8 +2,10 @@
 title: "About"
 ---
 
-About this site
+This is where my projects go
 
 ```{r}
-1 + 1
+# This is a code chunk
+1 + 1 = 0
+
 ```
