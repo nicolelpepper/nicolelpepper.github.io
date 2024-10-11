@@ -1,11 +1,22 @@
 ---
 title: "About"
+
 ---
 
-This is where my projects go
 
-```{r}
-# This is a code chunk
-1 + 1 = 0
+## What I do for work
+<p class = "avo-text center-text">Some text goes here<p>
 
-```
+## What I do for fun
+Some text goes here
+
+[here is some text]{.avo-text}
+
+
+here is [some more]{.avo-text} text
+
+
+:::{.center-text .avo-text}
+## What I do for fun
+Some text goes here
+:::

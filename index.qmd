@@ -1,6 +1,6 @@
 ---
 title: "Nicole Pepper"
-image: Pepper_Headshot.jpeg
+image: images/Pepper_Headshot.jpeg
 about:
   template: trestles
   image-shape: rounded
@@ -20,6 +20,7 @@ about:
 ---
 
 ### Hey there!
+
 I'm Nicole Pepper, a graduate student at the University of California, Santa Barbara, pursuing a Master’s in Environmental Data Science (MEDS) at the Bren School. My passion lies in leveraging spatial and diverse datasets to tackle pressing environmental challenges and inspire meaningful action. When I'm not wrangling data, you'll find me enjoying the great outdoors, especially in the mountains. Take a look around to learn more about my work and the impact I'm striving to make.
 
 

@@ -11,6 +11,41 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Some text goes here"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": ":::{#quarto-navigation-envelope .hidden} Nicole Pepper Nicole Pepper Home /index.html about.qmd Resources /resources.html\n\nCopyright 2021, Nicole Pepper\n\n:::{.hidden render-id=“footer-right”} This website was built with"
+  },
+  {
+    "objectID": "DELETE-LATER/practice.html",
+    "href": "DELETE-LATER/practice.html",
+    "title": "Here is my level one header",
+    "section": "",
+    "text": "Here is my level one header\nHere is my paragraph\nHere is my 2nd paragraph\nHere is my 3rd paragraph"
+  },
+  {
+    "objectID": "about.html#what-i-do-for-work",
+    "href": "about.html#what-i-do-for-work",
+    "title": "About",
+    "section": "",
+    "text": "Some text goes here"
+  },
+  {
+    "objectID": "about.html#what-i-do-for-fun",
+    "href": "about.html#what-i-do-for-fun",
+    "title": "About",
+    "section": "What I do for fun",
+    "text": "What I do for fun\nSome text goes here\nhere is some text\nhere is some more text"
+  },
+  {
+    "objectID": "about.html#what-i-do-for-fun-1",
+    "href": "about.html#what-i-do-for-fun-1",
+    "title": "About",
+    "section": "What I do for fun",
+    "text": "What I do for fun\nSome text goes here"
   }
 ]
