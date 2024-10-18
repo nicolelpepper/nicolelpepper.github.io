@@ -1,16 +1,44 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Nicole Pepper",
+    "objectID": "DELETE-LATER/practice.html",
+    "href": "DELETE-LATER/practice.html",
+    "title": "Here is my level one header",
     "section": "",
-    "text": "Hey there!\nI’m Nicole Pepper, a graduate student at the University of California, Santa Barbara, pursuing a Master’s in Environmental Data Science (MEDS) at the Bren School. My passion lies in leveraging spatial and diverse datasets to tackle pressing environmental challenges and inspire meaningful action. When I’m not wrangling data, you’ll find me enjoying the great outdoors, especially in the mountains. Take a look around to learn more about my work and the impact I’m striving to make.\n\n\nEducation\nUniversity of California Santa Barbara Masters in Environmental Data Science (Expected June 2025)\nUniversity of California Los Angeles B.A in Geography and Environmental Studies, Minor in Geospatial Information Systems & Technology (June 2018)\n\n\nProfessional Experience"
+    "text": "Here is my level one header\nHere is my paragraph\nHere is my 2nd paragraph\nHere is my 3rd paragraph"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Some text goes here"
+  },
+  {
+    "objectID": "about.html#what-i-do-for-work",
+    "href": "about.html#what-i-do-for-work",
+    "title": "About",
+    "section": "",
+    "text": "Some text goes here"
+  },
+  {
+    "objectID": "about.html#what-i-do-for-fun",
+    "href": "about.html#what-i-do-for-fun",
+    "title": "About",
+    "section": "What I do for fun",
+    "text": "What I do for fun\nSome text goes here\nhere is some text\nhere is some more text"
+  },
+  {
+    "objectID": "about.html#what-i-do-for-fun-1",
+    "href": "about.html#what-i-do-for-fun-1",
+    "title": "About",
+    "section": "What I do for fun",
+    "text": "What I do for fun\nSome text goes here"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nicole Pepper",
+    "section": "",
+    "text": "Hey there!\nI’m Nicole Pepper, a graduate student at the University of California, Santa Barbara, pursuing a Master’s in Environmental Data Science (MEDS) at the Bren School. My passion lies in leveraging spatial and diverse datasets to tackle pressing environmental challenges and inspire meaningful action. When I’m not wrangling data, you’ll find me enjoying the great outdoors, especially in the mountains. Take a look around to learn more about my work and the impact I’m striving to make.\n\n\nEducation\nUniversity of California Santa Barbara Masters in Environmental Data Science (Expected June 2025)\nUniversity of California Los Angeles B.A in Geography and Environmental Studies, Minor in Geospatial Information Systems & Technology (June 2018)\n\n\nProfessional Experience"
   }
 ]

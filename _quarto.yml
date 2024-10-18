@@ -3,8 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "Nicole Pepper"
+  # title: "Nicole Pepper"
+  favicon: images/pepper-logo.png
   navbar:
+    logo: images/np-logo.png
     left:
       - href: index.qmd
         text: Home
@@ -12,13 +14,20 @@ website:
       - href: resources.qmd
         text: Resources
 
+  page-footer: 
+    background: light
+    left: Copyright 2021, Nicole Pepper
+    right: This website was built with {{< fa brands github title='GitHub' >}}
+  
 format:
   html:
-    theme:
-      light: cosmo
-      dark: solar
-    css: styles.css
+    theme: styles.scss
     toc: false
     page-layout: full
+    mainfont: Merriweather Sans
+    monofont: Montserrat
+    
+
+    
 
 

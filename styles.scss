@@ -1,0 +1,61 @@
+/*-- scss:defaults --*/
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+// Create font variables
+//$montseratt: "Montserrat", serif;
+//$merriweather-sans: "Merriweather Sans", serif
+
+// Colors
+$sky: #3498db;
+$clouds: #f1fdffff;
+$corn: #F7E084;
+$avocado: #82bf45;
+$evergreen: #09332b;
+
+
+// Quarto Sass Variables
+$body-bg: $clouds;
+$navbar-bg: $evergreen;
+$navbar-fd: $sky;
+$navbar-hl: $avocado;
+
+/*-- scss:rules --*/
+
+h1, h2 {
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+
+.title{
+  color: $evergreen;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.avo-text{
+  color: $avocado;
+}
+
+.sky-text{
+  color: $sky;
+}
+
+.cloud-text{
+  color: $clouds;
+}
+
+.cloud-text{
+  color: $clouds;
+}
+
+.navbar-brand {
+  max-height: 60px;
+  width: auto;
+}
