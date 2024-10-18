@@ -3,16 +3,17 @@ project:
   output-dir: docs
 
 website:
-  # title: "Nicole Pepper"
   favicon: images/pepper-logo.png
   navbar:
     logo: images/np-logo.png
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
       - href: resources.qmd
         text: Resources
+      - href: blogs.qmd
+        text: Blogs
 
   page-footer: 
     background: light

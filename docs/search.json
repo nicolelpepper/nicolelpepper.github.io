@@ -7,6 +7,55 @@
     "text": "Here is my level one header\nHere is my paragraph\nHere is my 2nd paragraph\nHere is my 3rd paragraph"
   },
   {
+    "objectID": "blogs.html",
+    "href": "blogs.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Blog Post Title\n\n\nThis is my interesting caption about the blog post\n\n\n\nNicole\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nicole Pepper",
+    "section": "",
+    "text": "Hey there!\nI’m Nicole Pepper, a graduate student at the University of California, Santa Barbara, pursuing a Master’s in Environmental Data Science (MEDS) at the Bren School. My passion lies in leveraging spatial and diverse datasets to tackle pressing environmental challenges and inspire meaningful action. When I’m not wrangling data, you’ll find me enjoying the great outdoors, especially in the mountains. Take a look around to learn more about my work and the impact I’m striving to make.\n\n\nEducation\nUniversity of California Santa Barbara Masters in Environmental Data Science (Expected June 2025)\nUniversity of California Los Angeles B.A in Geography and Environmental Studies, Minor in Geospatial Information Systems & Technology (June 2018)\n\n\nProfessional Experience\nNASA Acres Program and Communications Coordinator (May 2023 - Present)"
+  },
+  {
+    "objectID": "blogs/2024-10-18-test-post/index.html",
+    "href": "blogs/2024-10-18-test-post/index.html",
+    "title": "Blog Post Title",
+    "section": "",
+    "text": "I’m going to insert a footnote here1"
+  },
+  {
+    "objectID": "blogs/2024-10-18-test-post/index.html#this-is-my-first-section",
+    "href": "blogs/2024-10-18-test-post/index.html#this-is-my-first-section",
+    "title": "Blog Post Title",
+    "section": "",
+    "text": "I’m going to insert a footnote here1"
+  },
+  {
+    "objectID": "blogs/2024-10-18-test-post/index.html#this-is-my-second-section",
+    "href": "blogs/2024-10-18-test-post/index.html#this-is-my-second-section",
+    "title": "Blog Post Title",
+    "section": "This is my second section",
+    "text": "This is my second section\nHere is my next paragraph2"
+  },
+  {
+    "objectID": "blogs/2024-10-18-test-post/index.html#this-is-my-third-section",
+    "href": "blogs/2024-10-18-test-post/index.html#this-is-my-third-section",
+    "title": "Blog Post Title",
+    "section": "This is my third section",
+    "text": "This is my third section\nI’m citing me[@csik2022]\nIm adding another citation: [@gaynor2022]"
+  },
+  {
+    "objectID": "blogs/2024-10-18-test-post/index.html#footnotes",
+    "href": "blogs/2024-10-18-test-post/index.html#footnotes",
+    "title": "Blog Post Title",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHere is my footnote↩︎\nHere is my second footnote↩︎"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -33,12 +82,5 @@
     "title": "About",
     "section": "What I do for fun",
     "text": "What I do for fun\nSome text goes here"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Nicole Pepper",
-    "section": "",
-    "text": "Hey there!\nI’m Nicole Pepper, a graduate student at the University of California, Santa Barbara, pursuing a Master’s in Environmental Data Science (MEDS) at the Bren School. My passion lies in leveraging spatial and diverse datasets to tackle pressing environmental challenges and inspire meaningful action. When I’m not wrangling data, you’ll find me enjoying the great outdoors, especially in the mountains. Take a look around to learn more about my work and the impact I’m striving to make.\n\n\nEducation\nUniversity of California Santa Barbara Masters in Environmental Data Science (Expected June 2025)\nUniversity of California Los Angeles B.A in Geography and Environmental Studies, Minor in Geospatial Information Systems & Technology (June 2018)\n\n\nProfessional Experience"
   }
 ]
