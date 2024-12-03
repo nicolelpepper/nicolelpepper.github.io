@@ -6,15 +6,13 @@ author:
     url: https://github.com/nicolelpepper
     affiliation: Bren MEDS
     affiliation-url: https://bren.ucsb.edu/masters-programs/master-environmental-data-science/academics-meds-program
-    date: 2024-10-18
-    categories: [Quarto, MEDS]
-    image: test.png
-    bibliography: references.bib
-    citation:
+date: 2024-10-18
+categories: [Quarto, MEDS]
+image: test.png
+bibliography: references.bib
+draft-mode: visible
+citation:
       url: https://github.com/nicolelpepper/personalwebsite/2024-10-18-test-post
-    draft: true
-    draft-mode: visible
-      
 editor_options: 
   chunk_output_type: console
 ---

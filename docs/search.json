@@ -11,7 +11,7 @@
     "href": "blogs.html",
     "title": "Blog",
     "section": "",
-    "text": "Blog Post Title\n\n\nThis is my interesting caption about the blog post\n\n\n\nNicole\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Analyzing Impacts of the Thomas Fire\n\n\n\nGIS\n\n\nRemote-Sensing\n\n\nMEDS\n\n\n\nIn Santa Barbara & Ventura Counties (Dec. 2017 - Jan. 2018)\n\n\n\nNicole\n\n\nOct 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog Post Title\n\n\n\nQuarto\n\n\nMEDS\n\n\n\nThis is my interesting caption about the blog post\n\n\n\nNicole\n\n\nOct 18, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -19,41 +19,6 @@
     "title": "Nicole Pepper",
     "section": "",
     "text": "Hey there!\nI’m Nicole Pepper, a graduate student at the University of California, Santa Barbara, pursuing a Master’s in Environmental Data Science (MEDS) at the Bren School. My passion lies in leveraging spatial and diverse datasets to tackle pressing environmental challenges and inspire meaningful action. When I’m not wrangling data, you’ll find me enjoying the great outdoors, especially in the mountains. Take a look around to learn more about my work and the impact I’m striving to make.\n\n\nEducation\nUniversity of California Santa Barbara Masters in Environmental Data Science (Expected June 2025)\nUniversity of California Los Angeles B.A in Geography and Environmental Studies, Minor in Geospatial Information Systems & Technology (June 2018)\n\n\nProfessional Experience\nNASA Acres Program and Communications Coordinator (May 2023 - Present)"
-  },
-  {
-    "objectID": "blogs/2024-10-18-test-post/index.html",
-    "href": "blogs/2024-10-18-test-post/index.html",
-    "title": "Blog Post Title",
-    "section": "",
-    "text": "I’m going to insert a footnote here1"
-  },
-  {
-    "objectID": "blogs/2024-10-18-test-post/index.html#this-is-my-first-section",
-    "href": "blogs/2024-10-18-test-post/index.html#this-is-my-first-section",
-    "title": "Blog Post Title",
-    "section": "",
-    "text": "I’m going to insert a footnote here1"
-  },
-  {
-    "objectID": "blogs/2024-10-18-test-post/index.html#this-is-my-second-section",
-    "href": "blogs/2024-10-18-test-post/index.html#this-is-my-second-section",
-    "title": "Blog Post Title",
-    "section": "This is my second section",
-    "text": "This is my second section\nHere is my next paragraph2"
-  },
-  {
-    "objectID": "blogs/2024-10-18-test-post/index.html#this-is-my-third-section",
-    "href": "blogs/2024-10-18-test-post/index.html#this-is-my-third-section",
-    "title": "Blog Post Title",
-    "section": "This is my third section",
-    "text": "This is my third section\nI’m citing me[@csik2022]\nIm adding another citation: [@gaynor2022]"
-  },
-  {
-    "objectID": "blogs/2024-10-18-test-post/index.html#footnotes",
-    "href": "blogs/2024-10-18-test-post/index.html#footnotes",
-    "title": "Blog Post Title",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nHere is my footnote↩︎\nHere is my second footnote↩︎"
   },
   {
     "objectID": "about.html",
@@ -82,5 +47,103 @@
     "title": "About",
     "section": "What I do for fun",
     "text": "What I do for fun\nSome text goes here"
+  },
+  {
+    "objectID": "blogs/2024-10-18-test-post/index.html",
+    "href": "blogs/2024-10-18-test-post/index.html",
+    "title": "Blog Post Title",
+    "section": "",
+    "text": "I’m going to insert a footnote here1"
+  },
+  {
+    "objectID": "blogs/2024-10-18-test-post/index.html#this-is-my-first-section",
+    "href": "blogs/2024-10-18-test-post/index.html#this-is-my-first-section",
+    "title": "Blog Post Title",
+    "section": "",
+    "text": "I’m going to insert a footnote here1"
+  },
+  {
+    "objectID": "blogs/2024-10-18-test-post/index.html#this-is-my-second-section",
+    "href": "blogs/2024-10-18-test-post/index.html#this-is-my-second-section",
+    "title": "Blog Post Title",
+    "section": "This is my second section",
+    "text": "This is my second section\nHere is my next paragraph2"
+  },
+  {
+    "objectID": "blogs/2024-10-18-test-post/index.html#this-is-my-third-section",
+    "href": "blogs/2024-10-18-test-post/index.html#this-is-my-third-section",
+    "title": "Blog Post Title",
+    "section": "This is my third section",
+    "text": "This is my third section\nI’m citing me(Csik 2022)\nIm adding another citation: (Gaynor et al. 2022)"
+  },
+  {
+    "objectID": "blogs/2024-10-18-test-post/index.html#footnotes",
+    "href": "blogs/2024-10-18-test-post/index.html#footnotes",
+    "title": "Blog Post Title",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHere is my footnote↩︎\nHere is my second footnote↩︎"
+  },
+  {
+    "objectID": "blogs/2024-12-02-thomas-fire/index.html",
+    "href": "blogs/2024-12-02-thomas-fire/index.html",
+    "title": "Analyzing Impacts of the Thomas Fire",
+    "section": "",
+    "text": "The Thomas Fire, which ignited on December 4, 2017, burned approximately 281,893 acres in Ventura and Santa Barbara counties, making it one of the largest and most devastating wildfires in California’s history. The fire left behind extensive burn scars with widespread loss of vegetation and unstable soil, leaving the region vulnerable to erosion. In 2018, heavy rains caused massive flooding and debris flows, resulting in catastrophic damage and tragic loss of life.\nThis exercise will explore the impacts of the Thomas Fire using satellite imagery and air quality data.\nAbout the data:\n\nThe thomas_fire.shp is a shapefile containing the fire perimeter for the Thomas Fire in 2017. It is subset of a CAL FIRE dataset with historical boundaries for fires (including both natural and prescribed fires) in the state of California. The dataset has a good record of past large fires but is not complete and may be missing some fires. The thomas_fire.shp data is stored in /data/thomas_fire folder in the repo, I did not push the original full Cal Fire dataset to GitHub, it was accessed locally.\nThe landsat.nc dataset is an image from Landsat Collection 2 Level-2, from the Microsof Planetary Computer data catalogue. Landsat Collection 2 Level-2 Science Products consist of atmospherically corrected surface reflectance and surface temperature image data. Collection 2 Level-2 Science Products are available from August 22, 1982 to present. It is accessed through UCSB Workbench 1 /courses/EDS220/data/hwk4_landsat_data landsat8-2018-01-26-sb-simplified.nc."
+  },
+  {
+    "objectID": "blogs/2024-12-02-thomas-fire/index.html#this-is-my-first-section",
+    "href": "blogs/2024-12-02-thomas-fire/index.html#this-is-my-first-section",
+    "title": "A Look Into the Impacts of the Thomas Fire",
+    "section": "",
+    "text": "I’m going to insert a footnote here1"
+  },
+  {
+    "objectID": "blogs/2024-12-02-thomas-fire/index.html#this-is-my-second-section",
+    "href": "blogs/2024-12-02-thomas-fire/index.html#this-is-my-second-section",
+    "title": "A Look Into the Impacts of the Thomas Fire",
+    "section": "This is my second section",
+    "text": "This is my second section\nHere is my next paragraph2"
+  },
+  {
+    "objectID": "blogs/2024-12-02-thomas-fire/index.html#this-is-my-third-section",
+    "href": "blogs/2024-12-02-thomas-fire/index.html#this-is-my-third-section",
+    "title": "A Look Into the Impacts of the Thomas Fire",
+    "section": "This is my third section",
+    "text": "This is my third section\nI’m citing me(Csik 2022)\nIm adding another citation: (Gaynor et al. 2022)"
+  },
+  {
+    "objectID": "blogs/2024-12-02-thomas-fire/index.html#footnotes",
+    "href": "blogs/2024-12-02-thomas-fire/index.html#footnotes",
+    "title": "Analyzing Impacts of the Thomas Fire",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHere is my second footnote↩︎"
+  },
+  {
+    "objectID": "blogs/2024-12-02-thomas-fire/index.html#overview",
+    "href": "blogs/2024-12-02-thomas-fire/index.html#overview",
+    "title": "Analyzing Impacts of the Thomas Fire",
+    "section": "",
+    "text": "The Thomas Fire, which ignited on December 4, 2017, burned approximately 281,893 acres in Ventura and Santa Barbara counties, making it one of the largest and most devastating wildfires in California’s history. The fire left behind extensive burn scars with widespread loss of vegetation and unstable soil, leaving the region vulnerable to erosion. In 2018, heavy rains caused massive flooding and debris flows, resulting in catastrophic damage and tragic loss of life.\nThis exercise will explore the impacts of the Thomas Fire using satellite imagery and air quality data.\nAbout the data:\n\nThe thomas_fire.shp is a shapefile containing the fire perimeter for the Thomas Fire in 2017. It is subset of a CAL FIRE dataset with historical boundaries for fires (including both natural and prescribed fires) in the state of California. The dataset has a good record of past large fires but is not complete and may be missing some fires. The thomas_fire.shp data is stored in /data/thomas_fire folder in the repo, I did not push the original full Cal Fire dataset to GitHub, it was accessed locally.\nThe landsat.nc dataset is an image from Landsat Collection 2 Level-2, from the Microsof Planetary Computer data catalogue. Landsat Collection 2 Level-2 Science Products consist of atmospherically corrected surface reflectance and surface temperature image data. Collection 2 Level-2 Science Products are available from August 22, 1982 to present. It is accessed through UCSB Workbench 1 /courses/EDS220/data/hwk4_landsat_data landsat8-2018-01-26-sb-simplified.nc."
+  },
+  {
+    "objectID": "blogs/2024-12-02-thomas-fire/index.html#learning-objectives",
+    "href": "blogs/2024-12-02-thomas-fire/index.html#learning-objectives",
+    "title": "Analyzing Impacts of the Thomas Fire",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\nHere is my next paragraph1\n\n# Import packages\n# ---- Load libraries ----\n# import os\n# import numpy as np\n# import matplotlib.pyplot as plt\n# import pandas as pd\n# import geopandas as gpd\n# from shapely.geometry import Polygon\n# from pyproj import CRS\n# import rioxarray as rioxr\n# import xarray as xr"
+  },
+  {
+    "objectID": "blogs/2024-12-02-thomas-fire/index.html#workflow-outline",
+    "href": "blogs/2024-12-02-thomas-fire/index.html#workflow-outline",
+    "title": "Analyzing Impacts of the Thomas Fire",
+    "section": "Workflow Outline",
+    "text": "Workflow Outline"
+  },
+  {
+    "objectID": "blogs/2024-12-02-thomas-fire/index.html#section",
+    "href": "blogs/2024-12-02-thomas-fire/index.html#section",
+    "title": "Analyzing Impacts of the Thomas Fire",
+    "section": "",
+    "text": "I’m citing me(Csik 2022)\nIm adding another citation: (Gaynor et al. 2022)\n\n\n\n\n\n\n\n\n\n\nReferences:\nCAL FIRE (2024) California Fire Perimeters (all) [Data file] Available from: https://catalog.data.gov/dataset/california-fire-perimeters-all-b3436 Access date: 11/20/24\nUSGS (2024) Landsat Collection 2 Level-2 Surface Reflectance and Surface Temperature Products [Data file]. Available from: https://www.usgs.gov/landsat-missions/landsat-collection-2 Access date: 11/20/24\nCarmen Galaz García (2024) UCSB MEDS - 220 - Working With Environmental Datasets [Source of Homework Assignment]. Course Website: https://meds-eds-220.github.io/MEDS-eds-220-course/ Access date: 11/20/24"
   }
 ]

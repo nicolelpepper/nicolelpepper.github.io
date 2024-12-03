@@ -1,0 +1,73 @@
+---
+title: "Analyzing Impacts of the Thomas Fire"
+description: "In Santa Barbara & Ventura Counties (Dec. 2017 - Jan. 2018)"
+author: 
+  - name: Nicole
+    url: https://github.com/nicolelpepper
+    affiliation: Bren MEDS
+    affiliation-url: https://bren.ucsb.edu/masters-programs/master-environmental-data-science/academics-meds-program
+date: 2024-10-18
+categories: [GIS, Remote-Sensing, MEDS]
+image: thomas-fire.png
+bibliography: references.bib
+draft-mode: visible
+citation:
+      url: https://github.com/nicolelpepper/personalwebsite/2024-12-02-thomas-fire
+editor_options: 
+  chunk_output_type: console
+---
+
+## Overview
+
+The Thomas Fire, which ignited on December 4, 2017, burned approximately 281,893 acres in Ventura and Santa Barbara counties, making it one of the largest and most devastating wildfires in California's history. The fire left behind extensive burn scars with widespread loss of vegetation and unstable soil, leaving the region vulnerable to erosion. In 2018, heavy rains caused massive flooding and debris flows, resulting in catastrophic damage and tragic loss of life.
+
+This exercise will explore the impacts of the Thomas Fire using satellite imagery and air quality data.
+
+About the data:
+
+-   The `thomas_fire.shp` is a shapefile containing the fire perimeter for the Thomas Fire in 2017. It is subset of a CAL FIRE dataset with historical boundaries for fires (including both natural and prescribed fires) in the state of California. The dataset has a good record of past large fires but is not complete and may be missing some fires. The thomas_fire.shp data is stored in `/data/thomas_fire` folder in the repo, I did not push the original full Cal Fire dataset to GitHub, it was accessed locally.
+
+-   The `landsat.nc` dataset is an image from Landsat Collection 2 Level-2, from the Microsof Planetary Computer data catalogue. Landsat Collection 2 Level-2 Science Products consist of atmospherically corrected surface reflectance and surface temperature image data. Collection 2 Level-2 Science Products are available from August 22, 1982 to present. It is accessed through UCSB Workbench 1 `/courses/EDS220/data/hwk4_landsat_data landsat8-2018-01-26-sb-simplified.nc`.
+
+## Learning Objectives
+
+Here is my next paragraph[^1]
+
+[^1]: Here is my second footnote
+
+```{r}
+# Import packages
+# ---- Load libraries ----
+# import os
+# import numpy as np
+# import matplotlib.pyplot as plt
+# import pandas as pd
+# import geopandas as gpd
+# from shapely.geometry import Polygon
+# from pyproj import CRS
+# import rioxarray as rioxr
+# import xarray as xr
+```
+
+## Workflow Outline
+
+## 
+
+I'm citing me[@csik2022]
+
+Im adding another citation: [@gaynor2022]
+
+```{r}
+#| echo: false
+
+knitr::include_graphics("thomas-fire.png")
+
+```
+
+### References:
+
+CAL FIRE (2024) *California Fire Perimeters (all)* \[Data file\] Available from: https://catalog.data.gov/dataset/california-fire-perimeters-all-b3436 Access date: 11/20/24
+
+USGS (2024) *Landsat Collection 2 Level-2 Surface Reflectance and Surface Temperature Products* \[Data file\]. Available from: https://www.usgs.gov/landsat-missions/landsat-collection-2 Access date: 11/20/24
+
+Carmen Galaz García (2024) *UCSB MEDS - 220 - Working With Environmental Datasets* \[Source of Homework Assignment\]. Course Website: https://meds-eds-220.github.io/MEDS-eds-220-course/ Access date: 11/20/24
