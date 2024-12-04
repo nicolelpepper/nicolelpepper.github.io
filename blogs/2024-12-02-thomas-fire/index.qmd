@@ -35,18 +35,18 @@ Here is my next paragraph[^1]
 
 [^1]: Here is my second footnote
 
-```{r}
+```python
 # Import packages
 # ---- Load libraries ----
-# import os
-# import numpy as np
-# import matplotlib.pyplot as plt
-# import pandas as pd
-# import geopandas as gpd
-# from shapely.geometry import Polygon
-# from pyproj import CRS
-# import rioxarray as rioxr
-# import xarray as xr
+import os
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+import geopandas as gpd
+from shapely.geometry import Polygon
+from pyproj import CRS
+import rioxarray as rioxr
+import xarray as xr
 ```
 
 ## Workflow Outline
@@ -57,12 +57,26 @@ I'm citing me[@csik2022]
 
 Im adding another citation: [@gaynor2022]
 
-```{r}
-#| echo: false
+```python
+# ---- Set working environment ----
 
-knitr::include_graphics("thomas-fire.png")
+# Set anaconda environment
+os.environ['PROJ_LIB'] = '/opt/anaconda3/share/proj'
+
+# Set up a root path directory
+root = os.path.join('/',
+                  'courses',
+                  'EDS220',
+                  'data',
+                  'hwk4_landsat_data')
 
 ```
+
+
+```{r}
+
+```
+
 
 ### References:
 
