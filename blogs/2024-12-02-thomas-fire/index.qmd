@@ -9,7 +9,6 @@ author:
 date: 2024-10-18
 categories: [GIS, Remote-Sensing, MEDS]
 image: thomas-fire.png
-bibliography: references.bib
 citation:
       url: https://github.com/nicolelpepper/personalwebsite/2024-12-02-thomas-fire
 editor_options: 
