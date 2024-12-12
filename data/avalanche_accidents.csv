@@ -1,0 +1,982 @@
+﻿AvyYear,YYYY,MM,DD,Location,Trigger,D Size,Setting,State,lat,lon,PrimaryActivity,TravelMode,Killed,Description,Date
+2023,2023,7,2,"Split Mountain, southwest of Big Pine",,,BC,CA,37.021,-118.422,Hiker,Foot,1,"3 hikers caught, 2 injured, 1 killed",7/2/2023
+2023,2023,6,14,"Hurd Peak, southwest of Bishop",N,1.5,BC,CA,37.143,-118.566,Backcountry Tourer,Ski,1,"2 backcountry tourers caught, 1 killed",6/14/2023
+2023,2023,5,5,West Ridge of the Moose's Tooth,,,BC,AK,62.969,-150.613,Climber,Foot,2,"2 climbers caught, killed",5/5/2023
+2023,2023,5,4,"Denali National Park, near Jenny Creek",,,BC,AK,63.720,-148.984,Backcountry Tourer,Ski,1,1 backcountry skier caught and killed,5/4/2023
+2023,2023,4,29,"Bald Mountain, southeast of Breckenridge",AS,2,BC,CO,39.446,-105.960,Backcountry Tourer,Ski,1,"1 backcountry tourer caught, buried, and killed",4/29/2023
+2023,2023,4,17,"Big Cottonwood Creek, east of Sandy",U,,TN,UT,40.604,-111.583,Resident,Foot,1,"1 resident caught, partially buried-critical, and killed",4/17/2023
+2023,2023,3,27,"Pole Canyon, Oquirrh Moutains",AM,4,BC,UT,40.369,-112.192,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",3/27/2023
+2023,2023,3,22,"Trinity Lakes, east of Boise",,,BC,ID,43.624,-115.429,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",3/22/2023
+2023,2023,3,19,"Maroon Bowl, north of Highland Peak",AS,3,BC,CO,39.135,-106.877,Sidecountry Rider,Ski,1,"1 sidecountry rider caught, partially buried-critical, and killed",3/19/2023
+2023,2023,3,17,"Rapid Creek, southwest of Marble",AS,3,BC,CO,39.048,-107.258,Backcountry Tourer,Ski,1,"3 backcountry tourers caught, 2 injured, 1 buried and killed",3/17/2023
+2023,2023,3,16,"Purgatory Creek, north of Durango",N,,TN,CO,37.629,-107.814,Resident,Foot,1,"3 residents caught, buried, and 1 killed",3/16/2023
+2023,2023,3,15,"Paulina Peak, south of Bend",AR,2,BC,OR,43.692,-121.255,Backcountry Tourer,Snowboard,1,1 backcountry snowboarder killed,3/15/2023
+2023,2023,3,12,"Red Mountain, northeast of Lowman",,,BC,ID,44.254,-115.406,Snowmobiler,Snowmobile,1,1 snowmobiler caught and killed,3/12/2023
+2023,2023,3,12,"Observation Peak, Stanley Lake Creek Drainage",AM,2,BC,ID,44.172,-115.106,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",3/12/2023
+2023,2023,3,9,"Upper Weber Canyon, southwest of Windy Ridge",AS,,BC,UT,40.838,-111.021,Mechanized Guided Client,Ski,1,"2 skiers caught and fully buried, 1 injured and 1 killed",3/9/2023
+2023,2023,3,2,"Black Crater, west of Sisters",AS,2,BC,OR,44.268,-121.738,Backcountry Tourer,Ski,1,"1 backcountry skier caught, partially buried-critical, and killed",3/2/2023
+2023,2023,2,25,South of Vallecito Reservoir,AS,2,BC,CO,37.369,-107.572,Backcountry Tourer,Ski,2,"2 backcountry skiers caught, buried, and killed",2/25/2023
+2023,2023,2,25,"Red Lakes Trailhead, near La Manga Pass",AM,2.5,BC,CO,37.078,-106.413,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",2/25/2023
+2023,2023,2,23,"Poker Flats, Salt River Range",AM,1.5,BC,WY,42.524,-110.763,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",2/23/2023
+2023,2023,2,19,"Colchuck Peak, southwest of Leavenworth",AF,,BC,WA,47.479,-120.844,Climber,Foot,3,"4 climbers caught, 3 killed, 1 injured",2/19/2023
+2023,2023,1,9,"Mummy Mountain, Spring Mountain National Recreation Area",AR,2,BC,NV,36.300,-115.648,Backcountry Tourer,Snowboard,1,"1 backcountry snowboarder, caught, partially buried-critical, and killed",1/9/2023
+2023,2023,1,7,"Pumphouse Lake, southwest of Rollins Pass",AM,2.5,BC,CO,39.924,-105.691,Snowmobiler,Snowmobile,2,"2 snowmobilers caught, buried, and killed",1/7/2023
+2023,2022,12,31,"Crown Butte, north of Cooke City",AM,3,BC,MT,45.051,-109.962,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",12/31/2022
+2023,2022,12,31,"Number 5, Carter Gulch southwest of Breckenridge",AS,2,BC,CO,39.452,-106.076,Sidecountry Rider,Ski,1,"2 sidecountry riders caught, 1 partially buried-critical, 1 buried and killed",12/31/2022
+2023,2022,12,26,"Nitro Chute, north of Berthoud Pass",AR,2,BC,CO,39.802,-105.781,Backcountry Tourer,Ski,1,"4 backcountry tourers caught, 2 fully buried, and 1 killed",12/26/2022
+2022,2022,5,29,"Mount Meeker, Rocky Mountain National Park",N,3,BC,CO,40.25337,-105.600944,Climber,Foot,1,"3 climbers caught, 1 partially buried, 1 injured, 1 buried and killed",5/29/22
+2022,2022,4,25,"Ice Face, southeast of Thompson Pass, Chugach Mountains",AS,2,BC,AK,61.1262988,-145.7271624,Mechanised Guide,Ski,1,"1 skier caught, carried over cliff, and killed",4/25/22
+2022,2022,3,19,"North Fork of Fish Creek, near Steamboat Springs",AS,2,BC,CO,40.50566,-106.72047,Backcountry Tourer,Ski,1,"1 backcountry skier caught, partially buried-critical, and killed",3/19/22
+2022,2022,3,17,"Pilot Knob, east of Lizard Head Pass",AR,2.5,BC,CO,37.811,-107.838,Backcountry Tourer,Snowboard,1,"1 backcountry snowboarder caught, buried, and killed",3/17/22
+2022,2022,3,17,"Game Creek Drainage, east of Victor Idaho",AS,2.5,BC,WY,43.594646,-111.011139,Backcountry Tourer,Ski,1,"2 skiers caught, 2 fully buried, 1 injured, and 1 killed",3/17/22
+2022,2022,3,12,"South Fork Miner Creek, Sierra Madre Mountains",AM,2,BC,WY,41.08325,-106.88938,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",3/12/22
+2022,2022,2,25,Yule Creek,AI,2,BC,CO,39.0633427,-107.1758918,Resident,Snowshoe,1,"3 snowshoers caught, 2 partially buried, 1 buried and killed. 2 dogs killed",2/25/22
+2022,2022,2,19,"Miller Mountain, North of Cook City",AV,3,BC,MT,45.0466424,-109.9771345,Snowmobiler,Snowbike,1,"1 motorized snowbike rider caught, partially buried-critical, and killed",2/19/22
+2022,2022,2,6,Lionhead area near West Yellowstone,AM,2,BC,MT,44.7007794,-111.2909701,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, partially buried-critical, and killed",2/6/22
+2022,2022,1,8,"North Star Mountain, Hoosier Pass",AI,2,BC,CO,39.3698477,-106.0733894,Hiker,Snowshoe,2,"2 snowshoers and a dog caught, buried, and killed",1/8/22
+2022,2021,12,27,"Scotch Bonnet Mountain, north of Cooke City",AM,2.5,BC,MT,45.07147,-109.94407,Snowmobiler,Snowmobile,2,"2 snowmobilers caught, buried, and killed",12/27/21
+2022,2021,12,24,"Diamond Peaks, Cameron Pass",AS,2,BC,CO,40.5108549,-105.8907319,Backcountry Tourer,Ski,1,"1 backcountry skier caught, fully buried, and killed",12/24/21
+2022,2021,12,17,Relay Ridge near Ryan Peak,AU,2,BC,ID,43.7069491,-111.3444239,Hybrid Rider,Snowmobile,2,1 skier and 1 snowmobiler killed,12/17/21
+2022,2021,12,11,"Silver Basin, closed portion of Crystal Mountain ski resort",AS,2.5,SA-closed terrain,WA,46.9037942,-121.4954424,Backcountry Tourer,Ski,1,"6 backcountry tourers caught, 2 partially buried, 4 buried, and 1 killed",12/11/21
+2021,2021,5,13,"Ruth Glacier, Denali National Park and Preserve",N,,BC,AK,62.99264,-150.71404,Climber,Foot,1,"2 climbers caught in serac fall, 1 killed",5/13/21
+2021,2021,3,27,Matanuska Glacier,U,,BC,AK,61.79476,-147.73927,Motorized Guided client,Ski,1,1 heliskier killed,3/27/21
+2021,2021,3,22,Lime Creek south of Edwards,AS,,BC,CO,39.5776,-106.5548,Sidecountry Rider,Ski,1,1 sidecountry skier caught and killed,3/22/21
+2021,2021,3,20,"Frog Lake Cliffs, north of Donner Pass",AF,2,BC,CA,39.36713,-120.32926,Snowmobiler,Foot,1,1 snowmobiler caught and killed,3/20/21
+2021,2021,2,27,"Tiger Peak, north of Burke",AM,3,BC,ID,47.537,-115.82937,Snowmobiler,Snowmobile,1,"4 snowmobilers caught, 1 buried, 1 buried and killed",2/27/21
+2021,2021,2,22,"Broken Thumb Couloir, Peak 9,975 (25 Short), Grand Teton National Park",AR,2,BC,WY,43.69679,-110.79015,Backcountry Tourer,Snowboard,1,1 backcountry tourer caught and killed,2/22/21
+2021,2021,2,20,"Near Sherman Peak, Southeast of Pocatello",U,,BC,ID,42.46526,-111.54934,Snowmobiler,Snowmobile,1,"1 snowmobiler, caught, buried, and killed",2/20/21
+2021,2021,2,20,"Near Castle Lake, Ruby Mountains, Southeast of Elko",U,,BC,NV,40.56855,-115.39873,Snowmobiler,Snowmobile,1,"2 snowmobilers caught, 1 buried and killed, 1 injured",2/20/21
+2021,2021,2,19,"Smiley Creek Drainage, Smoky Mountains",AM,2.5,BC,ID,43.812,-114.84442,Snowmobiler,Snowmobile,1,One snowmobiler killed,2/19/21
+2021,2021,2,18,"Togwotee Pass, WY",AR,2,BC,WY,43.75778,-110.06862,Backcountry Tourer,Snowboard,1,1 snowboarder killed,2/18/21
+2021,2021,2,17,"Squaw Creek Drainage, Southeast of Alpine, WY",AM,2,BC,WY,43.1507,-110.9939,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried and killed",2/17/21
+2021,2021,2,16,"West of Ruby Mountain, southeast of Rand",AM,3,BC,CO,40.3544,-105.96973,Snowmobiler,Snowmobile,1,"2 snowmobilers caught, 1 partially buried, 1 buried and killed",2/16/21
+2021,2021,2,14,"Beehive Basin, north of Big Sky Montana",AR,2.5,BC,MT,45.3407,-111.391,Backcountry Tourer,Snowboard,1,"2 splitboarders caught, 1 partially buried and killed",2/14/21
+2021,2021,2,14,"Near Mount Trelease, north of Loveland Pass",AR,3,BC,CO,39.6927,-105.8909,Backcountry Tourer,Snowboard,1,"1 backcountry snowboarder caught, partially-buried critical, killed",2/14/21
+2021,2021,2,14,"Pumphouse Lake, southwest of Rollins Pass",AM,2,BC,CO,39.93438,-105.68267,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, partially buried-critical, and killed",2/14/21
+2021,2021,2,8,"Knox Creek, Salmon la Sac area, near Cle Elum Lake",AV,3,BC,WA,47.37055,-121.11164,Snowmobiler,Snowbike,1,"2 snowbikers caught, 1 buried and killed",2/8/21
+2021,2021,2,6,"Wilson Glade, Mill Creek Canyon",AS,2.5,BC,UT,40.67619,-111.67168,Backcountry Tourer,Ski,4,"7 backcountry tourers caught, 1 partially buried, 2 buried, 4 buried and killed",2/6/21
+2021,2021,2,6,"Wounded Buck Creek, northwest of Wildcat Lake",AM,2.5,BC,MT,48.23555,-113.96937,Snowmobiler,Snowmobile,1,"5 snowmobilers caught, 1 partially buried-critical and killed",2/6/21
+2021,2021,2,4,"Marvin’s West, East Vail backcountry southeast of Vail",AS,2,BC,CO,39.6059,-106.2956,Sidecountry Rider,Ski,1,"2 sidecountry skiers caught, 1 buried and killed",2/4/21
+2021,2021,2,3,"Etna Summit, west of Etna",AS,2,BC,CA,41.39009,-122.98229,Backcountry Tourer,Ski,1,"2 backcountry tourers caught, 1 partially buried, 1 buried and killed",2/3/21
+2021,2021,2,2,"Bear Mountain, Chugach State Park",U,,BC,AK,61.41102,-149.38629,Climber,Foot,3,"3 climbers caught, buried, and killed",2/2/21
+2021,2021,2,1,"The Nose, Middle Fork Mineral Creek southeast of Ophir",AS,2.5,BC,CO,37.84364,-107.76892,Backcountry Tourer,Ski,3,"4 backcountry skiers caught and buried, 3 killed",2/1/21
+2021,2021,2,1,"Ammonoosuc Ravine, north of Mount Monroe",U,,BC,NH,44.25602,-71.32073,Backcountry Tourer,Ski,1,"1 backcountry skier caught, buried, and killed",2/1/21
+2021,2021,1,30,"Squaretop, Park City Ridgeline",AS,2,BC,UT,40.66465,-111.60109,Sidecountry Rider,Ski,1,"1 skier caught, buried, and killed",1/30/21
+2021,2021,1,8,"Dutch Draw, Park City Ridgeline",AR,2,BC,UT,40.6529,-111.59156,Sidecountry Rider,Snowboard,1,"1 sidecountry rider caught, buried, and killed",1/8/21
+2021,2020,12,26,"First Creek, north of Berthoud Pass",AS,1.5,BC,CO,39.8261,-105.772,Backcountry Tourer,Ski,1,"1 skier caught, buried, and killed",12/26/20
+2021,2020,12,19,"North Face of Battleship, southeast of Ophir",AS,2.5,BC,CO,37.82931,-107.74661,Backcountry Tourer,Ski,2,"2 backcountry skiers caught, buried, and killed",12/19/20
+2021,2020,12,18,"Near Ohio Pass, Anthracite Range",AS,2,BC,CO,38.83428,-107.09508,Backcountry Tourer,Ski,1,"1 backcountry skier caught, buried, and killed",12/18/20
+2021,2020,12,18,"Near Sheep Pass, Salt River Range",AM,2,BC,WY,42.60289,-110.75731,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried and killed",12/18/20
+2020,2020,4,28,"Mount Emmons, west of Crested Butte",AS,2,BC,CO,38.89532,-107.03138,Backcountry Tourer,Ski,1,"1 backcountry skier caught, killed",4/28/20
+2020,2020,4,15,"Point 12885 near Red Peak, west of Silverthorne",AS,2,BC,CO,39.6458,-106.15636,Backcountry Tourer,Ski,1,"2 backcountry tourers caught and carried, 1 killed",4/15/20
+2020,2020,4,3,"Austin Canyon, Snake River Range",AM,2,BC,ID,43.35006,-111.21846,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",4/3/20
+2020,2020,4,1,"Taylor Mountain, northwest of Teton Pass",AR,2,BC,WY,43.53018,-110.98117,Backcountry Tourer,Snowboard,1,"1 backcountry tourer caught, buried, and killed",4/1/20
+2020,2020,3,15,North of Skyline Peak,AS,2,BC,ID,42.76727,-112.13999,Sidecountry Rider,Ski,1,"2 sidecountry riders caught, 1 partially buried, 1 buried and killed",3/15/20
+2020,2020,3,9,Near Hatcher Pass,AR,,BC,AK,61.76992,-149.31278,Backcountry Tourer,Snowboard,1,"1 backcountry tourer caught, killed",3/9/20
+2020,2020,2,25,Unalaska Island,U,,BC,AK,53.87779,-166.53277,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",2/25/20
+2020,2020,2,15,"South Fork of Dickson Creek, east of Red and White Mountain",AV,2,BC,CO,39.6897,-106.4702,Snowmobiler,Snowbike,2,"3 snowbike riders caught, 1 partially buried, 2 buried and killed",2/15/20
+2020,2020,2,10,"Boulder Creek Drainage, South of Cooper Landing",AM,,BC,AK,60.31759,-149.60966,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",2/10/20
+2020,2020,1,23,Near Blewett Pass,N,,TN,WA,47.33538,-120.58043,Resident,Foot,1,"1 resident caught, buried and killed",1/23/20
+2020,2020,1,18,"Uncompahgre Gorge, south of Ouray",N,1,BC,CO,37.983432,-107.655867,Climber,Foot,1,"1 climber struck by falling ice, buried, and killed",1/18/20
+2020,2020,1,18,"Farmington Canyon, east of Farmington",AM,2,BC,UT,40.97512,-111.8223,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",1/18/20
+2020,2020,1,17,"Scott Peak, west of Lake Tahoe",U,,SA,CA,39.15756,-120.22238,Inbounds Rider,Ski,1,"2 inbounds skiers caught, 1 injured, 1 killed",1/17/20
+2020,2020,1,15,"Baker Creek drainage, Smoky Mountains",AM,2,BC,ID,43.69076,-114.67559,Snowmobiler,Snowmobile,1,"2 snowmobilers caught, 1 buried and killed",1/15/20
+2020,2020,1,11,"Rock Creek, Elkhorn Mountains",AM,2,BC,OR,44.86901,-118.19007,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",1/11/20
+2020,2020,1,7,"Wardner Peak, Bitterroot Mountains",AS,3,SA,ID,47.48811,-116.1278,Inbounds Rider,Ski,3,"Multiple skiers caught, 2 partially buried, 5 buried, 3 killed",1/7/20
+2020,2020,1,1,"Near Lake Dinah, west of Seeley Lake",AM,2.5,BC,MT,47.25592,-113.71536,Snowmobiler,Snowmobile,2,"3 snowmobilers caught, 2 buried and killed, 1 partially buried",1/1/20
+2020,2019,12,15,"Dutch Draw, Park City Ridgeline",AR,2,BC,UT,40.65347,-111.59126,Sidecountry Rider,Snowboard,1,"1 sidecountry rider caught, buried, and killed",12/15/19
+2020,2019,12,8,"Diamond Peaks, west of Cameron Pass",AS,2,BC,CO,40.51611,-105.90773,Backcountry Tourer,Ski,1,"1 backcountry skier, caught, buried, and killed",12/8/19
+2019,2019,4,11,"Raymond Cataract, Mount Washington",AS,2,BC,NH,44.27047,-71.30302,Backcountry Tourer,Ski,1,"1 backcountry tourer caught, buried, and killed",4/11/19
+2019,2019,3,13,"Lutak Inlet, north of Haines",AS,3,BC,AK,59.26892,-135.5229,Backcountry Tourer,Snowboard,1,"1 backcountry tourer caught, buried, and killed",3/13/19
+2019,2019,3,11,Casper,N,,TN,WY,42.84156,-106.32372,Resident,Foot,1,"1 resident caught, buried, and killed",3/11/19
+2019,2019,3,9,"Near Crescent Lake, Kenai Peninsula",AS,2.5,BC,AK,60.44865,-149.49703,Backcountry Tourer,Ski,1,"2 backcountry tourers caught, 1 buried and killed",3/9/19
+2019,2019,3,9,Crested Butte South,AF,,TN,CO,38.80363,-106.8897,Resident,Foot,1,"2 residents caught and buried, 1 killed",3/9/19
+2019,2019,3,7,"Point 12118, east of Jones Pass",N,3.5,BC,CO,39.78113,-105.86643,Mechanized Guide,Ski,1,"1 mechanized guide caught, buried, and killed; 1 mechanized guide client caught",3/7/19
+2019,2019,3,4,"Breccia Cliffs, northwest of Togwotee Pass",AM,2.5,BC,WY,43.80692,-110.09852,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",3/4/19
+2019,2019,3,3,"Base Camp above Matterhorn Nordic trailhead, northeast of Lizard Head Pass",AS,2,BC,CO,37.82918,-107.8806,Backcountry Tourer,Ski,1,"1 backcountry tourer caught, buried, and killed",3/3/19
+2019,2019,2,26,"Truman Gulch, Bridger Range",AS,3,BC,MT,45.8068,-110.935,Backcountry Tourer,Ski,1,"1 skier caught, partially buried-critical, and killed",2/26/19
+2019,2019,2,19,"Temptation avalanche path, Bear Creek, south of Telluride",AR,2,BC,CO,37.90765,-107.81133,Backcountry Tourer,Ski,1,"1 sidecountry rider caught, 1 backcountry skier caught, buried, and killed",2/19/19
+2019,2019,2,16,"Pearl Pass Road, Brush Creek Drainage",AS,2,BC,CO,38.900249,-106.871974,Backcountry Tourer,Ski,2,"2 backcountry tourers caught, buried, and killed",2/16/19
+2019,2019,2,9,"Humpy Peak, western Uinta Mountains",AM,3,BC,UT,40.86998,-111.00054,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",2/9/19
+2019,2019,2,7,"Circleville Mountain, Tushar Mountains",U,2,BC,UT,38.20105,-112.40459,Snowmobiler,Snowmobile,1,"2 snowmobilers caught, 1 partially buried-critical, 1 buried and killed",2/7/19
+2019,2019,1,25,"Near Bell Lake, Tobacco Root Mountains",AS,3,BC,MT,45.53253,-111.99267,Backcountry Tourer,Ski,1,"4 backcountry tourers caught, 1 injured, 1 killed",1/25/19
+2019,2019,1,25,"Upper Palisades Lake, Snake River Range",U,2,BC,ID,43.43538,-111.12406,Snowmobiler,Snowmobile,1,"4 snowmobilers caught, 3 partially buried, 1 buried and killed",1/25/19
+2019,2019,1,25,"East Face Laurel Peak, La Sal Mountains",AM,,BC,UT,38.45639,-109.23622,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",1/25/19
+2019,2019,1,21,"Green Mountain, Express Creek",AS,2.5,BC,CO,39.0255,-106.78511,Backcountry Tourer,Ski,1,"1 backcountry tourer caught, buried, and killed",1/21/19
+2019,2019,1,18,"Electric Lake, Manti Skyline",AS,,BC,UT,39.63323,-111.25,Backcountry Tourer,Ski,1,"1 backcountry tourer caught, buried, and killed",1/18/19
+2019,2019,1,17,Taos Ski Valley,U,,SA,NM,36.59686,-105.44398,Inbounds Rider,Ski,2,"2 inbounds riders caught, buried, and killed",1/17/19
+2019,2019,1,9,"Mount Leidy, southwest of Togwotee Pass",AM,2,BC,WY,43.72431,-110.40504,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",1/9/19
+2019,2019,1,5,"Upper Senator Beck Basin, northwest of Red Mountain Pass",AS,2,BC,CO,37.91467,-107.73362,Backcountry Tourer,Ski,1,"6 backcountry tourers caught, 1 partially buried, 1 buried and killed",1/5/19
+2019,2019,1,5,"South Waldron Creek, north of Teton Peak",AM,3,BC,MT,47.9255,-112.79538,Snowmobiler,Snowmobile,1,"2 snowmobilers caught, 1 carried and injured, 1 buried and killed",1/5/19
+2019,2018,12,22,"Horse Creek, Wyoming Range",AM,1.5,BC,WY,42.928524,-110.525528,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",12/22/18
+2018,2018,5,2,"Upper Blackstone Glacier, south of Whittier",,,BC,AK,60.63803,-148.76375,Snowmobiler,Snowmobile,1,"3 snowmobilers caught, 2 partially buried, 1 buried and killed",5/2/18
+2018,2018,4,22,"Northwest of East Leidy Mountain, west of Togwotee Pass",,,BC,WY,43.71207,-110.38285,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",4/22/18
+2018,2018,4,14,"Saddle Peak, Bridger Range",,,BC,MT,45.79356,-110.93668,Sidecountry Rider,Ski,1,"1 sidecountry rider caught, partially buried-critical, and killed",4/14/18
+2018,2018,4,10,"Northwest of Glacier Peak, Middle Fork Swan River",,,BC,CO,39.48928,-105.8942633,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",4/10/18
+2018,2018,4,8,"Maroon Bowl, west of Aspen Highlands",,,BC,CO,39.1356,-106.87936,Sidecountry Rider,Ski,1,"2 sidecountry riders caught, 1 killed",4/8/18
+2018,2018,3,10,"Park Butte, south of Mount Baker",,,BC,WA,48.71588,-121.85568,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, killed",3/10/18
+2018,2018,3,4,"Setting Sun Mountain, north of the Methow Valley",,,BC,WA,48.698,-120.44506,Backcountry Tourer,Ski,1,1 backcountry skier killed,3/4/18
+2018,2018,3,4,Near Kirkwood Ski Resort,,,TN,CA,38.70123,-120.07545,Resident,Foot,2,2 residents killed in roof avalanche,3/4/18
+2018,2018,3,3,"North Fork Teanaway, north of Cle Elum",,,BC,WA,47.28918,-120.85939,Snowmobiler,Snowmobile,2,"4 snowmobilers caught, 1 injured, 2 killed",3/3/18
+2018,2018,2,25,"Dude Mountain, north of Ketchikan",,,BC,AK,55.36253,-131.71496,Backcountry Tourer,Snowboard,1,"1 backcountry tourers caught, 1 buried and killed",2/25/18
+2018,2018,2,25,Snoqualmie Pass,,,BC,WA,47.42726,-121.4157,Hiker,Snowshoe,2,2 hikers killed,2/25/18
+2018,2018,2,25,Stampede Pass,,,BC,WA,47.28327,-121.35053,Snowmobiler,Snowmobile,1,"4 snowmobilers caught, 1 buried and killed, 2 injured",2/25/18
+2018,2018,2,20,"Sheep Creek, west of Palisades",,,BC,ID,43.37248,-111.13924,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",2/20/18
+2018,2018,2,17,"Ralph's Slide, Upper Rock Springs Canyon near Wilson",,,BC,WY,43.58847,-110.87502,Sidecountry Rider,Ski,1,1 skier caught and killed,2/17/18
+2018,2018,1,21,"South of Red Mountain Pass, Sam's Trees",,,BC,CO,37.868103,-107.731504,Backcountry Tourer,Ski,1,"2 backcountry skiers caught and partially buried, 1 killed",1/21/18
+2018,2018,1,20,"Southeast of Reas Peak, Centennial Range",,,BC,ID,44.53606,-111.51295,Snowbiker,Snowbike,1,"1 snowbiker caught, buried, and killed",1/20/18
+2018,2018,1,10,"Northwest of Reas Peak, Centennial Range",,,BC,ID,44.53577,-111.51303,Snowmobiler,Snowmobile,1,1 snowmobiler killed,1/10/18
+2018,2018,1,2,"Cabin Creek, southern Madison Range",,,BC,MT,44.92997,-111.24546,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",1/2/18
+2018,2017,12,29,"Commissary Ridge, Salt River Range",,,BC,WY,42.58895,-110.73395,Snowmobiler,Snowmobile,1,"3 snowmobilers caught, 2 partially buried, 1 buried and killed",12/29/17
+2018,2017,11,22,"Marmot Mountain, Hatcher Pass",,,BC,AK,61.77018,-149.3127,Backcountry Tourer,Ski,1,"1 backcountry tourer caught, buried, and killed",11/22/17
+2018,2017,10,7,"Imp Peak, southern Madison Range",,,BC,MT,44.9926,-111.45364,Backcountry Tourer,SKi,1,"2 backcountry tourers caught, 1 partially buried, 1 buried and killed",10/7/17
+2017,2017,4,11,"Red Mountain, north of Snoqualmie Pass",,,BC,WA,47.45607,-121.38914,Backcountry Tourer,Foot,1,"1 backcountry tourer caught, killed.",4/11/17
+2017,2017,4,1,North Pole,,,TN,AK,64.75012,-147.33215,Resident,Foot,1,"1 resident partially buried-critical, later died",4/1/17
+2017,2017,3,4,"Hawkins Mountain, north of Cle Eleum",,,BC,WA,47.45038,-121.00136,Snowmobiler,Snowmobile,1,"2 snowmobilers caught, 1 partially buried, 1 buried and killed",3/4/17
+2017,2017,2,14,"Near West Lost Lake, Flat Tops Wilderness area",,,BC,CO,40.07444,-107.24227,Snowbiker,Snowbike,1,"2 snow bike riders caught, 1 buried and killed",2/14/17
+2017,2017,2,9,"McCoy Creek, Caribou Range east of Idaho Falls",,,BC,ID,43.18684,-111.10276,Snowmobiler,Snowmobile,1,1 snowmobiler buried and killed,2/9/17
+2017,2017,1,28,"Near Cooper Landing, Kenai Peninsula",,,BC,AK,60.49072,-149.81369,Snowmobiler,Snowmobile,1,"2 snowmobilers caught, 1 partially buried, 1 buried and killed",1/28/17
+2017,2017,1,5,"Mt. Stanton, north of West Glacier",,,BC,MT,48.65865,-113.89389,Backcountry Tourer,Ski,1,"1 backcountry tourer caught, partially buried, and killed",1/5/17
+2017,2017,1,4,"Near Crystal Mountain, south of Greenwater",,,BC,WA,46.93807,-121.50192,Backcountry Tourer,Ski,1,"1 backcountry tourer caught, partially buried, and killed",1/4/17
+2017,2016,12,27,West of White Pass Ski Area,,,BC,WA,46.63541,-121.39051,Sidecountry Rider,Ski,1,"1 sidecountry rider caught, killed",12/27/16
+2017,2016,12,23,East of Grand Targee Resort,,,BC,WY,43.777267,-110.9207,Sidecountry Rider,Foot,1,"1 sidecountry rider caught, buried and killed",12/23/16
+2017,2016,12,11,"Henderson Mountain, near Cooke City",,,BC,MT,45.05133,-109.94499,Hybrid Tourer,Ski,1,"2 hybrid tourers caught, 1 partially buried, 1 buried and",12/11/16
+2017,2016,12,10,Mt. Rose Chutes - Closed Area,,,SA-closed terrain,NV,39.319495,-119.882984,Inbounds Rider,Ski,1,"1 inbounds rider caught, buried, and killed",12/10/16
+2016,2016,4,11,"Summit Lake area, Eastern Alaska Range",,,BC,AK,63.13543,-145.54688,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, killed",4/11/16
+2016,2016,4,3,"Summit Lake area, Eastern Alaska Range",,,BC,AK,63.13287,-145.51838,Snowmobiler,Snowmobile,1,"2 snowmobilers caught, 1 partially buried, 1 buried and killed",4/3/16
+2016,2016,3,22,Cat Ski Mount Bailey,,,SA,OR,43.15673,-122.21706,Mechanized Guide,Ski,1,"Mechanised guide caught, killed",3/22/16
+2016,2016,3,8,"Chief Joseph Peak, Wallowa Mountains",,,BC,OR,45.38254,-117.23099,Backcountry Tourer,Ski,1,1 backcountry tourer partially buried-critical and killed,3/8/16
+2016,2016,2,27,Nelchina Glacier area,,,BC,AK,61.9341,-147.16324,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, killed",2/27/16
+2016,2016,2,26,Island Park,,,TN,ID,44.50079,-111.33665,Resident,Foot,1,"3 residents buried, 1 killed",2/26/16
+2016,2016,2,21,Grand Targhee Resort,,,BC,WY,43.78727,-110.95917,Sidecountry Rider,Foot,1,1 sidecountry rider killed in cornice fall,2/21/16
+2016,2016,2,19,Big Horn Mountains near Sheridan Wyoming,,,BC,WY,44.61589,-107.38586,Snowmobiler,Snowmobile,1,1 snowmobiler caught and killed,2/19/16
+2016,2016,2,5,"Cottonwood Pass, west of Buena Vista",,,BC,CO,38.78811,-106.38731,Snowbiker,Snowbike,1,"1 snow bike rider, caught, partially buried-critical, and killed",2/5/16
+2016,2016,2,2,"Lost Mine Creek, east of Wolf Creek Pass",,,BC,CO,37.49201,-106.70106,Snowmobiler,Snowmobile,1,"2 snowmobilers caught, 1 partially buried, 1 fully buried and killed",2/2/16
+2016,2016,1,31,"Willow Draw near Park City Mountain Resort, Utah",,,BC,UT,40.68023,-111.59942,Sidecountry Rider,Ski,1,"1 sidecountry rider, caught, buried and killed",1/31/16
+2016,2016,1,31,Twin Lakes near Brundage Mountain,,,BC,ID,45.02176,-116.12926,Snowmobiler,Snowmobile,1,1 snowmobiler caught and killed,1/31/16
+2016,2016,1,24,"Mt Herman, northeast of Mount Baker",,,BC,WA,48.86637,-121.7029,Backcountry Tourer,Foot,1,"2 backcountry tourers caught, 1 injured, 1 killed",1/24/16
+2016,2016,1,24,"Rock Springs drainage, south of Jackson Hole Mountain Resort",,,BC,WY,43.59215,-110.87834,Sidecountry Rider,Ski,2,"3 sidecountry riders caught, 2 buried and killed",1/24/16
+2016,2016,1,23,"Swede Creek area, Whitefish Range",,,BC,MT,48.65633,-114.55822,Snowmobiler,Snowmobile,1,"2 snowmobilers caught, 1 partially buried not-critical, 1 buried and killed.",1/23/16
+2016,2016,1,22,"Red Mountain, Clear Creek County",,,BC,CO,39.75178,-105.83877,Backcountry Tourer,Snowboard,1,"1 backcountry tourer caught, killed",1/22/16
+2016,2016,1,21,"Gobblers Knob, Big Cottonwood Canyon",,,BC,UT,40.66633,-111.68551,Backcountry Tourer,Ski,1,"2 backcountry tourers caught, 1 partially buried, 1 buried",1/21/16
+2016,2016,1,21,"Ruby Peak, Ruby Range west of Crested Butte",,,BC,CO,38.89564,-107.12571,Snowmobiler,Snowmobile,1,"2 snowmobilers caught, 1 partially buried uninjured, 1 fully buried and killed",1/21/16
+2016,2016,1,19,"Pyramid Peak, Teton Range",,,BC,WY,43.58226,-110.8263,Backcountry Tourer,Snowboard,1,"1 backcountry tourer caught, buried, and killed",1/19/16
+2016,2016,1,19,"Cedar Basin, west of Big Sky",,,BC,MT,45.2674,-111.29631,Backcountry Tourer,Ski,1,1 backcountry tourer caught and killed,1/19/16
+2016,2016,1,16,"Skyscraper Mountain, Hatcher Pass",,,BC,AK,61.77334,-149.30763,Backcountry Tourer,Snowboard,1,1 backcountry snowboarder fully buried and killed,1/16/16
+2016,2016,1,16,"St Marys Lake, Front Range",,,BC,CO,39.8328,-105.64831,Climber,Foot,1,"1 climber caught, buried, killed.",1/16/16
+2016,2016,1,14,Backcountry near Sugar Bowl Ski Resort,,,BC,CA,39.31398,-120.3389,Sidecountry Rider,Ski,1,"1 sidecountry rider caught, killed",1/14/16
+2016,2016,1,2,"Grubstake Gulch, southwest of Hatcher Pass",,,BC,AK,61.76959,-149.31244,Snowmobiler,Snowmobile,1,1 snowmobiler buried and killed,1/2/16
+2016,2015,12,31,Granite Mountain near Snoqualmie Pass,,,BC,WA,47.42748,-121.41789,Hiker,Snowshoe,1,1 hiker killed,12/31/15
+2016,2015,12,19,"Kendall Peak, Snoqualmie Pass",,,BC,WA,47.4395,-121.3841,Backcountry Tourer,Ski,1,"1 backcountry tourer caught, killed",12/19/15
+2016,2015,12,19,"Sheep Mountain, north of Cooke City",,,BC,MT,45.0719,-109.92765,Snowmobiler,Snowmobile,1,"3 snowmoiblers caught, 1 fully buried and killed",12/19/15
+2016,2015,11,22,"Eldorado Bowl, Hatcher Pass",,,BC,AK,61.78027,-149.289121,Backcountry Tourer,,1,"1 backcountry tourer caught, buried, and killed",11/22/15
+2016,2015,11,5,"Mt Russell, John Muir Wilderness",,,BC,CA,36.59012,-118.29052,Hiker,Foot,1,"1 hiker caught, buried, and killed",11/5/15
+2015,2015,5,17,"Sickle Couloir, Mount Moran",,,BC,WY,43.840977,-110.76783,Backcountry Tourer,Ski,2,"4 backcountry tourers caught, 1 injured, 2 killed",5/17/15
+2015,2015,4,11,"Beehive Peak, northern Madison Range",,,BC,MT,45.34349,-111.39699,Backcountry Tourer,Ski,1,"1 backcountry tourer caught, killed",4/11/15
+2015,2015,4,1,"North of Tebay Lakes, Wrangell-St. Elias National Park and Preserve",,,BC,AK,61.257718,-144.316144,Backcountry Tourer,Ski,1,1 backcountry tourer killed in cornice collapse,4/1/15
+2015,2015,3,14,"Alaska - Squaw Creek, near Cantwell",,,BC,AK,63.236944,-149.298611,Snowmobiler,Foot,1,"1 snowmobiler caught, buried, lated succumbed to injuries",3/14/15
+2015,2015,3,4,"Hells Canyon, near Snowbasin Ski Resort",,,BC,UT,41.20948,-111.88039,Sidecountry Rider,Snowboard,1,"1 sidecountry rider caught, buried, and killed",3/4/15
+2015,2015,2,23,"Peter Barker path, near Aspen Mountain",,,BC,CO,39.16365,-106.83021,Sidecountry Rider,Ski,1,"1 sidecountry rider caught, buried, and killed",2/23/15
+2015,2015,1,6,"Rabbit Ears path, Kendall Mountain",,,BC,CO,37.80219,-107.65048,Backcountry Tourer,Ski,1,"One backcountry skier, caught, carried, partially buried, and killed",1/6/15
+2015,2014,12,31,Kelso Mountain,,,BC,CO,39.65381,-105.79688,Climber,Snowshoe,1,"One climber, traveling on snowshoes, caught, buried, and killed",12/31/14
+2015,2014,12,6,"Rainbow Ridge area, Delta Range",,,BC,AK,63.30806,-145.68832,Backcountry Tourer,Ski,1,"2 backcountry tourers caught, 1 injured,1 killed",12/6/14
+2015,2014,11,26,"Near Henderson Peak, Cooke City",,,BC,MT,45.03989,-109.94394,Snowmobiler,Snowmobile,1,"One snowmobiler caught, buried, and killed",11/26/14
+2014,2014,5,28,"Liberty Ridge, Mount Rainier",,,BC,WA,46.85409,-121.75873,Climber,Foot,6,"6 climbers caught, buried and killed",5/28/14
+2014,2014,5,14,North face of Mount Shuksan,,,BC,WA,48.83072,-121.60287,Backcountry Tourer,Foot,1,1 backcountry tourer (on ascent) caught and killed,5/14/14
+2014,2014,5,3,"Olson Gulch, west of Anaconda",,,BC,MT,46.16521,-113.08846,Backcountry Tourer,Ski,1,"1 backcountry skier caught, died on scene",5/3/14
+2014,2014,4,28,Crater Lake National Park,,,BC,OR,42.94208,-122.10402,Hiker,Snowshoe,1,1 snowshoer caught in cornice fall,4/28/14
+2014,2014,4,14,"Paulina Peak, south of Bend",,,BC,OR,43.72534,-121.23121,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",4/14/14
+2014,2014,4,3,Granite Mountain,,,BC,WA,47.42995,-121.63033,Backcountry Tourer,Ski,1,"1 backcountry tourer caught, buried, and killed",4/3/14
+2014,2014,3,19,"Kicking Horse Valley, west of Haines",,,BC,AK,59.174833,-135.94405,Mechanized Guide,Ski,1,"1 heliski guide caught, buried, and died from injuries",3/19/14
+2014,2014,3,11,"Cooke City, Montana",,,BC,MT,45.04988,-109.96267,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",3/11/14
+2014,2014,3,10,"Altoona, about 10 miles northeast of Philipsburg, Montana",,,BC,MT,46.22165,-113.1427,Backcountry Tourer,Ski,1,1 skier caught and killed,3/10/14
+2014,2014,3,7,"Gold Hill, Uinta Mountains",,,BC,UT,40.81277,-110.89685,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",3/7/14
+2014,2014,3,5,"Sharkstooth Peak, La Plata Mountains",,,BC,CO,37.46096,-108.0689,Snowmobiler,Snowmobile,1,"1 snowmobiler fully buried, missing and presumed dead",3/5/14
+2014,2014,3,4,"Diablo Ridge, Pt. 12,505, approx. 1 mile W of Conejos Peak",,,BC,CO,37.29154,-106.56876,Ski Patroller,Ski,1,"1 snowmobiler fully buried, missing and presumed dead",3/4/14
+2014,2014,2,28,"Mount Jumbo, Missoula",,,TN,MT,46.8785,-113.95603,Resident,Foot,1,"1 snowplayer and 2 residents caught and buried, 1 resident killed",2/28/14
+2014,2014,2,22,"Troy, West Cabinet Mountain Range",,,BC,MT,48.24066,-116.0307,Snowmobiler,Snowmobile,1,"2 snowmobilers caught, 1 partly buried and 1 buried and killed",2/22/14
+2014,2014,2,18,Near Togwotee Pass,,,BC,WY,43.75188,-110.06799,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",2/18/14
+2014,2014,2,16,"Frenchman Creek, northwest of Galena Summit",,,BC,ID,43.87049,-114.71289,Snowmobiler,Foot,1,"4 snowmobilers caught and buried, 1 killed",2/16/14
+2014,2014,2,15,"Star Mountain, near Twin Lakes",,,BC,CO,39.0601,-106.52531,Backcountry Tourer,Ski,2,"5 skiers caught, 3 injured, 2 killed",2/15/14
+2014,2014,2,11,"SW face of Cornucopia Peak, Wallowa Mountains",,,BC,OR,45.04927,-117.24747,Human-powered Guide Client,Ski,2,"5 backcountry skiers caught, 1 uninjured, 2 injured, 2 killed",2/11/14
+2014,2014,2,10,"North Fork Swan River, south of Keystone Ski Area",,,BC,CO,39.54231,-105.90649,Sidecountry Rider,Ski,1,"2 skiers caught, 1 partially buried, 1 buried and killed",2/10/14
+2014,2014,2,10,Left Fork Huntington Creek,,,BC,UT,39.58532,-111.26644,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",2/10/14
+2014,2014,2,10,"Near Kebler Pass, west of Crested Butte",,,BC,CO,38.85159,-107.0978,Snowmobiler,Snowmobile,1,"2 snowmobilers caught, 1 partially buried, 1 buried and killed",2/10/14
+2014,2014,2,8,Near Tibble Fork Reservoir,,,BC,UT,40.48077,-111.64719,Snowplayer,Snowshoe,1,"1 snowshoer caught, buried, and killed",2/8/14
+2014,2014,1,18,"Lewis Peak, Cascades north of Stevens Pass",,,BC,WA,48.00566,-121.46261,Climber,Foot,1,"2 skiers caught, 1 partially buried, 1 buried and killed",1/18/14
+2014,2014,1,7,"East Vail, backcountry southeast of Vail Ski Area",,,BC,CO,39.60126,-106.30123,Sidecountry Rider,Ski,1,"4 riders caught, 1 injured, 1 killed",1/7/14
+2014,2014,1,1,"Onion Basin, northern Gallatin Range",,,BC,MT,45.28914,-111.39776,Snowmobiler,Snowmobile,1,"2 snowmobilers caught, 1 buried and killed",1/1/14
+2014,2013,12,31,"Parkview Mountain, west of Willow Creek Pass",,,BC,CO,40.34187,-106.11978,Backcountry Tourer,Snowboard,1,One backcountry traveler buried and killed,12/31/13
+2014,2013,12,26,"Pucker Face, near Jackson Hole Mountain Resort",,,BC,WY,43.55509,-110.83933,Sidecountry Rider,Ski,1,"One skier caught, buried, and killed",12/26/13
+2014,2013,12,26,"Neely's, Palisades Peak",,,BC,ID,43.44151,-111.08833,Snowmobiler,Snowmobile,1,"One snowmobiler, caught, buried and killed",12/26/13
+2013,2013,4,20,"Sheep Creek, north of Loveland Pass",,,BC,CO,39.6789,-105.86839,Backcountry Tourer,Snowboard,5,"6 backcountry tourers caught, 1 partially buried, 5 buried and killed",4/20/13
+2013,2013,4,18,"Ptarmigan Hill, near Vail Pass",,,BC,CO,39.49593,-106.26114,Hybrid Rider,Snowboard,1,1 snowboarder caught and killed,4/18/13
+2013,2013,4,13,"Red Mountain, near Snoqualmie Pass",,,BC,WA,47.4556,-121.38923,Hiker,Snowshoe,1,1 snowboarder caught and killed,4/13/13
+2013,2013,4,13,Granite Mountain near Snoqualmie Pass,,,BC,WA,47.41624,-121.48046,Hiker,Snowshoe,1,"Three climbers caught, two injured, one buried and killed",4/13/13
+2013,2013,4,11,"Kessler Peak, Big Cottonwood Canyon",,,BC,UT,40.629,-111.666412,Highway Personnel,Ski,1,1 skier caught and killed,4/11/13
+2013,2013,3,17,"Ypsilon Mountain, Rocky Mountain National Park",,,BC,CO,40.45562,-105.67725,Climber,Foot,1,"2 climbers caught, 2 injured, 1 killed",3/17/13
+2013,2013,3,3,"Takhinsha Mountains, southwest of Haines",,,BC,AK,59.23428,-135.44838,Mechanized Guiding Client,Snowboard,1,"4 heliskiers caught in cornice fall, 2 injured, 1 killed",3/3/13
+2013,2013,3,2,"Nokhu Crags, Never Summer Mountains",,,BC,CO,40.49092,-105.89048,Backcountry Tourer,Ski,1,"2 skiers caught, 1 partially buried-critical and injured, 1 buried and killed",3/2/13
+2013,2013,3,1,"Prospectors Mountain, Grand Teton National Park",,,BC,WY,43.6562,-110.83179,Backcountry Tourer,Ski,1,1 ski mountaineer caught and killed,3/1/13
+2013,2013,3,1,"Huntington Ravine, Mount Washington",,,BC,NH,44.27458,-71.28565,Climber,Foot,1,1 climber caught and killed,3/1/13
+2013,2013,3,1,"12 Mile Canyon, Manti Skyline",,,BC,UT,39.0436,-111.519,Snowmobiler,Snowmobile,1,"1 snowmobiler caught, buried, and killed",3/1/13
+2013,2013,2,2,"Cement Creek, near Silverton",,,BC,CO,37.89819,-107.65301,Backcountry Tourer,Ski,1,"3 skiers caught, 1 buried and killed, 1 partially buried, 1 injured",2/2/13
+2013,2013,1,27,"Survey Peak, Grand Teton National Park",,,BC,WY,44.03701,-110.84518,Backcountry Tourer,Ski,1,1 backcountry tourer caught and killed,1/27/13
+2013,2013,1,27,"Clause Creek, southwest of Hoback Canyon",,,BC,WY,43.16087,-110.56993,Backcountry Tourer,Ski,1,1 backcountry tourer caught and killed,1/27/13
+2013,2013,1,18,"Mill Hollow, West Fork Duchesne",,,BC,UT,40.48247,-111.03127,Snowmobiler,Foot,2,"3 snowmobilers caught on foot, 2 buried and killed",1/18/13
+2013,2013,1,13,"Raspberry Creek, near Marble",,,BC,CO,39.04972,-107.19519,Backcountry Tourer,Ski,1,"1 skier caught, buried, and killed",1/13/13
+2013,2012,12,30,"Ships Prow Glades, Snowmass Ski Area",,,SA,CO,39.17266,-106.875,Ski Patroller,Ski,1,1 ski patroller killed,12/30/12
+2013,2012,12,24,Donner Ski Ranch,,,SA,CA,39.31763,-120.32956,Inbounds Rider,Snowboard,1,"1 snowboarder caught, buried, and killed",12/24/12
+2013,2012,12,24,Alpine Meadows Ski Area,,,SA,CA,39.17845,-120.22751,Ski Patroller,Ski,1,"1 ski patroller caught, buried and killed",12/24/12
+2012,2012,6,14,"West Buttress, Denali",,,BC,AK,63.06973,-151.00605,Climber,Foot,4,,6/14/12
+2012,2012,3,30,"Ophir Pass, Paradise Basin",,,BC,CO,37.84165,-107.7812,Backcountry Tourer,Ski,1,,3/30/12
+2012,2012,3,13,"Takin Ridge, northwest of Haines",,,BC,AK,59.30267,-136.0355,Mechanized Guide,Ski,2,,3/13/12
+2012,2012,3,7,"Ranger Peak, Grand Teton National Park",,,BC,WY,43.9293,-110.76279,Backcountry Tourer,Ski,2,,3/7/12
+2012,2012,3,3,"Beaver Basin, La Sal Mountains",,,BC,UT,38.53887,-109.20981,Snowmobiler,Snowmobile,1,,3/3/12
+2012,2012,3,2,"Forestdale Divide, Carson Pass",,,BC,CA,38.6687,-119.95553,Snowmobiler,Snowmobile,1,,3/2/12
+2012,2012,3,1,"Polaris Point, Ward Canyon",,,BC,CA,39.13477,-120.20433,Backcountry Tourer,Ski,1,,3/1/12
+2012,2012,2,27,"SE of Grouse Mountain, Togwotee Pass",,,BC,WY,43.70731,-110.22351,Snowmobiler,Snowmobile,1,,2/27/12
+2012,2012,2,25,"Skyline Creek, near Marias Pass",,,BC,MT,48.28091,-113.34938,Snowbiker,Snowbike,1,,2/25/12
+2012,2012,2,23,"Dutch Draw, Park City Ridgeline",,,BC,UT,40.65124,-111.5917,Sidecountry Rider,Snowboard,1,,2/23/12
+2012,2012,2,22,"Daisy Pass Road, north of Cooke City",,,BC,MT,45.03811,-109.94252,Snowmobiler,Snowmobile,1,,2/22/12
+2012,2012,2,20,"Lost Johnny drainage, east of Kaispell",,,BC,MT,48.24368,-114.0035,Snowmobiler,Snowmobile,1,,2/20/12
+2012,2012,2,19,WAC Bluffs near Aplental Ski Area,,,BC,WA,47.40393,-121.41541,Sidecountry Rider,Snowboard,1,,2/19/12
+2012,2012,2,19,"Tunnel Creek, near Stevens Pass",,,BC,WA,47.73107,-121.10229,Sidecountry Rider,Ski,3,,2/19/12
+2012,2012,2,16,"Gibbs Creek, near Wolf Creek Pass",,,BC,CO,37.5023,-106.80041,Backcountry Tourer,Ski,1,,2/16/12
+2012,2012,2,13,"Contention Fingers, Bear Creek, Telluride",,,BC,CO,37.92179,-107.80952,Sidecountry Rider,Snowboard,1,,2/13/12
+2012,2012,2,5,Lost Creek Reservior,,,BC,UT,38.71646,-111.72199,Snowmobiler,Snowmobile,1,,2/5/12
+2012,2012,2,1,"Twin Lakes, Swan Range",,,BC,MT,48.1836,-113.94539,Backcountry Tourer,Ski,1,,2/1/12
+2012,2012,1,28,"Little Giant, West Kessler, Big Cottonwood Canyon",,,BC,UT,40.62223,-111.66989,Backcountry Tourer,Snowboard,1,,1/28/12
+2012,2012,1,22,"Prima Cornice, Vail",,,SA,CO,39.61276,-106.35495,Inbounds Rider,Ski,1,,1/22/12
+2012,2012,1,22,"Trestle Trees, Winter Park",,,SA,CO,39.88692,-105.76066,Inbounds Rider,Ski,1,,1/22/12
+2012,2012,1,21,"Chedsey Creek, North Park",,,BC,CO,40.56363,-106.64257,Snowmobiler,Snowmobile,1,,1/21/12
+2012,2012,1,18,Burnt Mountain near Snowmass Village,,,BC,CO,39.18044,-106.92264,Sidecountry Rider,Ski,1,,1/18/12
+2012,2012,1,1,"Phillipsburg, Flint Range, Red Lion",,,BC,MT,46.28812,-113.19969,Snowmobiler,Snowmobile,1,,1/1/12
+2012,2011,12,31,"Hayden Creek, south of Cooke City",,,BC,MT,44.98826,-109.9001,Backcountry Tourer,Ski,1,,12/31/11
+2012,2011,12,31,"Henderson Mountain, near Cooke City",,,BC,MT,45.05412,-109.92405,Snowmobiler,Snowmobile,1,,12/31/11
+2012,2011,11,13,"Gad Valley, Little Cottonwood Canyon",,,BC,UT,40.56899,-111.65284,Backcountry Tourer,Snowboard,1,,11/13/11
+2011,2011,5,22,"Mount Frances, Denali National Park",,,BC,AK,62.988611,-151.1625,Climber,Foot,2,,5/22/11
+2011,2011,5,21,Torreys Peak,,,BC,CO,39.64473,-105.81825,Backcountry Tourer,Snowboard,1,,5/21/11
+2011,2011,4,28,Ruth Gorge,,,BC,AK,0,0,Climber,Foot,1,,4/28/11
+2011,2011,4,26,"Split Mountain, south of Bishop",,,BC,CA,37.02093,-118.42155,Backcountry Tourer,Ski,2,,4/26/11
+2011,2011,4,18,"Bird Ridge, Chugach State Park",,,BC,AK,0,0,Snowplayer,"Sled, tube, or saucer",1,,4/18/11
+2011,2011,4,16,"Garnet Canyon Meadows, Grand Teton National Park",,,BC,WY,0,0,Backcountry Tourer,Foot,2,,4/16/11
+2011,2011,4,4,"Highlands Ridge, Desolation Row, Aspen zone",,,BC,CO,39.1341833,-106.8850167,Sidecountry Rider,SKi,1,,4/4/11
+2011,2011,3,27,"Back country to the west of Stevens Pass, WA. Backside of Cowboy Mountain",,,BC,WA,0,0,Backcountry Tourer,Snowboard,1,,3/27/11
+2011,2011,3,26,"Horsehoe Mountain, Manti Skyline",,,BC,UT,0,0,Backcountry Tourer,Ski,1,,3/26/11
+2011,2011,3,19,"Bald Mountain, Hatcher Pass",,,BC,AK,0,0,Backcountry Tourer,Ski,1,,3/19/11
+2011,2011,3,5,Mount Cashmere,,,BC,WA,0,0,Backcountry Tourer,Ski,1,,3/5/11
+2011,2011,2,22,"East Snowmass Creek Valley, Sand's Chute",,,BC,CO,39.1766667,-106.9752778,Backcountry Tourer,Ski,1,,2/22/11
+2011,2011,2,20,Sand Peak-Flat Tops,,,BC,CO,40.1167083,-107.3775583,Snowmobiler,Snowmobile,1,,2/20/11
+2011,2011,2,14,"Truman Gulch, Bridger Range",,,BC,MT,45.80933,-110.93343,Backcountry Tourer,Snowboard,1,,2/14/11
+2011,2011,2,1,"Red Mountain, Snoqualmie Pass Washington",,,BC,WA,0,0,Backcountry Tourer,Ski,1,,2/1/11
+2011,2011,1,17,"""High Trail Cliffs,"" northeast of Berthoud Pass",,,BC,CO,39.80247,-105.76991,Backcountry Tourer,Snowboard,1,,1/17/11
+2011,2011,1,8,"Near Hungry Horse Reservoir, east of Kalispell",,,BC,MT,0,0,Snowmobiler,Snowmobile,1,,1/8/11
+2011,2010,12,29,20 miles northeast of Calder,,,BC,ID,0,0,Snowmobiler,Snowmobile,1,,12/29/10
+2011,2010,12,5,Dry Gulch-East of Eisenhower Tunnel,,,BC,CO,39.7630556,-106.0983333,Backcountry Tourer,Ski,1,,12/5/10
+2011,2010,12,4,"Morning Star Peak, north central Washington Cascades",,,BC,WA,0,0,Climber,Foot,1,,12/4/10
+2011,2010,11,26,"Cherry Hill, western Uinta Mountains",,,BC,UT,0,0,Snowmobiler,Snowmobile,1,,11/26/10
+2011,2010,11,22,"Wolf Creek Pass Ski Area, Glory Hole Point",,,SA,CO,37.4599722,-106.7997778,Ski Patroller,Ski,1,,11/22/10
+2010,2010,6,14,"Lolo Peak, west of Missoula, MT",,,BC,MT,0,0,Backcountry Tourer,Ski,1,,6/14/10
+2010,2010,6,5,"Ingraham Direct Route, Mount Rainier",,,BC,WA,0,0,Climber,Foot,1,,6/5/10
+2010,2010,5,29,"Ruth Gorge, Denali National Park",,,BC,AK,0,0,Climber,Foot,2,,5/29/10
+2010,2010,4,14,McAtee Basin south of Big Sky,,,BC,MT,0,0,Snowmobiler,Snowmobile,1,,4/14/10
+2010,2010,4,4,Francis Peak northwest of Farmington,,,BC,UT,0,0,Snowmobiler,Snowmobile,1,,4/4/10
+2010,2010,4,2,Indian Creek drainage northwest of Alpine,,,BC,WY,0,0,Snowmobiler,Snowmobile,1,,4/2/10
+2010,2010,3,30,"Peak 6996 near Marias Pass, Glacier NP",,,BC,MT,0,0,Backcountry Tourer,Snowboard,1,,3/30/10
+2010,2010,3,30,"Near Baldy Peak, east of Ridgway",,,BC,CO,38.12291,-107.67303,Climber,Ski,1,,3/30/10
+2010,2010,3,30,Near Brundage Mountain,,,BC,ID,0,0,Snowmobiler,Snowmobile,2,,3/30/10
+2010,2010,3,27,"Missoula Lake 10 miles SW of Superior, MT",,,BC,MT,0,0,Snowmobiler,Snowmobile,1,,3/27/10
+2010,2010,3,19,Southwest of Creede,,,TN,CO,37.74434,-107.10425,Resident,Foot,2,,3/19/10
+2010,2010,3,13,"North of Schweitzer Ski Area, Idaho Panhandle",,,BC,ID,0,0,Snowmobiler,Snowmobile,1,,3/13/10
+2010,2010,3,12,Near Antora Peak south of Buena Vista,,,BC,CO,38.32872,-106.23696,Snowmobiler,Snowmobile,1,,3/12/10
+2010,2010,3,10,"Steep Gully #1, west of Arapahoe Basin Ski Area",,,BC,CO,39.63599,-105.88544,Backcountry Tourer,Snowboard,1,,3/10/10
+2010,2010,2,23,Lindley Backcountry Hut south of Aspen,,,BC,CO,39.00458,-106.80244,Backcountry Tourer,Ski,1,,2/23/10
+2010,2010,2,21,"South Teton, Grand Teton NP",,,BC,WY,0,0,Backcountry Tourer,Ski,1,,2/21/10
+2010,2010,2,13,"South Fork Eagle River, Alaska Three Bowls",,,BC,AK,61.245,-149.438,Backcountry Tourer,Ski,1,,2/13/10
+2010,2010,2,13,"Grandview, Placer River Drainage, Chugach NF",,,BC,AK,60.63375,-149.0722,Snowmobiler,Snowmobile,2,,2/13/10
+2010,2010,2,11,"Near the Ridgway Hut, San Juan Mountains",,,BC,CO,38.02697,-107.76825,Backcountry Tourer,Ski,1,,2/11/10
+2010,2010,2,6,"North Fork of Murphy Creek, Wyoming Range",,,BC,WY,0,0,Snowmobiler,Snowmobile,1,,2/6/10
+2010,2010,1,30,Garns Mtn in the Big Hole Range west of Driggs,,,BC,ID,0,0,Snowmobiler,Snowmobile,1,,1/30/10
+2010,2010,1,29,"Grandview Pk, Session Mtns east of Bountiful",,,BC,UT,0,0,Snowmobiler,Snowmobile,1,,1/29/10
+2010,2010,1,28,"Near Boardman Pass, Soldier Mountains",,,BC,ID,0,0,Snowmobiler,Snowmobile,1,,1/28/10
+2010,2010,1,27,Meadows Chutes near Solitude Ski Area,,,BC,UT,0,0,Backcountry Tourer,Ski,1,,1/27/10
+2010,2010,1,24,"Hells Canyon, Snowbasin Backcountry",,,BC,UT,0,0,Backcountry Tourer,Ski,1,,1/24/10
+2010,2010,1,22,Off trail run in bounds at Sun Valley Ski Resort,,,SA,ID,0,0,Inbounds Rider,Ski,1,,1/22/10
+2010,2010,1,6,"Battle Mountain, Vail sidecountry",,,BC,CO,39.5595,-106.34039,Backcountry Tourer,Snowboard,1,,1/6/10
+2010,2010,1,6,Jackson Hole Mountain Resort,,,SA,WY,0,0,Ski Patroller,Ski,1,,1/6/10
+2010,2010,1,4,Scotch Bonnet Mountain near Cooke City,,,BC,MT,0,0,Snowmobiler,Snowmobile,1,,1/4/10
+2010,2010,1,2,Paulina Peak east of La Pine,,,BC,OR,0,0,Snowmobiler,Snowmobile,1,,1/2/10
+2010,2009,12,18,Rock Lake west of Cascade,,,BC,ID,0,0,Snowmobiler,Snowmobile,1,,12/18/09
+2010,2009,12,10,Hyalite Canyon outside of Bozeman,,,BC,MT,0,0,Climber,Foot,1,,12/10/09
+2009,2009,4,18,Thompson Pass,,,BC,AK,0,0,Snowmobiler,Snowmobile,1,,4/18/09
+2009,2009,4,5,"Norton Creek, 20 MILES west of Ketchum",,,BC,ID,0,0,Snowmobiler,Snowmobile,1,,4/5/09
+2009,2009,3,25,"Johnson Pass, Kenai Peninsula",,,BC,AK,0,0,Snowmobiler,Snowmobile,1,,3/25/09
+2009,2009,3,7,"Aneroid Basin, Eagle Cap Wilderness",,,BC,OR,0,0,Backcountry Tourer,Ski,1,,3/7/09
+2009,2009,3,6,"Gladiator Ridge, north of Sun Valley",,,BC,ID,0,0,Backcountry Tourer,Ski,1,,3/6/09
+2009,2009,3,3,Squaw Valley,,,SA,CA,0,0,Ski Patroller,Ski,1,,3/3/09
+2009,2009,2,27,"Indian Peak area, Sanke River Range",,,BC,WY,0,0,Snowmobiler,Snowmobile,3,,2/27/09
+2009,2009,2,27,"Trapper Creek, North of Priest Lake",,,BC,ID,0,0,Snowmobiler,Snowmobile,1,,2/27/09
+2009,2009,2,21,Maggies Peaks,,,BC,CA,0,0,Backcountry Tourer,Ski,1,,2/21/09
+2009,2009,1,17,Hell Roaring drainage South of Mt Jefferson,,,BC,MT,0,0,Snowmobiler,Snowmobile,1,,1/17/09
+2009,2009,1,17,Northeast facing slope on Crown Butte,,,BC,MT,0,0,Snowmobiler,Snowmobile,1,,1/17/09
+2009,2009,1,17,Black Butte area of the Gravelly Range,,,BC,MT,0,0,Snowmobiler,Snowmobile,1,,1/17/09
+2009,2009,1,2,Near Cody,,,BC,WY,0,0,Climber,Foot,1,,1/2/09
+2009,2008,12,30,Rockford,,,TN,WA,0,0,Resident,Foot,1,,12/30/08
+2009,2008,12,29,"Yamaha Hill, western Uintas",,,BC,UT,0,0,Snowmobiler,Snowmobile,1,,12/29/08
+2009,2008,12,28,"Tatie Peak, near Harts Pass",,,BC,WA,0,0,Snowmobiler,Snowmobile,1,,12/28/08
+2009,2008,12,28,Brown Bear Basin near Harts Pass,,,BC,WA,0,0,Snowmobiler,Snowmobile,1,,12/28/08
+2009,2008,12,27,Jackson Hole,,,SA,WY,0,0,Inbounds Rider,Ski,1,,12/27/08
+2009,2008,12,27,"Gravel Mountain, north of Granby",,,BC,CO,40.2676,-105.9995,Snowmobiler,Snowmobile,2,,12/27/08
+2009,2008,12,25,Poulsen’s Gully-Squaw Valley Ski Area,,,SA,CA,0,0,Inbounds Rider,Ski,1,,12/25/08
+2009,2008,12,24,Logan Peak,,,BC,UT,0,0,Snowmobiler,,2,,12/24/08
+2009,2008,12,17,Northwest of Crested Butte,,,BC,CO,38.89737,-107.01826,Backcountry Tourer,Snowboard,1,,12/17/08
+2009,2008,12,14,Snowbird Ski Area,,,SA,UT,0,0,Inbounds Rider,Ski,1,,12/14/08
+2009,2008,12,14,Near Aspen Ski Area,,,BC,CO,39.13588,-106.8024,Sidecountry Rider,Ski,1,,12/14/08
+2008,2008,4,7,Thompson Pass,,,BC,AK,0,0,Hybrid Rider,Foot,1,,4/7/08
+2008,2008,3,16,"Sheep Mountain, near Orofino",,,BC,ID,0,0,Snowmobiler,Snowmobile,1,,3/16/08
+2008,2008,3,9,"Mount Eyak, Cordova",,,BC,AK,0,0,Backcountry Tourer,Ski,1,,3/9/08
+2008,2008,2,15,"Seattle Creek, near Turnigan Pass",,,BC,AK,0,0,Snowmobiler,,2,,2/15/08
+2008,2008,2,8,Garden Valley,,,TN,ID,0,0,Resident,Foot,1,,2/8/08
+2008,2008,2,1,Little Box Canyon,,,BC,CO,39.79637,-107.65328,Snowmobiler,Snowmobile,1,,2/1/08
+2008,2008,1,28,"Tokopah Canyon, Sequoia National Park",,,BC,CA,0,0,Backcountry Tourer,Ski,1,,1/28/08
+2008,2008,1,25,Near Mountain High ski resort,,,BC,CA,0,0,Sidecountry Rider,Ski,1,,1/25/08
+2008,2008,1,25,Near Mountain High ski resort,,,BC,CA,0,0,Sidecountry Rider,Ski,1,,1/25/08
+2008,2008,1,25,Near Mountain High ski resort,,,BC,CA,0,0,Sidecountry Rider,Ski,1,,1/25/08
+2008,2008,1,20,"Beehive Basin, near Big Sky",,,BC,MT,0,0,Backcountry Tourer,Ski,1,,1/20/08
+2008,2008,1,18,"Huntington Ravine, Mount Washington",,,BC,NH,0,0,Climber,,1,,1/18/08
+2008,2008,1,13,"Canyon Creek, near Whitefish Mountain",,,BC,MT,0,0,Sidecountry Rider,Ski,2,,1/13/08
+2008,2008,1,12,"King Tut, East Vail backcountry southeast of Vail",,,BC,CO,39.59875,-106.29621,Sidecountry Rider,Ski,1,,1/12/08
+2008,2008,1,12,Star Valley,,,BC,WY,0,0,Snowmobiler,Snowmobile,3,,1/12/08
+2008,2008,1,10,Blanca Peak,,,BC,CO,37.56332394,-105.503296,Climber,,1,,1/10/08
+2008,2008,1,4,Near Mt Pilchuck,,,BC,WA,0,0,Hiker,Foot,1,,1/4/08
+2008,2008,1,4,"CDC, East Vail backcountry southeast of Vail",,,BC,CO,39.60277641,-106.298302,Sidecountry Rider,Snowboard,1,,1/4/08
+2008,2008,1,3,Fargo,,,TN,ND,0,0,Resident,Foot,1,,1/3/08
+2008,2008,1,2,"French Creek, Snowy Range",,,BC,WY,0,0,Snowmobiler,Snowmobile,1,,1/2/08
+2008,2008,1,1,"Excelsior Pass area, north of Mount Baker",,,BC,WA,0,0,Snowmobiler,,2,,1/1/08
+2008,2007,12,31,"Near Co-op Creek, Western Uintas",,,BC,UT,0,0,Snowmobiler,Snowmobile,1,,12/31/07
+2008,2007,12,25,"Superbowl near Windy Ridge, Western Uintas",,,BC,UT,0,0,Snowmobiler,Snowmobile,1,,12/25/07
+2008,2007,12,23,The Canyons,,,SA,UT,0,0,Inbounds Rider,Ski,1,,12/23/07
+2008,2007,12,18,"Edith Creek, Mount Rainier National Park",,,BC,WA,0,0,Hiker,Snowshoe,1,,12/18/07
+2008,2007,12,2,"Union Creek, near Crystal Mountain Resort",,,BC,WA,0,0,Backcountry Tourer,Other,3,,12/2/07
+2008,2007,12,2,"Source Lake, near Snoqualmie Pass",,,BC,WA,0,0,Hiker,Snowshoe,2,,12/2/07
+2008,2007,12,2,Cameron Pass,,,BC,CO,40.52352047,-105.873138,Hiker,Snowshoe,1,,12/2/07
+2007,2007,3,13,Mount Shimer,,,BC,CO,39.10021879,-106.731148,Backcountry Tourer,Snowboard,1,,3/13/07
+2007,2007,3,13,Mount Shimer,,,BC,CO,39.10021879,-106.731148,Backcountry Tourer,Ski,1,,3/13/07
+2007,2007,3,10,Darby Canyon,,,BC,ID,0,0,Backcountry Tourer,Ski,1,,3/10/07
+2007,2007,3,3,Yellow Mountain,,,BC,MT,0,0,Backcountry Tourer,Ski,1,,3/3/07
+2007,2007,3,3,"Echo Lake, Mt Evans",,,BC,CO,39.64455,-105.58999,Backcountry Tourer,Snowshoe,1,,3/3/07
+2007,2007,2,24,near Crystal Mountain,,,BC,WA,0,0,Sidecountry Rider,Ski,1,,2/24/07
+2007,2007,2,20,"Gobbler’s Knob, Wasatch Range",,,BC,UT,0,0,Backcountry Tourer,Ski,1,,2/20/07
+2007,2007,2,18,"Hell’s Canyon, near Snowbasin",,,BC,UT,0,0,Sidecountry Rider,Ski,1,,2/18/07
+2007,2007,2,17,"Signal Peak, southeast of Richfield",,,BC,UT,0,0,Snowmobiler,,1,,2/17/07
+2007,2007,2,17,"Tower Mountain, southeast of Heber City",,,BC,UT,0,0,Snowmobiler,,1,,2/17/07
+2007,2007,2,17,Big Belt Mountains,,,BC,MT,0,0,Snowmobiler,Snowmobile,2,,2/17/07
+2007,2007,2,17,Palisades Peak Area,,,BC,ID,0,0,Snowmobiler,,1,,2/17/07
+2007,2007,2,4,North Peak,,,BC,CO,37.48493484,-106.541466,Snowmobiler,,1,,2/4/07
+2007,2007,1,5,Jackson Hole,,,BC,WY,0,0,Sidecountry Rider,Ski,1,,1/5/07
+2007,2007,1,1,"Mt Jefferson, Centenial Range",,,BC,MT,0,0,Snowmobiler,,1,,1/1/07
+2007,2006,12,28,"Lionhead, W of West Yellowstone",,,BC,MT,0,0,Snowmobiler,,1,,12/28/06
+2007,2006,12,21,Snowmass,,,SA,CO,39.17417794,-106.944435,Inbounds Rider,Ski,1,,12/21/06
+2007,2006,12,16,"Stewart Peak, Salt River Range",,,BC,WY,0,0,Snowmobiler,,1,,12/16/06
+2007,2006,12,16,"Scotch Bonnet Peak, Cooke City",,,BC,MT,0,0,Snowmobiler,,1,,12/16/06
+2006,2006,4,29,Backcountry near Lookout Pass,,,BC,ID,0,0,Backcountry Tourer,Ski,1,,4/29/06
+2006,2006,4,18,"Mount Herman, west of Mt. Baker Ski Area",,,BC,WA,0,0,Sidecountry Rider,Ski,1,,4/18/06
+2006,2006,4,8,Patriot Bowl-west of Trinity Mtn. Lookout,,,BC,ID,0,0,Snowmobiler,Snowmobile,1,,4/8/06
+2006,2006,4,3,"Pioneer Ridge, an out-of-bounds area near Brighton Ski Resort",,,BC,UT,0,0,Sidecountry Rider,Ski,1,,4/3/06
+2006,2006,4,2,Mountians outside of Spencer,,,BC,ID,0,0,Snowmobiler,,1,,4/2/06
+2006,2006,3,19,Tiffany Mountain near Conconully,,,BC,WA,0,0,Snowmobiler,,1,,3/19/06
+2006,2006,3,11,"Ogden Mtn., Taylor Canyon",,,BC,UT,0,0,Sidecountry Rider,Ski,1,,3/11/06
+2006,2006,3,1,mountains near Antelope Creek,,,BC,ID,0,0,Snowmobiler,,1,,3/1/06
+2006,2006,2,28,"Marmot Mountain, Hatcher Pass Area",,,BC,AK,0,0,Snowmobiler,,1,,2/28/06
+2006,2006,2,14,"Rainy Pass; Dalzell Creek, in the Alaska Range",,,BC,AK,0,0,Snowmobiler,,1,,2/14/06
+2006,2006,2,8,"FLATTOP MTN, CHUGACH STATE PARK, CHUGACH MTNS",,,BC,AK,0,0,Hiker,Snowshoe,1,,2/8/06
+2006,2006,2,1,"Blacksmith Creek drainage,Twin Lakes area; Sawtooth Range",,,BC,CA,0,0,Backcountry Tourer,Ski,1,,2/1/06
+2006,2006,1,14,Red Meadow Lake west of Polebridge,,,BC,MT,0,0,Snowmobiler,,2,,1/14/06
+2006,2006,1,6,MILLER MOUNTAIN-SHEEP CREEK,,,BC,MT,0,0,Snowmobiler,,1,,1/6/06
+2006,2006,1,5,"Coal Creek, West side of Teton Pass",,,BC,WY,0,0,Backcountry Tourer,Ski,1,,1/5/06
+2006,2006,1,5,south end of Mt. Abundance,,,BC,MT,0,0,Snowmobiler,,1,,1/5/06
+2006,2006,1,3,Raggedtop Mountain,,,BC,AK,0,0,Backcountry Tourer,Ski,1,,1/3/06
+2006,2006,1,1,Trap Peak,,,BC,CO,40.51823354,-105.84417,Snowmobiler,Snowmobile,2,,1/1/06
+2006,2005,12,31,"Mt. Timpanogos area, near Hidden Lakes",,,BC,UT,0,0,Hiker,Snowshoe,1,,12/31/05
+2006,2005,12,27,Togwotee Pass/Squaw Basin area,,,BC,WY,0,0,Snowmobiler,,1,,12/27/05
+2006,2005,12,22,Kelso Mountain,,,BC,CO,39.64997863,-105.796799,Hiker,,1,,12/22/05
+2006,2005,11,6,"Berthoud Pass, Mines 2",,,BC,CO,39.79976669,-105.765465,Backcountry Tourer,Ski,1,,11/6/05
+2005,2005,7,2,WHITE CLOUD MTNS STANLEY,,,BC,ID,0,0,Backcountry Tourer,Snowboard,1,,7/2/05
+2005,2005,5,20,ARAPAHOE BASIN,,,SA,CO,39.63570346,-105.878418,Inbounds Rider,Ski,1,,5/20/05
+2005,2005,4,1,GRAND MESA CLIFFS,,,BC,CO,39.05444058,-108.052078,Backcountry Tourer,Ski,1,,4/1/05
+2005,2005,4,1,KETCHUM 20MI NW BAKER CREEK BRODIE GULCH,,,BC,ID,0,0,Snowmobiler,,1,,4/1/05
+2005,2005,3,31,OGDEN MONTE CRISTO ECCLES PEAK,,,BC,UT,0,0,Snowmobiler,,1,,3/31/05
+2005,2005,3,26,BISHOP MT TOM ELDERBERRY CANYON,,,BC,CA,0,0,Backcountry Tourer,Ski,2,,3/26/05
+2005,2005,3,24,BRECKENRIDGE QUANDARY PEAK SOUTH COULOIR,,,BC,CO,39.38977265,-106.102867,Climber,Foot,1,,3/24/05
+2005,2005,3,6,ASPEN HIGHLANDS FIVE FINGER BOWL,,,BC,CO,39.12319169,-106.875687,Sidecountry Rider,,1,,3/6/05
+2005,2005,2,20,SUGAR BOWL MT ANDERSON NORTH BOWL BENSON HUT,,,BC,CA,0,0,Backcountry Tourer,Ski,1,,2/20/05
+2005,2005,2,15,MT HUNTINGTON DENALI NP,,,BC,AK,0,0,Climber,,1,,2/15/05
+2005,2005,2,14,"MOUNT MANSFIELD, NE RIDGE",,,BC,VT,0,0,Backcountry Tourer,Ski,1,,2/14/05
+2005,2005,1,16,LAKE STEVENS,,,BC,ID,0,0,Backcountry Tourer,Snowboard,2,,1/16/05
+2005,2005,1,14,CANYONS DUTCH DRAW OB,,,BC,UT,0,0,Sidecountry Rider,Snowboard,1,,1/14/05
+2005,2005,1,12,SNOQUALMIE PASS ALPENTAL SA CLOSED,,,SA,WA,0,0,Backcountry Tourer,Ski,1,,1/12/05
+2005,2005,1,9,LAS VEGAS SKI MT CHARLESTON LEE CANYON,,,SA,NV,0,0,Inbounds Rider,Snowboard,1,,1/9/05
+2005,2005,1,8,MANTI WASATCH PLATEAU EPHRIAM CANYON,,,BC,UT,0,0,Backcountry Tourer,Snowboard,1,,1/8/05
+2005,2005,1,8,WASATCH PLATEAU MT PLEASANT CHOKE CHERRY,,,BC,UT,0,0,Snowmobiler,,1,,1/8/05
+2005,2005,1,3,BUFFALO PASS SODA MOUNTAIN,,,BC,CO,40.55012905,-106.718529,Backcountry Tourer,Ski,1,,1/3/05
+2005,2005,1,1,CENTENNIAL MTNS HELL ROARING HUT,,,BC,MT,0,0,Backcountry Tourer,Ski,1,,1/1/05
+2005,2004,12,11,BIG COTTONWOOD CNYN MINERAL FORK,,,BC,UT,0,0,Hiker,Snowshoe,2,,12/11/04
+2005,2004,12,11,"PROVO UINTA MONTAINS STRAWBERRY VALLEY, trout creek",,,BC,UT,0,0,Snowmobiler,,1,,12/11/04
+2005,2004,12,10,BIG COTTONWOOD CNYN TWIN LAKES PASS,,,BC,UT,0,0,Backcountry Tourer,Ski,1,,12/10/04
+2005,2004,10,30,MADISON RANGE SPHINX MOUNTAIN,,,BC,MT,0,0,Climber,,2,,10/30/04
+2005,2004,10,24,MT RAINIER INGRAHAM GLACIER,,,BC,WA,0,0,Climber,,1,,10/24/04
+2004,2004,6,13,MT RAINIER / LIBERTY RIDGE,,,BC,WA,0,0,Climber,,2,,6/13/04
+2004,2004,4,26,MT BAKER OB,,,SA,WA,0,0,Inbounds Rider,Snowboard,1,,4/26/04
+2004,2004,4,10,PAXSON / RICHARDSON HWY MP 194 / HOODOO MTNS,,,BC,AK,0,0,Snowmobiler,,1,,4/10/04
+2004,2004,4,9,SAWATCH RANGE / BROWNS PEAK,,,BC,CO,38.95980398,-106.448074,Hiker,Snowshoe,1,,4/9/04
+2004,2004,3,20,SAWATCH RANGE / LA PLATA PEAK,,,BC,CO,39.03198157,-106.483955,Climber,,1,,3/20/04
+2004,2004,3,10,BRECKENRIDGE / MT GUYOT,,,BC,CO,39.4691953,-105.935242,Snowmobiler,,1,,3/10/04
+2004,2004,3,6,SANDPOINT / JERU,,,BC,ID,0,0,Snowmobiler,,1,,3/6/04
+2004,2004,3,5,SNOQUALMIE PASS / SALMON LA SAC,,,BC,WA,0,0,Snowmobiler,,1,,3/5/04
+2004,2004,2,28,PORTAGE / BRYON GLACIER PEAK,,,BC,AK,0,0,Climber,,1,,2/28/04
+2004,2004,2,28,KETCHUM / APOLLO CREEK,,,BC,ID,0,0,Snowmobiler,,1,,2/28/04
+2004,2004,2,26,PARK CITY / DALY CANYON / JUDGE MINE,,,BC,UT,0,0,Hiker,Snowshoe,1,,2/26/04
+2004,2004,1,31,JACKSON / TETON RANGE / PK 9870,,,BC,WY,0,0,Backcountry Tourer,Ski,1,,1/31/04
+2004,2004,1,22,PORTAGE / USFS BUILDING,,,TN,AK,0,0,Others at Work,,1,,1/22/04
+2004,2004,1,2,FAIRFIELD,,,TN,ID,0,0,Resident,Foot,2,,1/2/04
+2004,2004,1,1,DONNER SUMMIT,,,BC,CA,0,0,Hiker,Snowshoe,1,,1/1/04
+2004,2003,12,26,PROVO CANYON / ASPEN GROVE / ROBERTS HORN CHUTE,,,BC,UT,0,0,Backcountry Tourer,Snowboard,3,,12/26/03
+2004,2003,12,17,BLEWETT PASS / NAVAJO PEAK,,,BC,WA,0,0,Snowmobiler,,1,,12/17/03
+2004,2003,12,13,SNOQUALMIE PASS / SNOW LAKE TRAIL,,,BC,WA,0,0,Hiker,Snowshoe,1,,12/13/03
+2004,2003,12,12,MT BAKER / ARTIST POINT,,,BC,WA,0,0,Hiker,Snowshoe,1,,12/12/03
+2003,2003,4,26,CARSON PASS / NR BLUE LAKES,,,BC,CA,0,0,Snowmobiler,,1,,4/26/03
+2003,2003,4,14,DEVILS THUMB,,,BC,AK,0,0,Climber,,2,,4/14/03
+2003,2003,4,9,WRANGELL-ST ELIAS / VERDE PEAK,,,BC,AK,0,0,Backcountry Tourer,Ski,1,,4/9/03
+2003,2003,3,22,LA PLATA MTNS / BURRO MTN,,,BC,CO,37.67885051,-108.033371,Snowmobiler,,1,,3/22/03
+2003,2003,3,20,ARAPAHOE BASIN / PORCUPINE MTN,,,BC,CO,39.61487936,-105.914383,Backcountry Tourer,Ski,1,,3/20/03
+2003,2003,3,9,COOKE CITY / MT ABUNDANCE,,,BC,MT,0,0,Snowmobiler,,1,,3/9/03
+2003,2003,3,9,SAWATCH RANGE / COTTONWOOD PASS / PTARMIGAN LAKE,,,BC,CO,38.77737059,-106.390312,Snowmobiler,,1,,3/9/03
+2003,2003,3,5,ST ELMO / SAWATCH RANGE / HANCOCK PASS,,,BC,CO,38.62115878,-106.370575,Snowmobiler,,1,,3/5/03
+2003,2003,2,24,SALT RIVER RANGE / POKER FLATS,,,BC,WY,0,0,Snowmobiler,,1,,2/24/03
+2003,2003,2,23,SAWATCH RANGE / ELK HEAD PASS /MISSOURI BASIN NR BELFORD,,,BC,CO,38.95026085,-106.363106,Backcountry Tourer,Ski,1,,2/23/03
+2003,2003,2,22,PRIEST LAKE / ECHO BASIN,,,BC,ID,0,0,Snowmobiler,,1,,2/22/03
+2003,2003,2,22,SCHWEITZER / KEOKEE PEAK,,,BC,ID,0,0,Snowmobiler,,1,,2/22/03
+2003,2003,2,17,DRY GULCH / SNOOPY,,,BC,CO,39.71319538,-105.90683,Climber,,1,,2/17/03
+2003,2003,2,15,BIG COTTONWOOD CYN / MILL CREEK / GOBBLERS KNOB,,,BC,UT,0,0,Backcountry Tourer,Ski,1,,2/15/03
+2003,2003,2,10,JACKSON HOLE / HOURGLASS COULOIR,,,SA,WY,0,0,Sidecountry Rider,Ski,1,,2/10/03
+2003,2003,2,9,HATCHER PASS,,,BC,AK,0,0,Backcountry Tourer,Snowboard,1,,2/9/03
+2003,2003,2,2,LIVINGSTON / CRAZY MTNS / ELK CREEK,,,BC,MT,0,0,Snowmobiler,,1,,2/2/03
+2003,2003,2,1,LINCOLN / COPPER CREEK BOWL,,,BC,MT,0,0,Snowmobiler,,1,,2/1/03
+2003,2003,1,28,TETON PASS / AVALANCHE BOWL,,,BC,WY,0,0,Backcountry Tourer,Snowboard,1,,1/28/03
+2003,2003,1,25,TOGWOTEE PASS / KETTLE CREEK,,,BC,WY,0,0,Snowmobiler,,1,,1/25/03
+2003,2003,1,22,COOKE CITY / WOLVERINE PEAK,,,BC,MT,0,0,Snowmobiler,,1,,1/22/03
+2003,2003,1,5,GRAYS RIVER / CORRAL CREEK LAKE,,,BC,WY,0,0,Snowmobiler,,1,,1/5/03
+2003,2003,1,4,TETON PASS / SKI LAKE,,,BC,WY,0,0,Backcountry Tourer,Snowboard,1,,1/4/03
+2003,2002,12,29,CRYSTAL MOUNTAIN / NORSE PEAK,,,BC,WA,0,0,Backcountry Tourer,Ski,1,,12/29/02
+2003,2002,12,28,FAIRFIELD / TRINITY MTNS,,,BC,ID,0,0,Snowmobiler,,1,,12/28/02
+2003,2002,12,26,SNOWY RANGE W SIDE,,,BC,WY,0,0,Snowmobiler,,1,,12/26/02
+2003,2002,12,15,MT ROSE OB,,,SA,NV,0,0,Inbounds Rider,Snowboard,1,,12/15/02
+2003,2002,11,29,MT WASHINGTON / TUCKERMAN RAVINE,,,BC,NH,0,0,Climber,,2,,11/29/02
+2002,2002,6,13,MT FORAKER,,,BC,AK,0,0,Climber,Foot,3,,6/13/02
+2002,2002,3,31,EAGLE RIVER 6 MILE,,,BC,AK,0,0,Hiker,Snowshoe,2,,3/31/02
+2002,2002,3,22,TARGHEE CREEK,,,BC,MT,0,0,Snowmobiler,,1,,3/22/02
+2002,2002,3,21,JACKSON / JACKSON PEAK,,,BC,WY,0,0,Backcountry Tourer,Ski,1,,3/21/02
+2002,2002,3,17,FLATTOPS / PAGODA PEAK,,,BC,CO,40.13922422,-107.348953,Snowmobiler,,1,,3/17/02
+2002,2002,3,16,BRIGHTON OB / PIONEER RIDGE,,,SA,UT,0,0,Inbounds Rider,Snowboard,2,,3/16/02
+2002,2002,3,16,WHITEFISH RANGE / SOUTH CANYON,,,BC,MT,0,0,Snowmobiler,,1,,3/16/02
+2002,2002,3,15,TELLURIDE OB / TEMPTER BOWL,,,SA,CO,37.90121404,-107.82103,Inbounds Rider,Snowboard,1,,3/15/02
+2002,2002,3,14,ASHCROFT / LINDLEY HUT,,,BC,CO,39.00481237,-106.801826,Backcountry Tourer,Ski,1,,3/14/02
+2002,2002,3,14,ASPEN MTN OB / PANDORAS,,,SA,CO,39.1527502,-106.809509,Sidecountry Rider,Ski,1,,3/14/02
+2002,2002,3,11,VICTOR / BIG HOLE MTNS,,,BC,ID,0,0,Snowmobiler,,1,,3/11/02
+2002,2002,3,9,SUGAR BOWL OB / MT JUDAH,,,SA,CA,0,0,Inbounds Rider,Snowboard,1,,3/9/02
+2002,2002,2,24,GLENWOOD SPRINGS / MINER BASIN,,,BC,CO,39.36068213,-107.429977,Snowmobiler,,1,,2/24/02
+2002,2002,2,16,COOKE CITY / MT ABUNDANCE,,,BC,MT,0,0,Snowmobiler,Snowmobile,2,,2/16/02
+2002,2002,2,10,WHITEFISH RANGE,,,BC,MT,0,0,Snowmobiler,,1,,2/10/02
+2002,2002,2,6,CRYSTAL PEAK / FRIENDS HUT,,,BC,CO,38.95806345,-106.798096,Backcountry Tourer,Ski,1,,2/6/02
+2002,2002,2,1,ASPEN HIGHLANDS,,,SA,CO,39.16772491,-106.866333,Sidecountry Rider,Ski,1,,2/1/02
+2002,2002,1,31,WEBER CANYON,,,BC,UT,0,0,Backcountry Tourer,Ski,1,,1/31/02
+2002,2002,1,26,BONNER SHEEP MTN,,,BC,MT,0,0,Snowmobiler,Snowmobile,4,,1/26/02
+2002,2002,1,12,PAXSON SUMMIT LAKE,,,BC,AK,0,0,Snowmobiler,Snowmobile,2,,1/12/02
+2002,2001,12,31,PHILIPSBURG,,,BC,MT,0,0,Snowmobiler,,1,,12/31/01
+2002,2001,12,24,CANTWELL,,,BC,AK,0,0,Snowmobiler,,1,,12/24/01
+2002,2001,12,23,HOPE PALMER CREEK ROAD,,,BC,AK,0,0,Snowmobiler,,1,,12/23/01
+2002,2001,12,12,CORDOVA,,,BC,AK,0,0,Snowmobiler,,1,,12/12/01
+2002,2001,11,28,YANKEE DOODLE LAKE,,,BC,CO,39.93797283,-105.655472,Backcountry Tourer,Ski,1,,11/28/01
+2002,2001,11,11,HATCHER PASS,,,BC,AK,0,0,Hiker,Snowshoe,1,,11/11/01
+2001,2001,4,28,BIG COTTONWOOD CYN / STAIRS GU,,,BC,UT,0,0,Climber,Snowshoe,2,,4/28/01
+2001,2001,4,11,MT BAKER,,,BC,WA,0,0,Snowmobiler,,1,,4/11/01
+2001,2001,4,4,FLATHEAD PASS / BRIDGER MTNS,,,BC,MT,0,0,Backcountry Tourer,Ski,1,,4/4/01
+2001,2001,4,4,WEST YELLOWSTONE / LIONSHEAD,,,BC,MT,0,0,Snowmobiler,,1,,4/4/01
+2001,2001,4,3,TENMILE RANGE / W SIDE,,,BC,CO,39.45846051,-106.12999,Snowmobiler,,1,,4/3/01
+2001,2001,3,18,STEAMBOAT / FARWELL MTN,,,BC,CO,40.82587951,-106.842384,Backcountry Tourer,Ski,1,,3/18/01
+2001,2001,3,18,DELTA / SUMMIT LAKE,,,BC,AK,0,0,Snowmobiler,,1,,3/18/01
+2001,2001,3,10,UINTA MTNS,,,BC,UT,0,0,Snowmobiler,Snowmobile,2,,3/10/01
+2001,2001,3,3,GRAYS RIVER / PRATER PK,,,BC,WY,0,0,Snowmobiler,,1,,3/3/01
+2001,2001,2,27,CANYONS / RED ROCK CLIFFS,,,SA,UT,0,0,Sidecountry Rider,Ski,1,,2/27/01
+2001,2001,2,25,CRESTED BUTTE OHIO PASS,,,BC,CO,38.83126633,-107.096786,Backcountry Tourer,Ski,1,,2/25/01
+2001,2001,2,23,JACKSON HOLE OB APRES VOUS,,,BC,WY,0,0,Sidecountry Rider,Ski,1,,2/23/01
+2001,2001,2,21,SQUAW VALLEY OB,,,SA,CA,0,0,Sidecountry Rider,Ski,2,,2/21/01
+2001,2001,2,17,CLE ELUM LAKE ANN WENATCHEE NF,,,BC,WA,0,0,Snowmobiler,,1,,2/17/01
+2001,2001,2,6,JACKSON HOLE ROCK SPRINGS,,,SA,WY,0,0,Sidecountry Rider,Ski,1,,2/6/01
+2001,2001,2,3,EUREKA LODGE MATANUSKA RIVER,,,BC,AK,0,0,Snowmobiler,Snowmobile,2,,2/3/01
+2001,2001,1,29,TWIN LAKES NR LAKE WENATCHEE,,,BC,WA,0,0,Hiker,Snowshoe,1,,1/29/01
+2001,2001,1,17,ROCK CREEK NW OF JACKSON,,,BC,MT,0,0,Snowmobiler,,1,,1/17/01
+2001,2000,12,31,EMIGRANT PK ABSAROKA MTNS,,,BC,MT,0,0,Hiker,Foot,2,,12/31/00
+2001,2000,12,29,CAMERON PASS DIAMOND PKS,,,BC,CO,40.5148114,-105.899963,Snowmobiler,,1,,12/29/00
+2001,2000,12,25,TETONS DEAD HORSE PASS,,,BC,WY,0,0,Backcountry Tourer,Ski,1,,12/25/00
+2001,2000,12,17,MARIAS PASS PUZZLE SLIDE,,,BC,MT,0,0,Snowmobiler,Foot,2,,12/17/00
+2001,2000,12,14,OGDEN / WILLARD PEAK,,,BC,UT,0,0,Snowmobiler,,1,,12/14/00
+2001,2000,12,9,TETON PASS,,,BC,WY,0,0,Backcountry Tourer,Ski,1,,12/9/00
+2001,2000,12,9,CANTWELL / DENALI NP,,,BC,AK,0,0,Snowmobiler,,1,,12/9/00
+2001,2000,12,1,"TETON PASS, Glory Bowl",,,BC,WY,0,0,Backcountry Tourer,Snowboard,1,,12/1/00
+2001,2000,11,17,SUNLIGHT BASIN CODY,,,BC,WY,0,0,Hunter,,1,,11/17/00
+2000,2000,4,21,ABASIN MARJORIE BOWL,,,SA,CO,39.63900749,-105.864685,Sidecountry Rider,Ski,1,,4/21/00
+2000,2000,4,9,PAXON / SUMMIT LAKE,,,BC,AK,0,0,Snowmobiler,,1,,4/9/00
+2000,2000,4,8,TALKEETNA,,,BC,AK,0,0,Backcountry Tourer,Ski,1,,4/8/00
+2000,2000,3,22,SWAN RANGE,,,BC,MT,0,0,Snowmobiler,,1,,3/22/00
+2000,2000,3,19,BONNERS FERRY,,,BC,ID,0,0,Snowmobiler,,1,,3/19/00
+2000,2000,3,17,ASPEN HIGHLANDS,,,SA,CO,39.13091237,-106.888649,Backcountry Tourer,Ski,2,,3/17/00
+2000,2000,2,20,MT WASHINGTON,,,BC,NH,0,0,Backcountry Tourer,Ski,1,,2/20/00
+2000,2000,2,19,LAKE PLACID,,,BC,NY,0,0,Backcountry Tourer,Ski,1,,2/19/00
+2000,2000,2,19,ST CHARLES,,,BC,ID,0,0,Snowmobiler,,1,,2/19/00
+2000,2000,2,1,SEWARD HIGHWAY,,,RD,AK,0,0,Highway Personnel,,1,,2/1/00
+2000,2000,1,26,CORDOVA,,,TN,AK,0,0,Resident,Foot,1,,1/26/00
+2000,2000,1,25,ASPEN HURRICANE,,,BC,CO,#REF!,#REF!,Backcountry Tourer,Ski,1,,1/25/00
+2000,2000,1,25,ABASIN BEAVERS,,,SA,CO,#REF!,#REF!,Inbounds Rider,Snowboard,1,,1/25/00
+2000,2000,1,23,JONES PASS,,,BC,CO,39.77424143,-105.889061,Hiker,Snowshoe,1,,1/23/00
+2000,2000,1,16,CRYSTAL MTN,,,SA,WA,0,0,Sidecountry Rider,Ski,1,,1/16/00
+2000,2000,1,11,THE CANYONS,,,SA,UT,0,0,Sidecountry Rider,Ski,2,,1/11/00
+2000,1999,12,26,HATCHER PASS,,,BC,AK,0,0,Snowmobiler,,1,,12/26/99
+2000,1999,12,21,QUANDARY PEAK,,,BC,CO,39.38997168,-106.097374,Backcountry Tourer,Ski,1,,12/21/99
+2000,1999,12,14,CAMERON PASS,,,BC,CO,40.51393041,-105.897987,Backcountry Tourer,Ski,1,,12/14/99
+2000,1999,11,26,BIG SKY / DOBES,,,SA,MT,0,0,Sidecountry Rider,Ski,1,,11/26/99
+1999,1999,5,24,SITKA,,,TN,AK,0,0,Hiker,,1,,5/24/99
+1999,1999,4,29,WRANGELL-ST ELIAS,,,BC,AK,0,0,Climber,,1,,4/29/99
+1999,1999,4,27,MT MCGINNIS JUNEAU,,,BC,AK,0,0,Backcountry Tourer,Snowboard,1,,4/27/99
+1999,1999,4,16,TALKEETNA MTNS CANTW,,,BC,AK,0,0,Snowmobiler,,1,,4/16/99
+1999,1999,4,15,CORDOVA,,,RD,AK,0,0,Others at Work,,1,,4/15/99
+1999,1999,4,7,OPHIR,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,4/7/99
+1999,1999,4,3,CHUGACH MTNS,,,BC,AK,0,0,Snowmobiler,,1,,4/3/99
+1999,1999,3,21,TURNAGAIN PASS,,,BC,AK,0,0,Snowmobiler,,6,,3/21/99
+1999,1999,2,14,MT BAKER,,,SA,WA,0,0,Sidecountry Rider,Ski,1,,2/14/99
+1999,1999,2,6,CUMBERLAND PASS,,,BC,CO,0,0,Backcountry Tourer,Ski,2,,2/6/99
+1999,1999,2,6,LITTLE COTTON WD CNY,,,BC,UT,0,0,Hiker,Snowshoe,1,,2/6/99
+1999,1999,2,6,CUMBERLAND PASS,,,BC,CO,0,0,Snowmobiler,,1,,2/6/99
+1999,1999,2,6,DONNER SUMMIT,,,BC,CA,0,0,Snowplayer,,1,,2/6/99
+1999,1999,1,30,GRAND MESA,,,BC,CO,0,0,Snowmobiler,,1,,1/30/99
+1999,1999,1,29,BLUE MOUNTAINS,,,BC,OR,0,0,Backcountry Tourer,Snowboard,1,,1/29/99
+1999,1999,1,29,S WASATCH MT NEBO,,,BC,UT,0,0,Snowmobiler,,1,,1/29/99
+1999,1999,1,22,ASPEN HIGHLANDS,,,SA,CO,0,0,Sidecountry Rider,Ski,1,,1/22/99
+1999,1999,1,19,JACKSON HOLE,,,SA,WY,0,0,Inbounds Rider,Snowboard,1,,1/19/99
+1999,1999,1,18,MT BAKER,,,SA,WA,0,0,Sidecountry Rider,Ski,1,,1/18/99
+1999,1999,1,4,TOGWOTEE PASS,,,BC,WY,0,0,Snowmobiler,,1,,1/4/99
+1999,1999,1,2,FAIRVIEW CANYON,,,BC,UT,0,0,Backcountry Tourer,Snowboard,2,,1/2/99
+1999,1998,12,30,BITTERROOT MTNS,,,BC,MT,0,0,Snowmobiler,,1,,12/30/98
+1999,1998,11,15,LIMA PKS S OF DILLON,,,BC,MT,0,0,Hunter,,1,,11/15/98
+1999,1998,11,7,SNOWBIRD,,,BC,UT,0,0,Sidecountry Rider,Snowboard,1,,11/7/98
+1998,1998,6,11,MT RAINER,,,BC,WA,0,0,Climber,,1,,6/11/98
+1998,1998,5,31,MT HOOD,,,BC,OR,0,0,Climber,,1,,5/31/98
+1998,1998,4,25,DENALI /,,,BC,AK,0,0,Snowmobiler,,1,,4/25/98
+1998,1998,4,19,BERTHOUD PASS russel,,,BC,CO,0,0,Hiker,Snowshoe,1,,4/19/98
+1998,1998,4,1,ST MARYS GLACIER,,,BC,CO,0,0,Hiker,,1,,4/1/98
+1998,1998,3,8,ASPEN MTN,,,SA,CO,0,0,Sidecountry Rider,Ski,1,,3/8/98
+1998,1998,3,1,BERTHOUD PASS russel,,,BC,CO,0,0,Sidecountry Rider,Snowboard,1,,3/1/98
+1998,1998,2,22,MORMOM HILL,,,BC,ID,0,0,Snowmobiler,,1,,2/22/98
+1998,1998,2,11,DONNER PASS,,,BC,CA,0,0,Sidecountry Rider,Snowboard,1,,2/11/98
+1998,1998,1,24,INSPIRATION PASS,,,BC,MT,0,0,Snowmobiler,,1,,1/24/98
+1998,1998,1,21,LIZARD HEAD PASS San Bernardo Pk,,,BC,CO,0,0,Backcountry Tourer,Snowboard,1,,1/21/98
+1998,1998,1,18,BLEWETT PASS,,,BC,WA,0,0,Snowmobiler,,1,,1/18/98
+1998,1998,1,18,SUMMIT CNTY,,,BC,UT,0,0,Snowmobiler,,1,,1/18/98
+1998,1998,1,18,MADISON RANGE,,,BC,MT,0,0,Snowmobiler,,1,,1/18/98
+1998,1998,1,18,COOKE CITY,,,BC,MT,0,0,Snowmobiler,Snowmobile,3,,1/18/98
+1998,1998,1,17,MT PLEASANT,,,BC,UT,0,0,Snowmobiler,,1,,1/17/98
+1998,1998,1,11,ENCAMPMENT battle lk,,,BC,WY,0,0,Snowmobiler,,1,,1/11/98
+1998,1998,1,3,MISSION MTNS,,,BC,MT,0,0,Climber,,1,,1/3/98
+1998,1998,1,3,HAMILTON,,,BC,MT,0,0,Snowmobiler,,1,,1/3/98
+1998,1998,1,3,ISLAND PARK reas pk,,,BC,ID,0,0,Snowmobiler,,1,,1/3/98
+1998,1998,1,3,ISLAND PARK sawtell,,,BC,ID,0,0,Snowmobiler,,1,,1/3/98
+1998,1997,12,30,GUANELLA PASS,,,BC,CO,0,0,Hiker,Snowshoe,1,,12/30/97
+1998,1997,11,23,CROW PASS,,,BC,AK,0,0,Hiker,,1,,11/23/97
+1998,1997,11,9,HATCHER PASS,,,BC,AK,0,0,Backcountry Tourer,Snowboard,1,,11/9/97
+1997,1997,7,5,GLADSTONE PK,,,BC,CO,0,0,Climber,,1,,7/5/97
+1997,1997,6,6,DENALI / MT HUNTER,,,BC,AK,0,0,Climber,,1,,6/6/97
+1997,1997,5,29,DENALI / MT MCKINELY,,,BC,AK,0,0,Climber,,1,,5/29/97
+1997,1997,4,11,GAKONA GLACIER,,,BC,AK,0,0,Snowmobiler,,1,,4/11/97
+1997,1997,3,8,PRIEST LAKE,,,BC,ID,0,0,Snowmobiler,,1,,3/8/97
+1997,1997,3,3,YELLOWSTONE,,,BC,WY,0,0,Others at Work,,2,,3/3/97
+1997,1997,2,21,JACKSON,,,BC,MT,0,0,Snowmobiler,,1,,2/21/97
+1997,1997,2,1,CASCADE,,,BC,ID,0,0,Snowmobiler,,1,,2/1/97
+1997,1997,1,25,LOGAN CANYON BV FALL,,,BC,UT,0,0,Climber,,1,,1/25/97
+1997,1997,1,17,RESURRECTION PASS,,,BC,AK,0,0,Hunter,,1,,1/17/97
+1997,1997,1,11,LOGAN CANYON,,,BC,UT,0,0,Backcountry Tourer,Foot,3,,1/11/97
+1997,1997,1,11,MONTPEILER,,,BC,ID,0,0,Snowmobiler,,1,,1/11/97
+1997,1996,12,28,MT INDEX,,,BC,WA,0,0,Misc Recreation,,3,,12/28/96
+1997,1996,12,26,Flagstaff Peak near ALTA,,,BC,UT,0,0,Backcountry Tourer,Snowboard,1,,12/26/96
+1997,1996,12,23,CHAIR MOUNTAIN,,,BC,WA,0,0,Climber,,2,,12/23/96
+1997,1996,12,8,BOUNTIFUL PK,,,BC,UT,0,0,Snowmobiler,,1,,12/8/96
+1996,1996,6,24,MT HUNTER,,,BC,AK,0,0,Climber,,2,,6/24/96
+1996,1996,6,12,MT SAINT ELIAS,,,BC,AK,0,0,Climber,,1,,6/12/96
+1996,1996,5,13,MT HUNTER,,,BC,AK,0,0,Climber,,2,,5/13/96
+1996,1996,3,24,LITTLE COTTONWOOD CN,,,BC,UT,0,0,Backcountry Tourer,Ski,1,,3/24/96
+1996,1996,3,24,MT WASHINGTON,,,BC,NH,0,0,Hiker,,2,,3/24/96
+1996,1996,3,9,W YELLOWSTONE,,,BC,MT,0,0,Snowmobiler,,1,,3/9/96
+1996,1996,3,4,EAST VAIL CHUTES,,,SA,CO,0,0,Sidecountry Rider,Ski,1,,3/4/96
+1996,1996,2,25,W YELLOWSTONE,,,BC,MT,0,0,Snowmobiler,,1,,2/25/96
+1996,1996,2,21,VAIL,,,TN,CO,0,0,Resident,Foot,1,,2/21/96
+1996,1996,2,18,DELTA RANGE,,,BC,AK,0,0,Climber,,3,,2/18/96
+1996,1996,2,11,MISSION MTNS POULSON,,,BC,MT,0,0,Snowmobiler,,1,,2/11/96
+1996,1996,2,10,SUN VALLEY,,,BC,ID,0,0,Mechanized Guide,,1,,2/10/96
+1996,1996,2,10,SALT MTN RNG,,,BC,WY,0,0,Snowmobiler,,1,,2/10/96
+1996,1996,2,4,TAOS,,,BC,NM,0,0,Backcountry Tourer,Ski,1,,2/4/96
+1996,1996,2,4,ABASIN BEAVERS 2,,,BC,CO,0,0,Sidecountry Rider,Snowboard,1,,2/4/96
+1996,1996,2,3,COTTONWOOD PASS,,,BC,CO,0,0,Snowmobiler,,1,,2/3/96
+1996,1996,2,2,SOLITUDE,,,SA,UT,0,0,Ski Patroller,,1,,2/2/96
+1996,1996,1,27,ASPEN PYRAMID PK,,,BC,CO,0,0,Climber,,1,,1/27/96
+1996,1996,1,23,ASPEN MCFARLANE BOWL,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,1/23/96
+1996,1996,1,21,CENTENIAL,,,BC,WY,0,0,Backcountry Tourer,Ski,1,,1/21/96
+1996,1996,1,14,SNAKE RIV CNYN,,,SA,WY,0,0,Mechanized Guiding Client,,1,,1/14/96
+1996,1996,1,5,GALENA PASS,,,BC,ID,0,0,Backcountry Tourer,Snowboard,2,,1/5/96
+1996,1996,1,5,MT WASHINGTON,,,BC,NH,0,0,Hiker,,1,,1/5/96
+1996,1995,12,31,VAIL PASS Narrows,,,BC,CO,0,0,Backcountry Tourer,Snowboard,1,,12/31/95
+1995,1995,6,14,TIOGA PASS,,,BC,CA,0,0,Highway Personnel,,1,,6/14/95
+1995,1995,6,0,GLACIER NP,,,BC,MT,0,0,Climber,,1,,5/31/95
+1995,1995,4,24,TETON PASS,,,BC,WY,0,0,Backcountry Tourer,Snowboard,1,,4/24/95
+1995,1995,4,24,PIKES PEAK,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,4/24/95
+1995,1995,4,24,MT ORVILLE GLAC BAY,,,BC,AK,0,0,Climber,,3,,4/24/95
+1995,1995,4,24,ANACONDA,,,BC,MT,0,0,Snowmobiler,,2,,4/24/95
+1995,1995,4,9,ENGINEER MTN,,,BC,CO,0,0,Climber,,1,,4/9/95
+1995,1995,2,25,DOUGLAS ISLAND,,,BC,AK,0,0,Backcountry Tourer,Ski,1,,2/25/95
+1995,1995,2,25,"RUBY CK, URAD MINE",,,BC,CO,0,0,Snowmobiler,,1,,2/25/95
+1995,1995,2,22,KENAI MTNS,,,BC,AK,0,0,Snowmobiler,,1,,2/22/95
+1995,1995,2,14,CONUNDRUM CREEK,,,RS,CO,0,0,Resident,Foot,1,,2/14/95
+1995,1995,2,12,BIG COTTONWOOD CYN,,,BC,UT,0,0,Backcountry Tourer,Ski,1,,2/12/95
+1995,1995,2,12,DRY GULCH,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,2/12/95
+1995,1995,1,30,"Agassiz Peak, east of ARIZONA SNOWBOWL",,,BC,AZ,0,0,Sidecountry Rider,Snowboard,1,,1/30/95
+1995,1995,1,24,MT BALDY,,,SA,CA,0,0,Inbounds Rider,Snowboard,1,,1/24/95
+1995,1995,1,22,MIDWAY,,,RS,UT,0,0,Resident,Foot,1,,1/22/95
+1995,1995,1,21,KELBER PASS,,,BC,CO,0,0,Snowmobiler,,1,,1/21/95
+1995,1995,1,14,FRANCIES CABIN,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,1/14/95
+1995,1995,1,7,"CUTLER BASIN, OGDEN",,,BC,UT,0,0,Snowmobiler,,2,,1/7/95
+1995,1994,12,17,MISSION RIDGE,,,SA,WA,0,0,Ski Patroller,,1,,12/17/94
+1995,1994,11,6,SNOWBIRD,,,BC,UT,0,0,Backcountry Tourer,Ski,1,,11/6/94
+1995,1994,11,2,HATCHER PASS,,,BC,AK,0,0,Backcountry Tourer,Ski,1,,11/2/94
+1995,1994,10,16,MT BELFORD,,,BC,CO,0,0,Climber,,2,,10/16/94
+1994,1994,7,23,MT HOOD,,,BC,OR,0,0,Climber,,2,,7/23/94
+1994,1994,4,9,COAL BANK PASS,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,4/9/94
+1994,1994,3,28,"POWERLINE PASS, CHUG",,,BC,AK,0,0,Snowmobiler,,1,,3/28/94
+1994,1994,3,27,"BOULDER CRK, KENAI",,,BC,AK,0,0,Snowmobiler,,1,,3/27/94
+1994,1994,2,25,GRAYS RIVER RD,,,BC,WY,0,0,Snowmobiler,,1,,2/25/94
+1994,1994,2,18,BRIGHTON,,,BC,UT,0,0,Backcountry Tourer,Ski,1,,2/18/94
+1994,1994,1,8,COOKE CITY,,,BC,MT,0,0,Snowmobiler,,1,,1/8/94
+1994,1993,12,31,PETERS RIDGE,,,BC,MT,0,0,Snowmobiler,,5,,12/31/93
+1993,1993,8,15,BARNARD GLACIER,,,BC,AK,0,0,Hunter,,1,,8/15/93
+1993,1993,6,17,BLACKSTONE BAY,,,BC,AK,0,0,Misc Recreation,,1,,6/17/93
+1993,1993,4,9,BUFFALO MT,,,BC,CO,0,0,Backcountry Tourer,Ski,2,,4/9/93
+1993,1993,4,8,WOLVERINE CIRQ,,,BC,UT,0,0,Backcountry Tourer,Ski,1,,4/8/93
+1993,1993,4,8,CRESTED BUTTE,,,SA,CO,0,0,Ski Patroller,,1,,4/8/93
+1993,1993,4,3,ODYSSEY MT,,,BC,AK,0,0,Backcountry Tourer,Ski,1,,4/3/93
+1993,1993,4,3,GAKONA GLACIER,,,BC,AK,0,0,Snowmobiler,,1,,4/3/93
+1993,1993,3,18,ST HWY 280,,,RD,NY,0,0,Motorist,,1,,3/18/93
+1993,1993,2,25,PINE CRST,,,BC,UT,0,0,Backcountry Tourer,Ski,1,,2/25/93
+1993,1993,2,22,"TODD LAKE, near BEND",,,BC,OR,0,0,Backcountry Tourer,Snowboard,1,,2/22/93
+1993,1993,2,22,TWOTOP MOUNTAIN,,,BC,ID,0,0,Snowmobiler,,1,,2/22/93
+1993,1993,2,13,ARAPAHOE BASIN,,,SA,CO,0,0,Sidecountry Rider,Ski,1,,2/13/93
+1993,1993,1,26,10 MILE CANYON,,,BC,CO,0,0,Climber,,1,,1/26/93
+1993,1993,1,22,BRECKENRIDGE,,,BC,CO,0,0,Sidecountry Rider,Ski,1,,1/22/93
+1993,1993,1,16,SUNDANCE,,,SA,UT,0,0,Sidecountry Rider,Ski,1,,1/16/93
+1993,1993,1,13,SUNLIGHT,,,SA,CO,0,0,Inbounds Rider,Snowboard,1,,1/13/93
+1993,1993,1,12,EAST VAIL,,,BC,CO,0,0,Sidecountry Rider,Ski,1,,1/12/93
+1993,1993,1,9,CAMERON PASS,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,1/9/93
+1993,1993,1,9,MISSOULA,,,BC,MT,0,0,Hiker,,1,,1/9/93
+1993,1992,12,30,MAMMOTH LAKES,,,TN,CA,0,0,Snowplayer,Snowboard,1,,12/30/92
+1993,1992,12,28,TOGWOTEE PASS,,,BC,WY,0,0,Backcountry Tourer,Ski,1,,12/28/92
+1993,1992,12,21,STANLEY,,,BC,ID,0,0,Others at Work,,1,,12/21/92
+1993,1992,12,3,EAST VAIL CHUTES,,,BC,CO,0,0,Sidecountry Rider,Ski,1,,12/3/92
+1993,1992,11,22,HEALY,,,TN,AK,0,0,Snowplayer,,1,,11/22/92
+1993,1992,11,8,CHUGACH MTNS,,,BC,AK,0,0,Backcountry Tourer,Ski,2,,11/8/92
+1993,1992,11,1,Rocky Mountain Nat Park / FLATTOP,,,BC,CO,0,0,Climber,,2,,11/1/92
+1992,1992,6,18,MT FORAKER,,,BC,AK,0,0,Climber,,2,,6/18/92
+1992,1992,6,13,LOOKOUT PK,,,BC,CO,0,0,Climber,,1,,6/13/92
+1992,1992,6,13,S MAROON PK,,,BC,CO,0,0,Climber,,2,,6/13/92
+1992,1992,4,1,BERTHOUD PASS,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,4/1/92
+1992,1992,4,1,SNOWBIRD,,,BC,UT,0,0,Sidecountry Rider,Ski,1,,4/1/92
+1992,1992,3,29,MONTEZUMA,,,BC,CO,0,0,Mechanized Guiding Client,,1,,3/29/92
+1992,1992,3,5,RED MOUNTAIN PASS,,,RD,CO,0,0,Highway Personnel,,1,,3/5/92
+1992,1992,3,1,LOST LAKE,,,BC,CO,0,0,Hiker,Snowshoe,1,,3/1/92
+1992,1992,2,29,MT RAINER,,,BC,WA,0,0,Climber,,2,,2/29/92
+1992,1992,2,29,JED SMITH WILDX,,,BC,WY,0,0,Snowmobiler,,1,,2/29/92
+1992,1992,2,25,SNEFFELS RANGE,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,2/25/92
+1992,1992,2,23,YELLOWSTONE,,,BC,WY,0,0,Others at Work,,1,,2/23/92
+1992,1992,2,18,BEAVER CREEK,,,SA,CO,0,0,Sidecountry Rider,Ski,1,,2/18/92
+1992,1992,2,13,MT ROSE,,,BC,NV,0,0,Backcountry Tourer,Ski,1,,2/13/92
+1992,1992,2,12,LA SAL MTNS,,,BC,UT,0,0,Backcountry Tourer,Ski,4,,2/12/92
+1992,1992,2,11,MT BALDY,,,SA,CA,0,0,Sidecountry Rider,Ski,2,,2/11/92
+1992,1992,2,4,COOKE CITY,,,BC,MT,0,0,Snowmobiler,,1,,2/4/92
+1991,1991,4,20,LONGS PEAK RMNP,,,BC,CO,0,0,Climber,,1,,4/20/91
+1991,1991,3,17,LOVELAND PASS / GRIZZLY PK,,,BC,CO,0,0,Snowplayer,,1,,3/17/91
+1991,1991,3,6,CASTLE CREEK,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,3/6/91
+1991,1991,2,24,MT WASHINGTON TUCKMANS,,,BC,NH,0,0,Climber,,1,,2/24/91
+1991,1991,2,17,COTTENWOOD PASS,,,BC,CO,0,0,Snowmobiler,,1,,2/17/91
+1991,1991,2,5,ARAPAHOE BASIN OB,,,BC,CO,0,0,Sidecountry Rider,Ski,1,,2/5/91
+1991,1990,12,29,POWERLINE PASS,,,BC,AK,0,0,Snowmobiler,,1,,12/29/90
+1991,1990,12,2,TENMILE RANGE / FLETCHER MTN,,,BC,CO,0,0,Climber,,1,,12/2/90
+1991,1990,11,7,LAPLATA MTNS,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,11/7/90
+1990,1990,3,15,ALPINE MEADOWS / MUNCHKIN CHUTES / CHADS CLIFF,,,SA,CA,0,0,Sidecountry Rider,Ski,1,,3/15/90
+1990,1990,3,7,RED MOUNTAIN PASS / OH BOY,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,3/7/90
+1990,1990,3,3,HOMER,,,RS,AK,0,0,Snowplayer,,1,,3/3/90
+1990,1990,2,25,FREMONT PASS,,,BC,CO,0,0,Backcountry Tourer,Snowboard,1,,2/25/90
+1990,1990,2,18,CRESTED BUTTE,,,SA,CO,0,0,Sidecountry Rider,Ski,1,,2/18/90
+1990,1990,1,18,WEST YELLOWSTONE / LIONSHEAD MTN,,,BC,MT,0,0,Snowmobiler,,1,,1/18/90
+1990,1990,1,2,VAIL / OB MUSHROOM BOWL,,,SA,CO,0,0,Sidecountry Rider,Ski,1,,1/2/90
+1990,1989,11,26,LOGAN CANYON,,,BC,UT,0,0,Backcountry Tourer,Ski,1,,11/26/89
+1989,1989,4,2,LOVELAND PASS,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,4/2/89
+1989,1989,3,4,RUBY MTNS,,,BC,NV,0,0,Backcountry Tourer,Ski,1,,3/4/89
+1989,1989,2,19,MT HOOD MDWS,,,SA,OR,0,0,Ski Patroller,,1,,2/19/89
+1989,1989,2,14,TELLURIDE,,,BC,CO,0,0,Sidecountry Rider,Ski,2,,2/14/89
+1989,1989,2,5,CRESTED BUTTE,,,TN,CO,0,0,Resident,Foot,1,,2/5/89
+1989,1988,12,6,KENI PENINSULA / TINCAN PEAK,,,BC,AK,0,0,Backcountry Tourer,Ski,1,,12/6/88
+1988,1988,6,16,MT BLACKBURN,,,BC,AK,0,0,Climber,,2,,6/16/88
+1988,1988,3,6,MT RAINIER,,,BC,WA,0,0,Backcountry Tourer,Ski,1,,3/6/88
+1988,1988,1,10,ASHCROFT / PEARL PASS,,,BC,CO,0,0,Backcountry Tourer,Ski,3,,1/10/88
+1988,1987,12,29,BERTHOUD PASS 2ND CREEK,,,BC,CO,0,0,Backcountry Tourer,Ski,2,,12/29/87
+1987,1987,6,17,EXIT GLACIER,,,BC,AK,0,0,Hiker,,1,,6/17/87
+1987,1987,6,13,MT BORAH,,,BC,ID,0,0,Climber,,1,,6/13/87
+1987,1987,5,22,MT HUNTER,,,BC,AK,0,0,Climber,,1,,5/22/87
+1987,1987,5,6,DENALI / MT FORAKER,,,BC,AK,0,0,Climber,,4,,5/6/87
+1987,1987,3,15,SHRINE PASS,,,BC,CO,0,0,Snowmobiler,,2,,3/15/87
+1987,1987,3,3,WOLF CREEK PASS / TREASURE MTN,,,BC,CO,0,0,Mechanized Guiding Client,,1,,3/3/87
+1987,1987,2,18,BRECKENRIDGE,,,BC,CO,0,0,Sidecountry Rider,Ski,4,,2/18/87
+1987,1987,2,15,BRIGHTON,,,BC,UT,0,0,Backcountry Tourer,Ski,1,,2/15/87
+1987,1987,2,14,TELLURIDE,,,BC,CO,0,0,Sidecountry Rider,Ski,1,,2/14/87
+1987,1987,2,2,TELLURIDE,,,BC,CO,0,0,Sidecountry Rider,Ski,2,,2/2/87
+1987,1987,1,31,MT ELLIS,,,BC,MT,0,0,Backcountry Tourer,Ski,1,,1/31/87
+1987,1987,1,8,TELLURIDE,,,BC,CO,0,0,Sidecountry Rider,Ski,1,,1/8/87
+1987,1986,11,20,ALTA,,,SA,UT,0,0,Hiker,,1,,11/20/86
+1986,1986,8,3,MT BAKER,,,BC,WA,0,0,Climber,,2,,8/3/86
+1986,1986,2,26,VAIL (ob),,,SA,CO,0,0,Sidecountry Rider,Ski,1,,2/26/86
+1986,1986,2,19,ALTA,,,SA,UT,0,0,Inbounds Rider,Ski,1,,2/19/86
+1986,1986,2,17,BRIGHTON,,,BC,UT,0,0,Backcountry Tourer,Snowboard,1,"2 backcountry snowboarders caught, 1 partially buried and injured, 1 buried and killed",2/17/86
+1986,1986,2,17,JACKSON HOLE,,,SA,WY,0,0,Ski Patroller,,1,,2/17/86
+1986,1986,2,15,TWIN LAKES,,,TN,CA,0,0,Resident,Foot,1,,2/15/86
+1986,1986,2,7,MT ELLIS,,,BC,MT,0,0,Backcountry Tourer,Ski,2,,2/7/86
+1986,1986,1,6,PROVO CANYON,,,BC,UT,0,0,Backcountry Tourer,Ski,1,,1/6/86
+1986,1985,12,2,JACKSON HOLE,,,SA,WY,0,0,Ski Patroller,,1,,12/2/85
+1986,1985,11,29,SUGAR BOWL,,,SA,CA,0,0,Inbounds Rider,Ski,1,,11/29/85
+1986,1985,11,21,FRENCH GULCH,,,BC,CO,0,0,Backcountry Tourer,Ski,2,,11/21/85
+1986,1985,11,17,LA PLATA MTNS,,,BC,CO,0,0,Miner,,1,,11/17/85
+1986,1985,11,13,CATHERINES PASS,,,BC,UT,0,0,Backcountry Tourer,Ski,2,,11/13/85
+1985,1985,5,12,WHITEHORSE MTN,,,BC,WA,0,0,Climber,,1,,5/12/85
+1985,1985,3,24,BERTHOUD PASS,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,3/24/85
+1985,1985,3,19,PARK CITY,,,SA,UT,0,0,Sidecountry Rider,Ski,1,,3/19/85
+1985,1985,3,10,EAGLE RIVER,,,BC,AK,0,0,Backcountry Tourer,Ski,1,,3/10/85
+1985,1985,3,2,HATCHER PASS,,,BC,AK,0,0,Snowmobiler,,1,,3/2/85
+1985,1985,2,22,POWDER MTN,,,SA,UT,0,0,Sidecountry Rider,Ski,1,,2/22/85
+1985,1985,2,12,ROBERTS,,,TN,MT,0,0,Snowplayer,,1,,2/12/85
+1985,1985,2,9,LOLO PASS,,,BC,ID,0,0,Backcountry Tourer,Ski,1,,2/9/85
+1985,1985,2,9,MT SI,,,BC,WA,0,0,Climber,,1,,2/9/85
+1985,1985,2,9,SNOWY RANGE,,,BC,WY,0,0,Snowmobiler,,1,,2/9/85
+1985,1985,2,3,GRAND TETON,,,BC,WY,0,0,Climber,,1,,2/3/85
+1985,1984,12,31,ASHCROFT,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,12/31/84
+1985,1984,12,13,ASPEN,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,12/13/84
+1985,1984,10,17,KELSO MTN,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,10/17/84
+1984,1984,6,18,ELK MTNS,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,6/18/84
+1984,1984,5,27,SOURCE LAKE,,,BC,WA,0,0,Climber,,1,,5/27/84
+1984,1984,4,14,MARBLE / CHAIR MTN,,,BC,CO,0,0,Climber,,1,,4/14/84
+1984,1984,4,2,"EAGLE PK, CHUG",,,BC,AK,0,0,Climber,,1,,4/2/84
+1984,1984,3,31,ASPEN HIGHLANDS,,,BC,CO,0,0,Ski Patroller,Ski,3,,3/31/84
+1984,1984,3,19,DALLAS DIVIDE,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,3/19/84
+1984,1984,3,17,VAIL PASS,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,3/17/84
+1984,1984,2,16,SNOW KING,,,SA,WY,0,0,Sidecountry Rider,Ski,1,,2/16/84
+1984,1984,2,8,MT KATAHDIN,,,BC,ME,0,0,Climber,,2,,2/8/84
+1984,1984,1,26,Town of Steamboat,,,TN,CO,0,0,Resident,Foot,1,,1/26/84
+1984,1984,1,2,ALTA,,,BC,UT,0,0,Backcountry Tourer,Ski,1,,1/2/84
+1984,1983,12,18,COPPER MOUNTAIN,,,SA,CO,0,0,Ski Patroller,,1,,12/18/83
+1983,1983,6,26,MT SHUKSAN,,,BC,WA,0,0,Climber,,2,,6/26/83
+1983,1983,4,16,GRANITE MT,,,BC,WA,0,0,Hiker,,1,,4/16/83
+1983,1983,4,2,MT SHASTA,,,BC,CA,0,0,Climber,,1,,4/2/83
+1983,1983,3,12,GRAND LAKE,,,BC,CO,0,0,Snowmobiler,,1,,3/12/83
+1983,1983,3,9,CRESTED BUTTE,,,SA,CO,0,0,Sidecountry Rider,Ski,1,,3/9/83
+1983,1983,3,6,DEER CREEK,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,3/6/83
+1983,1983,2,19,BOZEMAN CREEK,,,BC,MT,0,0,Backcountry Tourer,Ski,1,,2/19/83
+1983,1983,1,30,WOLF CREEK PASS,,,SA,CO,0,0,Backcountry Tourer,Ski,1,,1/30/83
+1983,1983,1,1,STANLEY,,,BC,ID,0,0,Snowmobiler,,1,,1/1/83
+1983,1982,12,25,MONTEZUMA,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,12/25/82
+1983,1982,12,24,BIG SKY,,,SA,MT,0,0,Ski Patroller,,1,,12/24/82
+1983,1982,12,19,PHILIPSBURG,,,BC,MT,0,0,Snowmobiler,,1,,12/19/82
+1983,1982,11,14,MONTPELIER,,,BC,ID,0,0,Hunter,,1,,11/14/82
+1982,1982,6,20,MT HOOD,,,BC,OR,0,0,Climber,,1,,6/20/82
+1982,1982,4,3,DENALI / MT MCKINLEY,,,BC,AK,0,0,Backcountry Tourer,Ski,1,,4/3/82
+1982,1982,3,31,ALPINE MDWS,,,SA,CA,0,0,Others at Work,Foot,4,,3/31/82
+1982,1982,3,31,ALPINE MDWS,,,SA,CA,0,0,Ski Patroller,Ski,3,,3/31/82
+1982,1982,3,22,PARK WEST,,,SA,UT,0,0,Sidecountry Rider,Ski,1,,3/22/82
+1982,1982,3,13,ARAPAHOE BASIN,,,SA,CO,0,0,Sidecountry Rider,Ski,1,,3/13/82
+1982,1982,2,14,ANEROID LAKE,,,BC,OR,0,0,Backcountry Tourer,Ski,1,,2/14/82
+1982,1982,1,25,MT WASHINGTON,,,BC,NH,0,0,Rescuer,,1,,1/25/82
+1982,1982,1,23,CUMBRES PASS,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,1/23/82
+1982,1982,1,6,ARAPAHOE BASIN,,,SA,CO,0,0,Sidecountry Rider,Ski,1,,1/6/82
+1982,1982,1,5,D. L. BLISS,,,BC,CA,0,0,Misc Recreation,,1,,1/5/82
+1982,1981,12,20,LEADVILLE,,,BC,CO,0,0,Hiker,,1,,12/20/81
+1982,1981,11,21,CHUGACH,,,BC,AK,0,0,Climber,,1,,11/21/81
+1981,1981,6,21,MT RAINIER,,,BC,WA,0,0,Climber,Foot,11,,6/21/81
+1981,1981,4,12,SOURCE LAKE,,,BC,WA,0,0,Backcountry Tourer,Ski,1,,4/12/81
+1981,1981,4,12,RED LODGE,,,BC,MT,0,0,Snowmobiler,,1,,4/12/81
+1981,1981,3,31,SNOWMASS,,,SA,CO,0,0,Ski Patroller,,1,,3/31/81
+1981,1981,3,3,WOLF CREEK PASS,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,3/3/81
+1981,1981,3,1,MILLCREEK CN,,,BC,UT,0,0,Backcountry Tourer,Ski,1,,3/1/81
+1981,1981,3,1,MT BALDY,,,SA,CA,0,0,Sidecountry Rider,Ski,1,,3/1/81
+1981,1981,2,15,SCHWEITZER,,,SA,ID,0,0,Inbounds Rider,Ski,1,,2/15/81
+1981,1981,2,15,LAMOILLE,,,BC,NV,0,0,Snowmobiler,,1,,2/15/81
+1981,1981,2,1,BIG COTTONWOOD,,,BC,UT,0,0,Backcountry Tourer,Ski,1,,2/1/81
+1981,1980,11,27,ST MARYS GLACIER,,,BC,CO,0,0,Backcountry Tourer,Ski,2,,11/27/80
+1981,1980,11,15,TAOS,,,SA,NM,0,0,Backcountry Tourer,Ski,1,,11/15/80
+1980,1980,3,15,CRYSTAL MTN,,,SA,WA,0,0,Sidecountry Rider,Ski,1,,3/15/80
+1980,1980,1,18,BIG MOUNTAIN,,,SA,MT,0,0,Sidecountry Rider,Ski,1,,1/18/80
+1980,1980,1,11,B COTTONWOOD,,,BC,UT,0,0,Backcountry Tourer,Ski,1,,1/11/80
+1980,1979,12,24,TAOS,,,BC,NM,0,0,Backcountry Tourer,Ski,1,,12/24/79
+1980,1979,11,22,TELLURIDE,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,11/22/79
+1980,1979,11,4,MAMMOTH MT,,,SA,CA,0,0,Backcountry Tourer,Ski,1,,11/4/79
+1979,1979,5,9,MT HUNTER,,,BC,AK,0,0,Climber,,1,,5/9/79
+1979,1979,4,26,GRAND TETON,,,BC,WY,0,0,Climber,,2,,4/26/79
+1979,1979,4,2,DESOLATION LK,,,BC,UT,0,0,Backcountry Tourer,Ski,1,,4/2/79
+1979,1979,3,4,MT RAINIER,,,BC,WA,0,0,Climber,,2,,3/4/79
+1979,1979,2,10,LOVELAND BASIN,,,SA,CO,0,0,Sidecountry Rider,Ski,1,,2/10/79
+1979,1979,1,20,STEVENS PASS,,,BC,WA,0,0,Hiker,Snowshoe,1,,1/20/79
+1979,1979,1,19,HELPER,,,MN,UT,0,0,Miner,,1,,1/19/79
+1979,1979,1,6,GUANELLA PASS,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,1/6/79
+1978,1978,8,27,MT BAKER,,,BC,WA,0,0,Climber,,1,,8/27/78
+1978,1978,5,31,MT RAINIER,,,BC,WA,0,0,Climber,,1,,5/31/78
+1978,1978,5,30,MT FORAKER,,,BC,AK,0,0,Climber,,2,,5/30/78
+1978,1978,4,16,MT SOPRIS,,,BC,CO,0,0,Snowmobiler,,1,,4/16/78
+1978,1978,2,10,RED MOUNTAIN PASS,,,RD,CO,0,0,Highway Personnel,,1,,2/10/78
+1978,1978,2,10,TWIN LAKES,,,RD,CA,0,0,Hiker,Snowshoe,1,,2/10/78
+1978,1978,2,10,TWIN LAKES,,,RD,CA,0,0,Motorist,,2,,2/10/78
+1978,1978,2,9,LOST CANYON,,,RD,CA,0,0,Highway Personnel,,1,,2/9/78
+1978,1978,1,21,TURNAGAIN PASS,,,BC,AK,0,0,Backcountry Tourer,Ski,4,,1/21/78
+1978,1978,1,6,SHEEP MT,,,BC,CO,0,0,Backcountry Tourer,Ski,2,,1/6/78
+1978,1977,12,31,MT RAINIER,,,BC,WA,0,0,Climber,,1,,12/31/77
+1978,1977,11,2,EL DIENTE PK,,,BC,CO,0,0,Climber,,1,,11/2/77
+1977,1977,5,22,S ARAPAHOE PK,,,BC,CO,0,0,Climber,,1,,5/22/77
+1977,1977,3,26,SHEEP CREEK,,,BC,WY,0,0,Backcountry Tourer,Ski,1,,3/26/77
+1977,1977,3,3,SNOWBIRD,,,SA,UT,0,0,Inbounds Rider,Ski,1,,3/3/77
+1977,1977,2,6,VALDEZ,,,RD,AK,0,0,Others at Work,,1,,2/6/77
+1977,1977,1,20,MT BALDY,,,BC,CA,0,0,Snowplayer,,1,,1/20/77
+1977,1976,12,12,SHEEP MT,,,BC,AK,0,0,Hiker,Snowshoe,1,,12/12/76
+1976,1976,8,6,MT FORAKER,,,BC,AK,0,0,Climber,,3,,8/6/76
+1976,1976,7,4,ROCKY MOUNTAIN NAT PARK,,,BC,CO,0,0,Climber,,1,,7/4/76
+1976,1976,5,15,BIG FOUR MT,,,BC,WA,0,0,Climber,,1,,5/15/76
+1976,1976,3,29,MT NAST,,,BC,CO,0,0,Others at Work,,1,,3/29/76
+1976,1976,3,27,SILVER PEAK,,,BC,WA,0,0,Hiker,Snowshoe,1,,3/27/76
+1976,1976,3,20,GRAND TARGHEE,,,BC,WY,0,0,Backcountry Tourer,Ski,1,,3/20/76
+1976,1976,3,2,ALPINE MEADOWS,,,SA,CA,0,0,Inbounds Rider,Ski,3,,3/2/76
+1976,1976,2,21,BRIDGEPORT,,,BC,CA,0,0,Climber,,1,,2/21/76
+1976,1976,2,19,MT MARATHON,,,BC,AK,0,0,Climber,,1,,2/19/76
+1976,1976,1,17,BERTHOUD PASS,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,1/17/76
+1976,1976,1,12,JACKSON PEAK,,,BC,WY,0,0,Backcountry Tourer,Ski,2,,1/12/76
+1976,1976,1,10,POCATELLO,,,BC,ID,0,0,Climber,,2,,1/10/76
+1976,1976,1,6,ALTA,,,SA,UT,0,0,Sidecountry Rider,Ski,1,,1/6/76
+1976,1975,11,30,MT RAINIER,,,BC,WA,0,0,Hiker,Snowshoe,1,,11/30/75
+1976,1975,11,15,JUNEAU,,,BC,AK,0,0,Backcountry Tourer,Ski,1,,11/15/75
+1975,1975,5,10,PORTAGE,,,BC,AK,0,0,Hunter,,1,,5/10/75
+1975,1975,4,26,MT ST HELENS,,,BC,WA,0,0,Climber,,5,,4/26/75
+1975,1975,4,26,MT HOOD,,,BC,OR,0,0,Climber,,1,,4/26/75
+1975,1975,3,23,HECLA,,,BC,MT,0,0,Snowmobiler,,1,,3/23/75
+1975,1975,3,21,MCGINNIS GL,,,BC,AK,0,0,Climber,,1,,3/21/75
+1975,1975,2,8,CENTENNIAL,,,BC,WY,0,0,Snowplayer,,1,,2/8/75
+1975,1975,2,5,SUN VALLEY,,,SA,ID,0,0,Sidecountry Rider,Ski,1,,2/5/75
+1975,1975,1,19,OWEN CREEK,,,BC,WY,0,0,Backcountry Tourer,Ski,1,,1/19/75
+1975,1975,1,16,CHUGACH,,,BC,AK,0,0,Climber,,1,,1/16/75
+1975,1975,1,15,CASTLE CREEK,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,1/15/75
+1975,1975,1,14,GARFIELD,,,BC,CO,0,0,Backcountry Tourer,Ski,2,,1/14/75
+1975,1975,1,9,CRESTED BUTTE,,,SA,CO,0,0,Inbounds Rider,Ski,1,,1/9/75
+1975,1974,12,28,ASPEN MTN,,,SA,CO,0,0,Sidecountry Rider,Ski,1,,12/28/74
+1975,1974,12,21,GUANELLA PASS,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,12/21/74
+1975,1974,12,15,MONARCH PASS,,,BC,CO,0,0,Backcountry Tourer,Ski,1,,12/15/74
+1975,1974,11,23,ARAPAHOE BASIN,,,SA,CO,0,0,Ski Patroller,,1,,11/23/74
+1975,1974,11,18,MT RAINIER,,,BC,WA,0,0,Climber,,1,,11/18/74
+1974,1974,3,2,HEAVENLY VAL,,,SA,CA,0,0,Inbounds Rider,Ski,1,,3/2/74
+1974,1974,2,7,JUNEAU,,,RD,AK,0,0,Highway Personnel,,1,,2/7/74
+1974,1974,1,27,SOURCE LAKE,,,BC,WA,0,0,Hiker,Snowshoe,2,,1/27/74
+1974,1974,1,16,GRAND TETON,,,BC,WY,0,0,Backcountry Tourer,Ski,3,,1/16/74
+1974,1974,1,1,TANAINA PEAK,,,BC,AK,0,0,Climber,,1,,1/1/74
+1974,1973,12,30,FLATTOP MT,,,BC,AK,0,0,Climber,,1,,12/30/73
+1974,1973,12,29,PARKCITYWEST,,,SA,UT,0,0,Inbounds Rider,Ski,1,,12/29/73
+1974,1973,11,19,MT SHASTA,,,BC,CA,0,0,Climber,,1,,11/19/73
+1974,1973,10,13,ROCKY MOUNTAIN NAT PARK,,,BC,CO,0,0,Climber,,2,,10/13/73
+1973,1973,3,24,TAOS SKIVALLEY,,,SA,NM,0,0,Sidecountry Rider,Ski,1,,3/24/73
+1973,1973,1,22,SUN VALLEY,,,SA,ID,0,0,Mechanized Guiding Client,,1,,1/22/73
+1973,1972,12,13,STEAMBOAT,,,SA,CO,0,0,Inbounds Rider,Ski,1,,12/13/72
+1973,1972,12,8,ASPEN MTN,,,SA,CO,0,0,Sidecountry Rider,Ski,1,,12/8/72
+1972,1972,9,26,YOSEMITE,,,BC,CA,0,0,Hiker,,1,,9/26/72
+1972,1972,8,20,MITCHELL LAKE,,,BC,CO,0,0,Hiker,,1,,8/20/72
+1972,1972,5,10,MT GARFIELD,,,BC,WA,0,0,Climber,,2,,5/10/72
+1972,1972,1,29,MT ROSE,,,SA,NV,0,0,Sidecountry Rider,Ski,2,,1/29/72
+1972,1971,10,17,POLE CREEK,,,BC,CO,0,0,Hunter,,1,,10/17/71
+1971,1971,4,12,EKLUTNA GLAC,,,BC,AK,0,0,Climber,,2,,4/12/71
+1971,1971,3,16,ASPEN MTN (McFarlane Gulch),,,BC,CO,0,0,Mechanized Guide,Ski,1,,3/16/71
+1971,1971,1,24,STEVENS PASS,,,TN,WA,0,0,Resident,Foot,4,,1/24/71
+1971,1971,1,20,WILLOW CREEK,,,BC,ID,0,0,Snowmobiler,,1,,1/20/71
+1971,1971,1,15,SNOQUALMIE PS,,,RD,WA,0,0,Motorist,,1,,1/15/71
+1971,1971,1,10,JUNEAU,,,BC,AK,0,0,Climber,,1,,1/10/71
+1971,1970,12,28,MT BAKER,,,SA,WA,0,0,Inbounds Rider,Ski,1,,12/28/70
+1971,1970,12,28,ALUM CREEK,,,BC,NV,0,0,Snowmobiler,,1,,12/28/70
+1970,1970,3,2,RED MOUNTAIN PASS,,,RD,CO,0,0,Highway Personnel,,1,,3/2/70
+1970,1970,1,29,ALTA,,,SA,UT,0,0,Inbounds Rider,Ski,1,,1/29/70
+1970,1969,12,29,GLACIER,,,BC,MT,0,0,Climber,,5,,12/29/69
+1969,1969,3,16,BLACKFOOT R,,,RD,MT,0,0,Motorist,,1,,3/16/69
+1969,1969,3,9,MT RAINIER,,,BC,WA,0,0,Backcountry Tourer,Ski,1,,3/9/69
+1969,1969,2,25,KYLE CANYON,,,TN,NV,0,0,Resident,Foot,2,,2/25/69
+1969,1969,2,24,MINERAL KING,,,RS,CA,0,0,Resident,Foot,1,,2/24/69
+1969,1968,12,27,SLIDE MT,,,SA,NV,0,0,Backcountry Tourer,Ski,1,,12/27/68
+1968,1968,3,17,MAMMOTH MT,,,SA,CA,0,0,Inbounds Rider,Ski,1,,3/17/68
+1968,1968,2,24,LEADVILLE,,,BC,CO,0,0,Snowmobiler,,1,,2/24/68
+1968,1968,2,19,ROCK CANYON,,,BC,UT,0,0,Hiker,,1,,2/19/68
+1968,1967,11,26,ARAPAHOE BASIN,,,SA,CO,0,0,Ski Patroller,,1,,11/26/67
+1967,1967,2,18,SKYLINE,,,SA,ID,0,0,Ski Patroller,,2,,2/18/67
+1967,1967,2,12,PARLEY'S CN,,,BC,UT,0,0,Climber,,2,,2/12/67
+1967,1967,1,7,LOVELAND PASS,,,BC,CO,0,0,Climber,,2,,1/7/67
+1966,1966,2,5,MT BAKER,,,BC,WA,0,0,Backcountry Tourer,Ski,1,,2/5/66
+1966,1965,12,31,PARK CITY,,,SA,UT,0,0,Inbounds Rider,Ski,1,,12/31/65
+1966,1965,12,20,GENEVA BASIN,,,SA,CO,0,0,Inbounds Rider,Ski,1,,12/20/65
+1965,1965,4,1,MORROW POINTDAM,,,MN,CO,0,0,Others at Work,,1,,4/1/65
+1965,1965,1,31,HOMESTAKE LAKE,,,MN,CO,0,0,Others at Work,,1,,1/31/65
+1965,1965,1,29,SNOWBANK MOUNTAIN,,,RD,ID,0,0,Others at Work,Vehicle,1,,1/29/65
+1965,1965,1,2,SUGAR BOWL,,,BC,CA,0,0,Hiker,Snowshoe,1,,1/2/65
+1964,1964,4,4,MT WASHINGTON,,,BC,NH,0,0,Climber,,2,,4/4/64
+1964,1964,3,29,SNOW BASIN,,,SA,UT,0,0,Ranger,,1,,3/29/64
+1964,1964,3,14,SQUAW VALLEY,,,SA,CA,0,0,Sidecountry Rider,Ski,1,,3/14/64
+1964,1964,3,12,SNOW KING MT,,,SA,WY,0,0,Ski Patroller,,1,,3/12/64
+1964,1964,3,7,POCATELLO,,,TN,ID,0,0,Snowplayer,,2,,3/7/64
+1963,1963,5,18,LUNDIN PK,,,BC,WA,0,0,Climber,,1,,5/18/63
+1963,1963,3,3,RED MOUNTAIN PASS,,,RD,CO,0,0,Motorist,,3,,3/3/63
+1963,1962,12,31,TABERG,,,TN,NY,0,0,Snowplayer,,2,,12/31/62
+1962,1962,5,20,BIG FOUR MTN,,,BC,WA,0,0,Climber,,1,,5/20/62
+1962,1962,3,25,GRANITE MT,,,BC,WA,0,0,Climber,,2,,3/25/62
+1962,1962,2,10,SWIFT CREEK,,,BC,WY,0,0,Hiker,Snowshoe,1,,2/10/62
+1962,1962,1,21,TWIN LAKES,,,TN,CO,0,0,Resident,Foot,7,,1/21/62
+1962,1961,11,24,ARAPAHOE BASIN,,,SA,CO,0,0,Inbounds Rider,Ski,1,,11/24/61
+1961,1961,2,23,ASPEN MTN,,,SA,CO,0,0,Sidecountry Rider,Ski,1,,2/23/61
+1960,1960,3,19,SAWATCH / LA PLATA PEAK,,,BC,CO,0,0,Climber,,1,,3/19/60
+1960,1960,3,9,SUPERIOR CREEK,,,RD,ID,0,0,Others at Work,,2,,3/9/60
+1960,1960,2,13,BERTHOUD PASS (Floral Park),,,BC,CO,0,0,Backcountry Tourer,Ski,1,,2/13/60
+1959,1959,6,20,MT HOOD,,,BC,OR,0,0,Climber,,1,,6/20/59
+1959,1959,2,3,ASPEN MTN,,,SA,CO,0,0,Inbounds Rider,Ski,1,,2/3/59
+1958,1958,3,9,SNOW BASIN,,,SA,UT,0,0,Backcountry Tourer,Ski,1,,3/9/58
+1958,1958,3,9,SNOW BASIN,,,SA,UT,0,0,Rescuer,,1,,3/9/58
+1958,1958,2,14,CAMP BIRD HWY,,,RD,CO,0,0,Miner,,1,,2/14/58
+1958,1958,2,14,CAMP BIRD HWY,,,RD,CO,0,0,Rescuer,,3,,2/14/58
+1957,1957,4,8,DAM SLIDE,,,RD,CO,0,0,Highway Personnel,Foot,2,,4/8/57
+1957,1957,4,7,GRANITE MTN. SNOQUAL,,,BC,WA,0,0,Hiker,,1,,4/7/57
+1957,1957,2,24,ST MARYS LAKE,,,BC,CO,0,0,Climber,,1,,2/24/57
+1957,1957,2,5,WARDNER,,,TN,ID,0,0,Resident,Foot,1,,2/5/57
+1956,1956,3,5,LEEKS CANYON,,,SA,WY,0,0,Sidecountry Rider,Ski,1,,3/5/56
+1956,1956,3,2,MACE,,,TN,ID,0,0,Resident,Foot,1,,3/2/56
+1956,1956,2,19,TUCKERMAN RAVINE,,,BC,NH,0,0,Climber,,1,,2/19/56
+1955,1955,1,15,SQUAW VALLEY,,,SA,CA,0,0,Inbounds Rider,Ski,1,,1/15/55
+1954,1954,4,2,MOON PASS,,,RD,ID,0,0,Highway Personnel,,1,,4/2/54
+1954,1954,2,28,SITKA,,,SA,AK,0,0,Backcountry Tourer,Ski,2,,2/28/54
+1954,1954,2,12,MT WASHINGTON,,,BC,NH,0,0,Climber,,2,,2/12/54
+1953,1953,5,26,GLACIER NP,,,BC,MT,0,0,Highway Personnel,,2,,5/26/53
+1953,1953,2,7,SOURCE LAKE,,,BC,WA,0,0,Backcountry Tourer,Ski,1,,2/7/53
+1952,1952,5,9,SEWARD HWY,,,RD,AK,0,0,Motorist,,1,,5/9/52
+1952,1952,2,29,COBALT,,,RD,ID,0,0,Highway Personnel,,1,,2/29/52
+1952,1952,1,19,SUN VALLEY,,,SA,ID,0,0,Inbounds Rider,Ski,4,,1/19/52
+1952,1952,1,14,TWIN BRIDGES,,,RS,CA,0,0,Resident,Foot,2,,1/14/52
+1952,1952,1,7,SILVERTON,,,RD,CO,0,0,Miner,,1,,1/7/52
+1952,1951,12,30,WOLF CREEK PASS,,,RD,CO,0,0,Motorist,,2,,12/30/51
+1951,1951,4,25,MONARCH PASS,,,RD,CO,0,0,Motorist,,2,,4/25/51
