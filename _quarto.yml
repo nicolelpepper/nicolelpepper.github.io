@@ -25,8 +25,8 @@ format:
     theme: styles.scss
     toc: false
     page-layout: full
-    mainfont: Merriweather Sans
-    monofont: Montserrat
+    mainfont: Poppins
+    monofont: Poppins
     
 
     
