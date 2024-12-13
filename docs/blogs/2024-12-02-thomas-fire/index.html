@@ -167,6 +167,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
                 <div class="quarto-category">GIS</div>
                 <div class="quarto-category">Remote-Sensing</div>
                 <div class="quarto-category">MEDS</div>
+                <div class="quarto-category">Python</div>
               </div>
                   </div>
   </div>
@@ -200,11 +201,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#a-step-by-step-analysis-of-the-impacts-of-the-thomas-fire" id="toc-a-step-by-step-analysis-of-the-impacts-of-the-thomas-fire" class="nav-link active" data-scroll-target="#a-step-by-step-analysis-of-the-impacts-of-the-thomas-fire">A Step-By-Step Analysis of the Impacts of the Thomas Fire</a>
-  <ul class="collapse">
-  <li><a href="#using-satellite-air-quality-data-in-python" id="toc-using-satellite-air-quality-data-in-python" class="nav-link" data-scroll-target="#using-satellite-air-quality-data-in-python"><em>Using Satellite &amp; Air Quality Data in Python</em></a></li>
-  </ul></li>
-  <li><a href="#part-1.-visualizing-the-thomas-fire-burn-scar-using-false-color" id="toc-part-1.-visualizing-the-thomas-fire-burn-scar-using-false-color" class="nav-link" data-scroll-target="#part-1.-visualizing-the-thomas-fire-burn-scar-using-false-color">Part 1. Visualizing the Thomas Fire burn scar using false color</a>
+  <li><a href="#part-1.-visualizing-the-thomas-fire-burn-scar-using-false-color" id="toc-part-1.-visualizing-the-thomas-fire-burn-scar-using-false-color" class="nav-link active" data-scroll-target="#part-1.-visualizing-the-thomas-fire-burn-scar-using-false-color">Part 1. Visualizing the Thomas Fire burn scar using false color</a>
   <ul class="collapse">
   <li><a href="#step-1e.-visualize-the-landsat-data-in-true-color" id="toc-step-1e.-visualize-the-landsat-data-in-true-color" class="nav-link" data-scroll-target="#step-1e.-visualize-the-landsat-data-in-true-color">Step 1E. Visualize the Landsat data in true color</a></li>
   <li><a href="#step-1f.-visualize-the-landsat-data-in-false" id="toc-step-1f.-visualize-the-landsat-data-in-false" class="nav-link" data-scroll-target="#step-1f.-visualize-the-landsat-data-in-false">Step 1F. Visualize the Landsat data in false</a></li>
@@ -214,7 +211,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#step-2a-set-up-my-workspace" id="toc-step-2a-set-up-my-workspace" class="nav-link" data-scroll-target="#step-2a-set-up-my-workspace">Step 2A: Set up my workspace</a></li>
   <li><a href="#step-2b-import-prepare-data" id="toc-step-2b-import-prepare-data" class="nav-link" data-scroll-target="#step-2b-import-prepare-data">Step 2B: Import &amp; prepare data</a></li>
-  <li><a href="#step-3c.-explore-the-data" id="toc-step-3c.-explore-the-data" class="nav-link" data-scroll-target="#step-3c.-explore-the-data">Step 3C. Explore the Data</a></li>
+  <li><a href="#step-2c.-explore-the-data" id="toc-step-2c.-explore-the-data" class="nav-link" data-scroll-target="#step-2c.-explore-the-data">Step 2C. Explore the Data</a></li>
   <li><a href="#step-2d.-prepare-the-aqi-data-for-visualization" id="toc-step-2d.-prepare-the-aqi-data-for-visualization" class="nav-link" data-scroll-target="#step-2d.-prepare-the-aqi-data-for-visualization">Step 2D. Prepare the AQI data for visualization</a></li>
   <li><a href="#step-2e.-subset-prepare-aqi-data-for-timeseries-visualization" id="toc-step-2e.-subset-prepare-aqi-data-for-timeseries-visualization" class="nav-link" data-scroll-target="#step-2e.-subset-prepare-aqi-data-for-timeseries-visualization">Step 2E. Subset &amp; prepare <code>aqi</code> data for timeseries visualization</a></li>
   <li><a href="#step-2f.-calculate-5-day-rolling-average-for-aqi" id="toc-step-2f.-calculate-5-day-rolling-average-for-aqi" class="nav-link" data-scroll-target="#step-2f.-calculate-5-day-rolling-average-for-aqi">Step 2F. Calculate 5-Day Rolling Average for AQI</a></li>
@@ -233,18 +230,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <p><img src="nasa-eo-fire.jpg" class="img-fluid"></p>
 <p>Source: <a href="https://earthobservatory.nasa.gov/images/91421/fires-continue-to-rage-in-southern-california">NASA Earth Observatory</a></p>
-<section id="a-step-by-step-analysis-of-the-impacts-of-the-thomas-fire" class="level1">
-<h1>A Step-By-Step Analysis of the Impacts of the Thomas Fire</h1>
-<section id="using-satellite-air-quality-data-in-python" class="level2">
-<h2 class="anchored" data-anchor-id="using-satellite-air-quality-data-in-python"><em>Using Satellite &amp; Air Quality Data in Python</em></h2>
-<p><strong>Author:</strong> Nicole Pepper</p>
-<p><strong>Date:</strong> 12/04/2024</p>
 <p>The Thomas Fire, which ignited on December 4, 2017, burned approximately 281,893 acres in Ventura and Santa Barbara counties, making it one of the largest and most devastating wildfires in California’s history. The fire left behind extensive burn scars with widespread loss of vegetation and unstable soil, leaving the region vulnerable to erosion. In 2018, heavy rains caused massive flooding and debris flows, which resulted in catastrophic damage and tragic loss of life.</p>
 <p>Here I share my beginner’s <code>Python</code> exercise exploring some of the impacts of the Thomas Fire using satellite imagery and air quality data.</p>
-</section>
-</section>
-<section id="part-1.-visualizing-the-thomas-fire-burn-scar-using-false-color" class="level1">
-<h1>Part 1. Visualizing the Thomas Fire burn scar using false color</h1>
+<section id="part-1.-visualizing-the-thomas-fire-burn-scar-using-false-color" class="level2">
+<h2 class="anchored" data-anchor-id="part-1.-visualizing-the-thomas-fire-burn-scar-using-false-color">Part 1. Visualizing the Thomas Fire burn scar using false color</h2>
 <p>Satellite data can be used to visualize landscapes beyond what the bare eye can see. In this section I utilize true color and false color settings to visualize the Thomas Fire burn area.</p>
 <p>Some of the technical highlights for this section include working with satellite imagery with <code>rioxr</code>, working with geospatial data with <code>geopandas</code>, and creating a map with <code>matplotlib</code>.</p>
 <section id="step-1a-set-up-my-workspace" class="level4">
@@ -484,8 +473,8 @@ Size of landsat dimensions:  {'y': 731, 'x': 870}</code></pre>
 </div>
 </section>
 </section>
-<section id="part-2.-timeseries-analysis-of-the-thomas-fires-impact-on-regional-air-quality" class="level1">
-<h1>Part 2. Timeseries Analysis of the Thomas Fire’s Impact on Regional Air Quality</h1>
+<section id="part-2.-timeseries-analysis-of-the-thomas-fires-impact-on-regional-air-quality" class="level2">
+<h2 class="anchored" data-anchor-id="part-2.-timeseries-analysis-of-the-thomas-fires-impact-on-regional-air-quality">Part 2. Timeseries Analysis of the Thomas Fire’s Impact on Regional Air Quality</h2>
 <p><img src="nasa-eo-smoke.jpg" class="img-fluid"></p>
 <p>Source: <a href="https://earthobservatory.nasa.gov/images/91421/fires-continue-to-rage-in-southern-california">NASA Earth Observatory</a></p>
 <p>In the next section, I explore the impact of the Thomas Fire on air quality using <a href="https://www.airnow.gov/aqi/aqi-basics/">Air Quality Index</a> (AQI) data. The U.S Environmental Protection Agency’s (EPA) AQI is a standard scale that measures air quality and its associated health impacts.</p>
@@ -513,8 +502,8 @@ Size of landsat dimensions:  {'y': 731, 'x': 870}</code></pre>
 <span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>aqi_18 <span class="op">=</span> pd.read_csv(<span class="st">'data/aqi/daily_aqi_by_county_2018.zip'</span>, compression<span class="op">=</span><span class="st">'zip'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="step-3c.-explore-the-data" class="level3">
-<h3 class="anchored" data-anchor-id="step-3c.-explore-the-data">Step 3C. Explore the Data</h3>
+<section id="step-2c.-explore-the-data" class="level3">
+<h3 class="anchored" data-anchor-id="step-2c.-explore-the-data">Step 2C. Explore the Data</h3>
 <p>Now that I have my data set up, I’m interested in learning more about the AQI data that I’ll be using. In the next code chunk, I explore different characteristics about my data.</p>
 <div id="ac95b84b-33a5-454d-9857-7ee8cc046f7d" class="cell" data-tags="[]" data-execution_count="15">
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Look at the head, first 5 entries, of the AQI 2017 data</span></span>
@@ -612,9 +601,8 @@ Size of landsat dimensions:  {'y': 731, 'x': 870}</code></pre>
 </div>
 </div>
 <div id="21fad2c9-07fb-4270-89da-2b0ba3d84d8e" class="cell" data-scrolled="true" data-tags="[]" data-execution_count="16">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># b.</span></span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Look at the head, first 5 entries, of the AQI 2018 data</span></span>
-<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>aqi_18.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Look at the head, first 5 entries, of the AQI 2018 data</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>aqi_18.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="16">
 <div>
 
@@ -746,7 +734,7 @@ Number of Sites Reporting     int64
 dtype: object</code></pre>
 </div>
 </div>
-<p>I’ll explain some of the results found in the data exploration above. I used <code>dtypes</code> to see the data types for the different columns. I used <code>max</code> and <code>min</code> to find the max and min AQI values for the datasets. And I used <code>value_counts</code> to find the value counts of observations that fell in the different Category Ratings</p>
+<p>In the data exploration above, I used <code>dtypes</code> to see the data types for the different columns. I also used <code>max</code> and <code>min</code> to find the maximum and minimum AQI values for the datasets. Then I used <code>value_counts</code> to find the value counts of observations that fell in the different category ratings.</p>
 </section>
 <section id="step-2d.-prepare-the-aqi-data-for-visualization" class="level3">
 <h3 class="anchored" data-anchor-id="step-2d.-prepare-the-aqi-data-for-visualization">Step 2D. Prepare the AQI data for visualization</h3>
@@ -783,7 +771,7 @@ dtype: object</code></pre>
 The column names area: ['State Name', 'county Name', 'State Code', 'County Code', 'Date', 'AQI', 'Category', 'Defining Parameter', 'Defining Site', 'Number of Sites Reporting']</code></pre>
 </div>
 </div>
-<p>Oooof! I do not like the look of the column names. Their naming convention is all over the place, with capitalizations and spaces in the column names. This can be annoying to work with, so I’ll want to tidy it up so it’s easier to work with!</p>
+<p>Oooof! I do not like the look of the column names. Their naming convention is all over the place, with all those capitalizations and spaces. This can be annoying to work with in Python, so I’ll want to tidy it up so that it’s easier to work with!</p>
 <p>I want to change my column names to <code>lower snake case</code>, a popular naming convention that uses lowercase letters and underscores to separate words.</p>
 <p>In this next code chunk, I’m going to convert the column names to <code>lower snake case</code>, a popular naming convention that uses lowercase letters and underscores to separate words. I’ll do this by selecting the columns using <code>.columns</code>, forcing all strings (text) to lower case using <code>.lower()</code>, and replacing all spaces <code>' '</code>with underscores <code>'_'</code> using <code>.replace()</code>.</p>
 <div id="03c41d43-576d-47cc-b42b-e1d050d7c9de" class="cell" data-tags="[]" data-execution_count="20">
@@ -800,7 +788,7 @@ The column names area: ['State Name', 'county Name', 'State Code', 'County Code'
 </section>
 <section id="step-2e.-subset-prepare-aqi-data-for-timeseries-visualization" class="level3">
 <h3 class="anchored" data-anchor-id="step-2e.-subset-prepare-aqi-data-for-timeseries-visualization">Step 2E. Subset &amp; prepare <code>aqi</code> data for timeseries visualization</h3>
-<p>Now that I’ve tidyd up my data, it’s time to start some wrangling! I’m going to subset <code>aqi</code> to Santa Barbara county by selecting the column where <code>'county_name'</code> is <code>Santa Barbara</code>. I also want to remove some of the column names that I won’t be using for my visualization including <code>'state_name'</code>, <code>'county_name'</code>, <code>'state_code'</code>, and <code>'county_code'</code>.</p>
+<p>Now that I’ve cleaned up my data, it’s time to start some wrangling! I’m going to subset <code>aqi</code> to Santa Barbara county by selecting the column where <code>'county_name'</code> is <code>Santa Barbara</code>. I also want to remove some of the column names that I won’t be using for my visualization including <code>'state_name'</code>, <code>'county_name'</code>, <code>'state_code'</code>, and <code>'county_code'</code>.</p>
 <div id="037150e4-e86e-446e-a271-38c9b35c58ff" class="cell" data-tags="[]" data-execution_count="21">
 <div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ---- Subset `aqi` data for visualization ----</span></span>
 <span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -821,7 +809,7 @@ The column names area: ['State Name', 'county Name', 'State Code', 'County Code'
 <pre><code>pandas.core.series.Series</code></pre>
 </div>
 </div>
-<p>Looks like it is a <code>pandas.core.series.Series</code> so I will want to update the date column to be a <code>pandas.datetime</code> object using <code>pd.to_datetime()</code>.</p>
+<p>It looks like it is a <code>pandas.core.series.Series</code>, so I will want to update the date column to be a <code>pandas.datetime</code> object using <code>pd.to_datetime()</code>.</p>
 <div id="f5233a1b-02f8-451c-ae52-1543fae25ae9" class="cell" data-execution_count="23">
 <div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Update the data column to datetime object</span></span>
 <span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>aqi.date <span class="op">=</span> pd.to_datetime(aqi.date)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -857,7 +845,7 @@ The column names area: ['State Name', 'county Name', 'State Code', 'County Code'
 Name: aqi, Length: 730, dtype: float64</code></pre>
 </div>
 </div>
-<p>Now let’s add these calculations to the <code>aqi</code> dataframe.</p>
+<p>Now, let’s add these calculations to the <code>aqi</code> dataframe.</p>
 <div id="1ea4ca81-a0f4-4736-b433-1251943fcc4e" class="cell" data-tags="[]" data-execution_count="26">
 <div class="sourceCode cell-code" id="cb35"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Add calculated rolling averages as 'five_day_average' column</span></span>
 <span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>aqi[<span class="st">"five_day_average"</span>] <span class="op">=</span> rolling_average</span>
@@ -1060,6 +1048,7 @@ Name: aqi, Length: 730, dtype: float64</code></pre>
 </div>
 <p>This is a timeseries plot of <code>aqi</code> during the Thomas Fire in Santa Barbara County with date on the x-axis and aqi (light blue) and 5-day rolling average (dark green) on the y-axis. The figure shows a distinct spike in AQI in late 2017, during the Thomas Fire which burned from December 4, 2017 through January 12, 2018. At the start of the fire, the Daily AQI spiked above “Hazardous” AQI level, 300, which warns of emergency conditions where everyone, not just senstive populations, are likely to face health effects. The figure identifies an additional brief but significant spike in Santa Barbara, where the AQI rose above 200, which the EPA ranks as ‘Very Unhealthy’; this could suggest the occurance of another fire or event that contributed to the dramatic spike.</p>
 <p>This timeseries is an effective way to tell the story of how fires can affect AQI and pose a significant risk to human health.</p>
+<p><em>That’s it for my step-by-step analysis of the Thomas Fire. I hope that you enjoyed following along!</em></p>
 </section>
 <section id="references" class="level3">
 <h3 class="anchored" data-anchor-id="references">References:</h3>
@@ -1077,12 +1066,12 @@ Name: aqi, Length: 730, dtype: float64</code></pre>
   title = {A {Step-By-Step} {Analysis} of the {Impacts} of the {Thomas}
     {Fire}},
   date = {2024-12-04},
-  url = {https://github.com/nicolelpepper/personalwebsite/2024-12-02-thomas-fire},
+  url = {https://nicolelpepper.github.io/personalwebsite/blogs/2024-12-02-thomas-fire/},
   langid = {en}
 }
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-pepper2024" class="csl-entry quarto-appendix-citeas" role="listitem">
 Pepper, Nicole. 2024. <span>“A Step-By-Step Analysis of the Impacts of
-the Thomas Fire.”</span> December 4, 2024. <a href="https://github.com/nicolelpepper/personalwebsite/2024-12-02-thomas-fire">https://github.com/nicolelpepper/personalwebsite/2024-12-02-thomas-fire</a>.
+the Thomas Fire.”</span> December 4, 2024. <a href="https://nicolelpepper.github.io/personalwebsite/blogs/2024-12-02-thomas-fire/">https://nicolelpepper.github.io/personalwebsite/blogs/2024-12-02-thomas-fire/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
