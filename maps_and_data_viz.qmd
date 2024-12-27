@@ -1,0 +1,155 @@
+---
+title: "Maps & Data Visualization"
+format:
+  html:
+    css: styles.css
+    lightbox: true
+editor_options: 
+  chunk_output_type: console
+---
+
+::: {.gallery}
+
+<!-- Colorado Terrain Map -->
+<a href="#pepper1" class="lightbox-thumbnail">
+  ![Colorado Terrain Map](data-viz/images/RM_Co_T.png){.thumbnail}
+</a>
+<div id="pepper1" class="lightbox">
+  <a href="#" class="close">X</a>
+  <a href="#pepper2" class="next">→</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="data-viz/images/RM_Co.png" alt="Terrain Map of Colorado">
+  <p>This is a terrain map of Colorado with custom color scheme, ranging from yellow, green, light blue for the highest elevation. I used a subtle 3-d, textured styling for this map, which is inspired by John Nelson's pan oblique tutorial. Designed in ArcGIS Pro.</p>
+</div>
+
+<!-- Colorado River Basin-->
+<a href="#pepper2" class="lightbox-thumbnail">
+  ![Pepper Square 2](data-viz/images/CRB_T.png){.thumbnail}
+</a>
+<div id="pepper2" class="lightbox">
+  <a href="#" class="close">X</a>
+  <a href="#pepper1" class="prev">←</a>
+  <a href="#pepper3" class="next">→</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="data-viz/images/CRB.png" alt="Yampa River Highlight in Colorado River Basin Map">
+  <p>This is a map of the Upper Colorado River Basin, with the Yampa River, a tributary of the Colorado, highlighted in the upper-right hand corner. I created this map to be used in a series of presentations and other communications regarding conservation projects led by Yampa Valley Sustainability Council. Designed in ArcGIS Pro.</p>
+</div>
+
+<!-- Upper Yampa River Topo Map -->
+<a href="#pepper3" class="lightbox-thumbnail">
+  ![Upper Yampa River Topo Map](data-viz/images/UY_T.png){.thumbnail}
+</a>
+<div id="pepper3" class="lightbox">
+  <a href="#" class="close">X</a>
+  <a href="#pepper2" class="prev">←</a>
+  <a href="#pepper4" class="next">→</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="data-viz/images/UY.png" alt="Upper Yampa River Topographic Map">
+  <p>This is a topographic map of the Upper Yampa River Basin with a contour interval of 100ft. Designed in QGIS.</p>
+</div>
+
+<!-- CA County-Level AQI -->
+<a href="#pepper4" class="lightbox-thumbnail">
+  ![CA County-Level AQI](data-viz/images/CA_AQI_T.png){.thumbnail}
+</a>
+<div id="pepper4" class="lightbox">
+  <a href="#" class="close">X</a>
+  <a href="#pepper3" class="prev">←</a>
+  <a href="#pepper5" class="next">→</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="data-viz/images/CA_AQI.png" alt="CA County-Level AQI">
+  <p>This is a map of California Counties shaded by their percentile rankings for average PM2.5 levels compared to national values. Darker orange indicates areas in the highest percentiles (80-100%), while lighter yellow represents those in the lowest percentiles (0-20%). I created this map using the US EPA's EJ Screen Data. Designed in R-Studio.</p>
+</div>
+
+
+<!-- CA County-Level Low Income -->
+<a href="#pepper5" class="lightbox-thumbnail">
+  ![CA County-Level Low Income](data-viz/images/CA_LowInc_T.png){.thumbnail}
+</a>
+<div id="pepper5" class="lightbox">
+  <a href="#" class="close">X</a>
+  <a href="#pepper4" class="prev">←</a>
+    <a href="#pepper6" class="next">→</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="data-viz/images/CA_LowInc.png" alt="CA County-Level Low Income">
+  <p>This map of California Counties is shaded by the percentage of the households with low income. Darker purple indicates areas in the highest percentages (40-50% of households), while lighter purple represents those with lower percentage (10-20% of households). I created this map using the US EPA's EJ Screen Data. Designed in R-Studio.</p>
+</div>
+
+<!-- Tulare County POC -->
+<a href="#pepper6" class="lightbox-thumbnail">
+  ![CA County-Level Low Income](data-viz/images/Tulare_POC_T.png){.thumbnail}
+</a>
+<div id="pepper6" class="lightbox">
+  <a href="#" class="close">X</a>
+  <a href="#pepper5" class="prev">←</a>
+    <a href="#pepper7" class="next">→</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="data-viz/images/Tulare_POC.png" alt="Tulare County Percent Households with People of Color">
+  <p>This map of Tulare County shows census tracts shaded by the percentage of the population that identifies as people of color. Darker blue indicates areas in the highest percentages, while lighter blue represents those with lower percentage. I created this map using the US EPA's EJ Screen Data. Designed in R-Studio.</p>
+</div>
+
+<!-- Tulare County Cancer -->
+<a href="#pepper7" class="lightbox-thumbnail">
+  ![CA County-Level Low Income](data-viz/images/Tulare_Cancer_T.png){.thumbnail}
+</a>
+<div id="pepper7" class="lightbox">
+  <a href="#" class="close">X</a>
+  <a href="#pepper6" class="prev">←</a>
+    <a href="#pepper8" class="next">→</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="data-viz/images/Tulare_Cancer.png" alt="Tulare County Percent Cancer Rate">
+  <p>This map of Tulare County shows census tracts shaded by their percentile rankings for cancer risk compared to national values. Darker green indicates areas in the highest percentiles (80-100%), while lighter green represents those in the lowest percentiles (0-20%). I created this map using the US EPA's EJ Screen Data. Designed in R-Studio.</p>
+</div>
+
+<!-- Routt County Map -->
+<a href="#pepper8" class="lightbox-thumbnail">
+  ![Routt County Map](data-viz/images/RC_T.png){.thumbnail}
+</a>
+<div id="pepper8" class="lightbox">
+  <a href="#" class="close">X</a>
+  <a href="#pepper7" class="prev">←</a>
+    <a href="#pepper9" class="next">→</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="data-viz/images/RC_T.png" alt="CA County-Level AQI">
+  <p>This is a map of Routt County, Colorado. This was designed to be used in presentations and other communications for Yampa Valley Sustainability Council. Designed in ArcGIS Pro.</p>
+</div>
+
+<!-- HOLC -->
+<a href="#pepper9" class="lightbox-thumbnail">
+  ![LA Redlining Map](data-viz/images/HOLC_T.png){.thumbnail}
+</a>
+<div id="pepper9" class="lightbox">
+  <a href="#" class="close">X</a>
+  <a href="#pepper8" class="prev">←</a>
+    <a href="#pepper10" class="next">→</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="data-viz/images/HOLC.png" alt="Los Angeles Historic Redlining Map">
+  <p>The above map displays the Home Owners’ Loan Corporation (HOLC) Grades, also known as redlining, in Los Angeles, California. Historically, these boundaries were used by mortgage lenders to identify ‘hazardous’ or high risk areas predominately made up of black and minority populations, as well as low income areas, to avoid for lending. Practices like redlining are a clear illustration of systemic racism and the enduring legacy of slavery. Impacts from redlining are still being felt today, this analysis will explore how current demographic and environmental conditions may be influenced by historic redlining practices. Designed In R-Studio.</p>
+</div>
+
+<!-- Power Outage -->
+<a href="#pepper10" class="lightbox-thumbnail">
+  ![LA Redlining Map](data-viz/images/outage_t.png){.thumbnail}
+</a>
+<div id="pepper10" class="lightbox">
+  <a href="#" class="close">X</a>
+  <a href="#pepper9" class="prev">←</a>
+    <a href="#pepper11" class="next">→</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="data-viz/images/outage.gif" alt="Power Outage Animation" loop="true">
+  <p>This animation shows a map of Houston's night light intensity on a typical night before the storm (February 7, 2023), compared to night light intensity after the storm (Feb 16, 2023), when the Houston region in Texas experienced widespread power outages. The night light intensity ranges from no light (dark blue), to pink (mid light intensity), to yellow (highest light intensity). Designed In R-Studio.</p>
+</div>
+
+<!-- Routt County Average Precip -->
+<a href="#pepper11" class="lightbox-thumbnail">
+  ![Routt County Average Precip](data-viz/images/AvgPrecip_T.png){.thumbnail}
+</a>
+<div id="pepper11" class="lightbox">
+  <a href="#" class="close">X</a>
+  <a href="#pepper10" class="prev">←</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="data-viz/images/AvgPrecip.png" alt="Pepper Headshot 3">
+  <p>This is a map of average total annual precipitation in Northwestern Colorado from 1991 - 2020. Precipitation values range from orange (8 inches per year) to dark blue (72 inches per year). It was created using data from PRISM Climate Group at Oregon State University. Designedin ArcGIS Pro.
+.</p>
+</div>
+:::

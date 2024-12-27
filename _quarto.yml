@@ -9,9 +9,8 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - href: resources.qmd
-        text: Resources
+      - href: maps_and_data_viz.qmd
+        text: Maps & Data Viz
       - href: blogs.qmd
         text: Blogs
 
