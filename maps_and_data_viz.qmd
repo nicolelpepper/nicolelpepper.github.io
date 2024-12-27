@@ -8,6 +8,11 @@ editor_options:
   chunk_output_type: console
 ---
 
+
+
+
+*Check out some of the maps that I've created.*
+
 ::: {.gallery}
 
 <!-- Colorado Terrain Map -->
