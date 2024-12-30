@@ -1,10 +1,11 @@
 /* css styles */
 
+
 /* Gallery Layout */
 .gallery {
   display: grid; /* Use grid layout */
   grid-template-columns: repeat(4, 1fr); /* 4 columns on desktop */
-  gap: 15px; /* Space between images */
+  gap: 10px; /* Space between images */
   justify-items: center; /* Center items horizontally */
   width: 100%; /* Ensure gallery takes up full width */
   padding: 0; /* Remove any padding around the gallery */
@@ -94,7 +95,7 @@
   z-index: 2; /* Ensure the description is on top of the overlay */
 }
 /* Show lightbox when targeted */
-#pepper1:target, #pepper2:target, #pepper3:target, #pepper4:target, #pepper5:target, #pepper6:target, #pepper7:target, #pepper8:target, #pepper9:target, #pepper10:target, #pepper11:target{
+#pepper1:target, #pepper2:target, #pepper3:target, #pepper4:target, #pepper5:target, #pepper6:target, #pepper7:target, #pepper8:target, #pepper9:target, #pepper10:target, #pepper11:target, #pepper12:target{
   display: flex; /* Display the lightbox when the image is targeted */
 }
 

@@ -4,14 +4,18 @@ format:
   html:
     css: styles.css
     lightbox: true
+    page-layout: full
+    grid: 
+      body-width: 2000px
+      sidebar-width: 200px
+      margin-width: 200px
 editor_options: 
   chunk_output_type: console
 ---
 
-
-
-
 *Check out some of the maps that I've created.*
+
+# Maps
 
 ::: {.gallery}
 
@@ -53,108 +57,145 @@ editor_options:
   <p>This is a topographic map of the Upper Yampa River Basin with a contour interval of 100ft. Designed in QGIS.</p>
 </div>
 
-<!-- CA County-Level AQI -->
+<!-- Routt County Map -->
 <a href="#pepper4" class="lightbox-thumbnail">
-  ![CA County-Level AQI](data-viz/images/CA_AQI_T.png){.thumbnail}
+  ![Routt County Map](data-viz/images/RC_T.png){.thumbnail}
 </a>
 <div id="pepper4" class="lightbox">
   <a href="#" class="close">X</a>
   <a href="#pepper3" class="prev">←</a>
-  <a href="#pepper5" class="next">→</a>
+    <a href="#pepper5" class="next">→</a>
   <div class="overlay"></div> <!-- Overlay Background -->
-  <img src="data-viz/images/CA_AQI.png" alt="CA County-Level AQI">
-  <p>This is a map of California Counties shaded by their percentile rankings for average PM2.5 levels compared to national values. Darker orange indicates areas in the highest percentiles (80-100%), while lighter yellow represents those in the lowest percentiles (0-20%). I created this map using the US EPA's EJ Screen Data. Designed in R-Studio.</p>
+  <img src="data-viz/images/RC_T.png" alt="CA County-Level AQI">
+  <p>This is a map of Routt County, Colorado. This was designed to be used in presentations and other communications for Yampa Valley Sustainability Council. Designed in ArcGIS Pro.</p>
 </div>
 
-
-<!-- CA County-Level Low Income -->
+<!-- Upper Yampa Basin -->
 <a href="#pepper5" class="lightbox-thumbnail">
-  ![CA County-Level Low Income](data-viz/images/CA_LowInc_T.png){.thumbnail}
+  ![Upper Yampa River Basin](data-viz/images/UYB_T.png){.thumbnail}
 </a>
 <div id="pepper5" class="lightbox">
   <a href="#" class="close">X</a>
   <a href="#pepper4" class="prev">←</a>
     <a href="#pepper6" class="next">→</a>
   <div class="overlay"></div> <!-- Overlay Background -->
-  <img src="data-viz/images/CA_LowInc.png" alt="CA County-Level Low Income">
-  <p>This map of California Counties is shaded by the percentage of the households with low income. Darker purple indicates areas in the highest percentages (40-50% of households), while lighter purple represents those with lower percentage (10-20% of households). I created this map using the US EPA's EJ Screen Data. Designed in R-Studio.</p>
+  <img src="data-viz/images/UYB.png" alt="Upper Yampa River Basin" loop="true">
+  <p>This is a map of weather and climate monitoring stations in the Upper Yampa River Basin. It was designed for Yampa Valley Sustainability Council in support of their Y-Basin Monitoring Network design. Designed In ArcGIS Pro.</p>
 </div>
 
-<!-- Tulare County POC -->
+<!-- Routt County Average Precip -->
 <a href="#pepper6" class="lightbox-thumbnail">
-  ![CA County-Level Low Income](data-viz/images/Tulare_POC_T.png){.thumbnail}
+  ![Routt County Average Precip](data-viz/images/AvgPrecip_T.png){.thumbnail}
 </a>
 <div id="pepper6" class="lightbox">
   <a href="#" class="close">X</a>
   <a href="#pepper5" class="prev">←</a>
-    <a href="#pepper7" class="next">→</a>
+  <a href="#pepper7" class="next">→</a>
   <div class="overlay"></div> <!-- Overlay Background -->
-  <img src="data-viz/images/Tulare_POC.png" alt="Tulare County Percent Households with People of Color">
-  <p>This map of Tulare County shows census tracts shaded by the percentage of the population that identifies as people of color. Darker blue indicates areas in the highest percentages, while lighter blue represents those with lower percentage. I created this map using the US EPA's EJ Screen Data. Designed in R-Studio.</p>
+  <img src="data-viz/images/AvgPrecip.png" alt="Pepper Headshot 3">
+  <p>This is a map of average total annual precipitation in Northwestern Colorado from 1991 - 2020. Precipitation values range from orange (8 inches per year) to dark blue (72 inches per year). It was created using data from PRISM Climate Group at Oregon State University. Designedin ArcGIS Pro.
+.</p>
 </div>
 
-<!-- Tulare County Cancer -->
+<!-- CA County-Level AQI -->
 <a href="#pepper7" class="lightbox-thumbnail">
-  ![CA County-Level Low Income](data-viz/images/Tulare_Cancer_T.png){.thumbnail}
+  ![CA County-Level AQI](data-viz/images/CA_AQI_T.png){.thumbnail}
 </a>
 <div id="pepper7" class="lightbox">
   <a href="#" class="close">X</a>
   <a href="#pepper6" class="prev">←</a>
-    <a href="#pepper8" class="next">→</a>
+  <a href="#pepper8" class="next">→</a>
   <div class="overlay"></div> <!-- Overlay Background -->
-  <img src="data-viz/images/Tulare_Cancer.png" alt="Tulare County Percent Cancer Rate">
-  <p>This map of Tulare County shows census tracts shaded by their percentile rankings for cancer risk compared to national values. Darker green indicates areas in the highest percentiles (80-100%), while lighter green represents those in the lowest percentiles (0-20%). I created this map using the US EPA's EJ Screen Data. Designed in R-Studio.</p>
+  <img src="data-viz/images/CA_AQI.png" alt="CA County-Level AQI">
+  <p>This is a map of California Counties shaded by their percentile rankings for average PM2.5 levels compared to national values. Darker orange indicates areas in the highest percentiles (80-100%), while lighter yellow represents those in the lowest percentiles (0-20%). I created this map using the US EPA's EJ Screen Data. Designed in R-Studio.</p>
 </div>
 
-<!-- Routt County Map -->
+<!-- CA County-Level Low Income -->
 <a href="#pepper8" class="lightbox-thumbnail">
-  ![Routt County Map](data-viz/images/RC_T.png){.thumbnail}
+  ![CA County-Level Low Income](data-viz/images/CA_LowInc_T.png){.thumbnail}
 </a>
 <div id="pepper8" class="lightbox">
   <a href="#" class="close">X</a>
   <a href="#pepper7" class="prev">←</a>
     <a href="#pepper9" class="next">→</a>
   <div class="overlay"></div> <!-- Overlay Background -->
-  <img src="data-viz/images/RC_T.png" alt="CA County-Level AQI">
-  <p>This is a map of Routt County, Colorado. This was designed to be used in presentations and other communications for Yampa Valley Sustainability Council. Designed in ArcGIS Pro.</p>
+  <img src="data-viz/images/CA_LowInc.png" alt="CA County-Level Low Income">
+  <p>This map of California Counties is shaded by the percentage of the households with low income. Darker purple indicates areas in the highest percentages (40-50% of households), while lighter purple represents those with lower percentage (10-20% of households). I created this map using the US EPA's EJ Screen Data. Designed in R-Studio.</p>
 </div>
 
-<!-- HOLC -->
+<!-- Tulare County POC -->
 <a href="#pepper9" class="lightbox-thumbnail">
-  ![LA Redlining Map](data-viz/images/HOLC_T.png){.thumbnail}
+  ![CA County-Level Low Income](data-viz/images/Tulare_POC_T.png){.thumbnail}
 </a>
 <div id="pepper9" class="lightbox">
   <a href="#" class="close">X</a>
   <a href="#pepper8" class="prev">←</a>
     <a href="#pepper10" class="next">→</a>
   <div class="overlay"></div> <!-- Overlay Background -->
-  <img src="data-viz/images/HOLC.png" alt="Los Angeles Historic Redlining Map">
-  <p>The above map displays the Home Owners’ Loan Corporation (HOLC) Grades, also known as redlining, in Los Angeles, California. Historically, these boundaries were used by mortgage lenders to identify ‘hazardous’ or high risk areas predominately made up of black and minority populations, as well as low income areas, to avoid for lending. Practices like redlining are a clear illustration of systemic racism and the enduring legacy of slavery. Impacts from redlining are still being felt today, this analysis will explore how current demographic and environmental conditions may be influenced by historic redlining practices. Designed In R-Studio.</p>
+  <img src="data-viz/images/Tulare_POC.png" alt="Tulare County Percent Households with People of Color">
+  <p>This map of Tulare County shows census tracts shaded by the percentage of the population that identifies as people of color. Darker blue indicates areas in the highest percentages, while lighter blue represents those with lower percentage. I created this map using the US EPA's EJ Screen Data. Designed in R-Studio.</p>
 </div>
 
-<!-- Power Outage -->
+<!-- Tulare County Cancer -->
 <a href="#pepper10" class="lightbox-thumbnail">
-  ![LA Redlining Map](data-viz/images/outage_t.png){.thumbnail}
+  ![CA County-Level Low Income](data-viz/images/Tulare_Cancer_T.png){.thumbnail}
 </a>
 <div id="pepper10" class="lightbox">
   <a href="#" class="close">X</a>
   <a href="#pepper9" class="prev">←</a>
     <a href="#pepper11" class="next">→</a>
   <div class="overlay"></div> <!-- Overlay Background -->
-  <img src="data-viz/images/outage.gif" alt="Power Outage Animation" loop="true">
-  <p>This animation shows a map of Houston's night light intensity on a typical night before the storm (February 7, 2023), compared to night light intensity after the storm (Feb 16, 2023), when the Houston region in Texas experienced widespread power outages. The night light intensity ranges from no light (dark blue), to pink (mid light intensity), to yellow (highest light intensity). Designed In R-Studio.</p>
+  <img src="data-viz/images/Tulare_Cancer.png" alt="Tulare County Percent Cancer Rate">
+  <p>This map of Tulare County shows census tracts shaded by their percentile rankings for cancer risk compared to national values. Darker green indicates areas in the highest percentiles (80-100%), while lighter green represents those in the lowest percentiles (0-20%). I created this map using the US EPA's EJ Screen Data. Designed in R-Studio.</p>
 </div>
 
-<!-- Routt County Average Precip -->
+<!-- HOLC -->
 <a href="#pepper11" class="lightbox-thumbnail">
-  ![Routt County Average Precip](data-viz/images/AvgPrecip_T.png){.thumbnail}
+  ![LA Redlining Map](data-viz/images/HOLC_T.png){.thumbnail}
 </a>
 <div id="pepper11" class="lightbox">
   <a href="#" class="close">X</a>
   <a href="#pepper10" class="prev">←</a>
+    <a href="#pepper12" class="next">→</a>
   <div class="overlay"></div> <!-- Overlay Background -->
-  <img src="data-viz/images/AvgPrecip.png" alt="Pepper Headshot 3">
-  <p>This is a map of average total annual precipitation in Northwestern Colorado from 1991 - 2020. Precipitation values range from orange (8 inches per year) to dark blue (72 inches per year). It was created using data from PRISM Climate Group at Oregon State University. Designedin ArcGIS Pro.
-.</p>
+  <img src="data-viz/images/HOLC.png" alt="Los Angeles Historic Redlining Map">
+  <p>The above map displays the Home Owners’ Loan Corporation (HOLC) Grades, also known as redlining, in Los Angeles, California. Historically, these boundaries were used by mortgage lenders to identify ‘hazardous’ or high risk areas predominately made up of black and minority populations, as well as low income areas, to avoid for lending. Practices like redlining are a clear illustration of systemic racism and the enduring legacy of slavery. Impacts from redlining are still being felt today, this analysis will explore how current demographic and environmental conditions may be influenced by historic redlining practices. Designed In R-Studio.</p>
 </div>
+
+<!-- Power Outage -->
+<a href="#pepper12" class="lightbox-thumbnail">
+  ![LA Redlining Map](data-viz/images/outage_t.png){.thumbnail}
+</a>
+<div id="pepper12" class="lightbox">
+  <a href="#" class="close">X</a>
+  <a href="#pepper11" class="prev">←</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="data-viz/images/outage.gif" alt="Power Outage Animation" loop="true">
+  <p>This animation shows a map of Houston's night light intensity on a typical night before the storm (February 7, 2023), compared to night light intensity after the storm (Feb 16, 2023), when the Houston region in Texas experienced widespread power outages. The night light intensity ranges from no light (dark blue), to pink (mid light intensity), to yellow (highest light intensity). Designed In R-Studio.</p>
+</div>
+
 :::
+
+# Videos
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_ZTy_mGe_C4" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+</iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nVpTotBmR_4" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+</iframe>
+
+
+<section>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wQ2_gD0nuNo" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+</iframe>
+
+<embed src="https://yvsc.github.io/YVClimateCrewProjects/" width="100%" height="800" frameborder="0" allowfullscreen allow="geolocation"></embed>
