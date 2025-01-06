@@ -16,7 +16,8 @@ $sky: #3498db;
 $clouds: #f1fdffff;
 $grass: #9CB8AE;
 $corn: #FFC745;
-$avocado: #007A78;
+$otter: #007A78;
+$avocado: #75A744;
 $ocean: #063840;
 $evergreen: #002E2C;
 
@@ -25,7 +26,7 @@ $evergreen: #002E2C;
 $body-bg: $clouds;
 $navbar-bg: $ocean;
 $navbar-fd: $sky;
-$navbar-hl: $corn;
+$navbar-hl: $avocado;
 
 /*-- scss:rules --*/
 
@@ -60,6 +61,6 @@ h1, h2 {
 }
 
 .navbar-brand {
-  max-height: 60px;
+  max-height: 100px;
   width: auto;
 }

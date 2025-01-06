@@ -4,7 +4,7 @@ image: images/Pepper_Headshot.jpeg
 about:
   template: trestles
   image-shape: rounded
-  image-width: 15em
+  image-width: 16em
   links:
     - icon: github
       text: Github
@@ -26,10 +26,10 @@ I'm Nicole Pepper, a graduate student at the University of California, Santa Bar
 
 ### Education
 
-**University of California Santa Barbara** *Masters in Environmental Data Science* (Expected June 2025)
+**University of California Santa Barbara, Bren School of Environmental Science & Management** *Masters in Environmental Data Science* (Expected June 2025)
 
 
-**University of California Los Angeles** *B.A in Geography and Environmental Studies, Minor in Geospatial Information Systems & Technology* (June 2018)
+**University of California Los Angeles** *B.A. in Geography and Environmental Studies, Minor in Geospatial Information Systems & Technology* (June 2018)
 
 ### Professional Experience
 
@@ -38,3 +38,16 @@ I'm Nicole Pepper, a graduate student at the University of California, Santa Bar
 **Colorado Mountain College** *GIS Teaching Assistant and Tutor* (April 2020 - June 2024)
 
 **Yampa Valley Sustainability Council** *Geospatial Analyst & Internship Program Manager* (April 2020 - May 2023)
+
+### Skills
+
+**GIS & Data Science:**
+
+- **Programming Languages:** Python, R, JavaScript, BASH, Markdown
+- **Software:** ESRI Suite Products (ArcGIS Pro, ArcGIS Online, & others), QGIS, RStudio, Visual Studio Code, Google Earth Engine
+
+**Graphic Design & Production:**
+
+- **Graphic Design:** Adobe Illustrator, Canva
+- **Video & Audio Production:** Adobe Premiere Pro
+- **Web Design:** Wordpress, SquareSpace, GitHub Pages, Quarto Markdown Websites
