@@ -9,7 +9,7 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: maps_and_data_viz.qmd
+      - href: portfolio.qmd
         text: Portfolio
       - href: blogs.qmd
         text: Blogs
