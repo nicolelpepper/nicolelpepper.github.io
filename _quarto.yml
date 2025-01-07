@@ -10,7 +10,7 @@ website:
       - href: index.qmd
         text: Home
       - href: maps_and_data_viz.qmd
-        text: Maps & Data Viz
+        text: Portfolio
       - href: blogs.qmd
         text: Blogs
 

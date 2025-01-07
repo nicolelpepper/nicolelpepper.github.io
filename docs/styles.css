@@ -1,15 +1,12 @@
-/* css styles */
-
-
-/* Gallery Layout */
+/* Unified Gallery Layout (Grid) */
 .gallery {
-  display: grid; /* Use grid layout */
-  grid-template-columns: repeat(4, 1fr); /* 4 columns on desktop */
-  gap: 10px; /* Space between images */
-  justify-items: center; /* Center items horizontally */
-  width: 100%; /* Ensure gallery takes up full width */
-  padding: 0; /* Remove any padding around the gallery */
-  margin: 0; /* Remove any margin around the gallery */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Set 5 items per row */
+  gap: 15px;
+  justify-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* For screens smaller than 768px (mobile) */
@@ -32,13 +29,6 @@
 .thumbnail:hover {
   transform: scale(1.05); /* Slight zoom effect on hover */
 }
-/* Gallery Layout */
-.gallery {
-  display: flex;
-  flex-wrap: wrap; /* Wrap thumbnails to the next line */
-  gap: 15px; /* Spacing between thumbnails */
-  justify-content: center; /* Center align thumbnails */
-}
 
 /* Lightbox Styling */
 .lightbox {
@@ -48,7 +38,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 9999;
+  z-index: 9999; /* Keep lightbox above content */
   text-align: center;
   padding: 20px;
   justify-content: center;
@@ -58,15 +48,16 @@
 
 /* Description Styling */
 .lightbox p {
-  text-align: left;  /* Left-align the description text */
-  max-width: 30%;    /* Set the max width to 30% of the page width */
-  margin: 20px;      /* Add some margin around the description */
-  font-size: 16px;   /* Adjust font size as needed */
-  line-height: 1.5;  /* Improve readability */
-  color: white;      /* Set text color to white */
-  background: rgba(0, 0, 0, 0.5);  /* Optional: semi-transparent background for readability */
-  padding: 10px;     /* Padding around the description text */
-  border-radius: 5px; /* Optional: rounded corners for the background */
+  text-align: left;
+  max-width: 30%;
+  margin: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 3; /* Ensure description is above overlay */
 }
 
 /* Lightbox Background Overlay */
@@ -77,14 +68,14 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.9); /* Dark overlay */
-  z-index: 1; /* Position the overlay behind the image */
+  z-index: 1;
 }
 
 /* Image Styling in Lightbox */
 .lightbox img {
   max-width: 80%;
   max-height: 80%;
-  z-index: 2; /* Ensure the image is on top of the overlay */
+  z-index: 3; /* Ensure the image is on top of the overlay */
 }
 
 /* Lightbox Description Styling */
@@ -92,27 +83,28 @@
   color: #f1fdffff;
   font-size: 18px;
   margin-top: 10px;
-  z-index: 2; /* Ensure the description is on top of the overlay */
+  z-index: 3; /* Ensure the description is on top of the overlay */
 }
+
 /* Show lightbox when targeted */
-#pepper1:target, #pepper2:target, #pepper3:target, #pepper4:target, #pepper5:target, #pepper6:target, #pepper7:target, #pepper8:target, #pepper9:target, #pepper10:target, #pepper11:target, #pepper12:target{
-  display: flex; /* Display the lightbox when the image is targeted */
+#map1:target, #map2:target, #map3:target, #map4:target, #map5:target, #map6:target, #map7:target, #map8:target, #map9:target, #map10:target, #map11:target, #map12:target, #info1:target, #info2:target, #info3:target, #info4:target, #info5:target {
+  display: flex;
 }
 
 /* Close Button Styling (perfect circle) */
 .close {
   position: absolute;
-  top: 80px; /* Adjust this to move it down below the toolbar */
-  right: 10px; /* Keep it in the top-right corner */
-  width: 40px; /* Make it a perfect circle */
-  height: 40px; /* Make it a perfect circle */
-  font-size: 24px; /* Adjust size of the 'X' */
+  top: 80px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
   color: white;
-  background: rgba(0, 0, 0, 0.5);  /* Dark background with some transparency */
+  background: rgba(0, 0, 0, 0.5);
   padding: 10px;
-  border-radius: 50%; /* Ensure it's a circle */
+  border-radius: 50%;
   cursor: pointer;
-  z-index: 3; /* Ensure it's on top of other elements */
+  z-index: 3;
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -121,21 +113,21 @@
 
 /* Close Button Hover */
 .close:hover {
-  background-color: rgba(0, 0, 0, 0.8);  /* Darker background on hover */
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Navigation Arrows (Left and Right) - perfect circles */
+/* Navigation Arrows (Left and Right) */
 .next, .prev {
   position: absolute;
-  top: 50%; /* Vertically center the arrows */
+  top: 50%;
   transform: translateY(-50%);
-  width: 40px; /* Make it a perfect circle */
-  height: 40px; /* Make it a perfect circle */
-  font-size: 24px; /* Adjust size of the arrow */
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
   color: white;
-  background: rgba(0, 0, 0, 0.5);  /* Dark background with some transparency */
+  background: rgba(0, 0, 0, 0.5);
   padding: 10px;
-  border-radius: 50%; /* Ensure it's a circle */
+  border-radius: 50%;
   cursor: pointer;
   z-index: 2;
   text-decoration: none;
@@ -144,17 +136,43 @@
   align-items: center;
 }
 
+.lightbox.active embed {
+  z-index: 300;
+}
+
+.lightbox.active .overlay {
+  display: block;
+}
+
+embed {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 80vh;
+  border: none;
+}
+
 /* Next/Previous Arrow Hover */
 .next:hover, .prev:hover {
-  background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .next {
-  right: 10px; /* Position next arrow to the right */
+  right: 10px;
 }
 
 .prev {
-  left: 10px; /* Position previous arrow to the left */
+  left: 10px;
 }
 
+/* Table of Contents (TOC) Sidebar */
+.toc-sidebar {
+  display: block; /* Default TOC display */
+  z-index: 10; /* Ensure TOC is below the lightbox */
+}
+
+/* Hide TOC when lightbox is active */
+.toc-hidden {
+  display: none; /* Class to hide TOC */
 }
