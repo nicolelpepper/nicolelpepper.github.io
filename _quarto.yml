@@ -16,7 +16,7 @@ website:
 
   page-footer: 
     background: light
-    left: Copyright 2021, Nicole Pepper
+    left: Copyright 2025, Nicole Pepper
     right: This website was built with {{< fa brands github title='GitHub' >}}
   
 format:
