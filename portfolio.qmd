@@ -28,7 +28,7 @@ editor_options:
   <a href="#map2" class="next">→</a>
   <div class="overlay"></div> <!-- Overlay Background -->
   <img src="images/portfolio/RM_Co.png" alt="Terrain Map of Colorado">
-  <p>This is a terrain map of Colorado with custom color scheme, ranging from yellow, green, light blue for the highest elevation. I used a subtle 3-d, textured styling for this map, which is inspired by John Nelson's pan oblique tutorial. Designed in ArcGIS Pro.</p>
+  <p>This is a terrain map of Colorado with a custom color scheme, ranging from yellow, green, to light blue for the highest elevation. I used a subtle 3-d, textured styling for this map, which is inspired by John Nelson's pan oblique tutorial. Designed in ArcGIS Pro.</p>
 </div>
 
 <!-- Colorado River Basin-->
@@ -93,7 +93,7 @@ editor_options:
   <a href="#map7" class="next">→</a>
   <div class="overlay"></div> <!-- Overlay Background -->
   <img src="images/portfolio/AvgPrecip.png" alt="Pepper Headshot 3">
-  <p>This is a map of average total annual precipitation in Northwestern Colorado from 1991 - 2020. Precipitation values range from orange (8 inches per year) to dark blue (72 inches per year). It was created using data from PRISM Climate Group at Oregon State University. Designedin ArcGIS Pro.
+  <p>This is a map of the average total annual precipitation in Northwestern Colorado from 1991 - 2020. Precipitation values range from orange (8 inches per year) to dark blue (72 inches per year). It was created using data from PRISM Climate Group at Oregon State University. Designed in ArcGIS Pro.
 .</p>
 </div>
 
@@ -107,7 +107,7 @@ editor_options:
   <a href="#map8" class="next">→</a>
   <div class="overlay"></div> <!-- Overlay Background -->
   <img src="images/portfolio/CA_AQI.png" alt="CA County-Level AQI">
-  <p>This is a map of California Counties shaded by their percentile rankings for average PM2.5 levels compared to national values. Darker orange indicates areas in the highest percentiles (80-100%), while lighter yellow represents those in the lowest percentiles (0-20%). I created this map using the US EPA's EJ Screen Data. Designed in R-Studio.</p>
+  <p>This is a map of California Counties shaded by their percentile rankings for average PM 2.5 levels compared to national values. Darker orange indicates areas in the highest percentiles (80-100%), while lighter yellow represents those in the lowest percentiles (0-20%). I created this map using the US EPA's EJ Screen Data. Designed in R-Studio.</p>
 </div>
 
 <!-- CA County-Level Low Income -->
@@ -159,7 +159,7 @@ editor_options:
     <a href="#map12" class="next">→</a>
   <div class="overlay"></div> <!-- Overlay Background -->
   <img src="images/portfolio/HOLC.png" alt="Los Angeles Historic Redlining Map">
-  <p>The above map displays the Home Owners’ Loan Corporation (HOLC) Grades, also known as redlining, in Los Angeles, California. Historically, these boundaries were used by mortgage lenders to identify ‘hazardous’ or high risk areas predominately made up of black and minority populations, as well as low income areas, to avoid for lending. Practices like redlining are a clear illustration of systemic racism and the enduring legacy of slavery. Impacts from redlining are still being felt today, this analysis will explore how current demographic and environmental conditions may be influenced by historic redlining practices. Designed In R-Studio.</p>
+  <p>The above map displays the Home Owners’ Loan Corporation (HOLC) Grades, also known as redlining, in Los Angeles, California. Historically, these boundaries were used by mortgage lenders to identify ‘hazardous’ or high risk areas predominately made up of black and minority populations, as well as low income areas, to avoid for mortgage lending. Practices like redlining are a clear illustration of systemic racism and the enduring legacy of slavery. Impacts from redlining are still being felt today. Designed In R-Studio.</p>
 </div>
 
 <!-- Power Outage -->
