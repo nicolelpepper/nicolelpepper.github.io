@@ -48,6 +48,6 @@ I'm Nicole Pepper, a graduate student at the University of California, Santa Bar
 
 **Graphic Design & Production:**
 
-- **Graphic Design:** Adobe Illustrator, Canva
+- **Graphic Design:** Adobe Illustrator, Affinity, Canva
 - **Video & Audio Production:** Adobe Premiere Pro
 - **Web Design:** Wordpress, SquareSpace, GitHub Pages, Quarto Markdown Websites

@@ -87,7 +87,7 @@
 }
 
 /* Show lightbox when targeted */
-#map1:target, #map2:target, #map3:target, #map4:target, #map5:target, #map6:target, #map7:target, #map8:target, #map9:target, #map10:target, #map11:target, #map12:target, #info1:target, #info2:target, #info3:target, #info4:target, #info5:target {
+#map1:target, #map2:target, #map3:target, #map4:target, #map5:target, #map6:target, #map7:target, #map8:target, #map9:target, #map10:target, #map11:target, #map12:target, #dv1:target, #dv2:target,#dv3:target, #info1:target, #info2:target, #info3:target, #info4:target, #info5:target, #info6:target {
   display: flex;
 }
 
