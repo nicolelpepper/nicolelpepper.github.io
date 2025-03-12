@@ -72,7 +72,7 @@ I'm especially proud of the salmon population over time data viz, which was the 
 
 
 Here is my infographic "An Upstream Battle" - I hope that you enjoy!
-![](images/an-upstream-battle.png){fig-align="center" width="100%"}
+![](images/an-upstream-battle.png){fig-align="left" width="80%"}
 
 
 # Workflow
@@ -202,7 +202,7 @@ ggplot() +
         )
 
 ```
-![](outputs/habitat-map.png){fig-align="center" width="100%"}
+![](outputs/habitat-map.png){fig-align="left" width="60%"}
 
 
 ```{r}
@@ -246,7 +246,7 @@ ggplot(pop_prop, aes(x = 2,
     legend.position = "none"
   ) 
 ```
-![](outputs/pop-plot.png){fig-align="center" width="100%"}
+![](outputs/pop-plot.png){fig-align="left" width="60%"}
 
 
 ```{r}
@@ -292,7 +292,7 @@ ggplot(pop_prop, aes(x = 2,
     legend.position = "none"
   ) 
 ```
-![](outputs/habitat-plot.png){fig-align="center" width="100%"}
+![](outputs/habitat-plot.png){fig-align="left" width="60%"}
 
 
 ```{r,fig.asp=.5, out.width="100%"}
@@ -417,7 +417,7 @@ ggplot(data = winter_salmon,
         )
     
 ```
-![](outputs/population-plot.png){fig-align="center" width="100%"}
+![](outputs/population-plot.png){fig-align="left" width="60%"}
 
 ```{r, fig.asp=1.5, out.width="100%"}
 #| code-summary: "Create Heatmap of River Temperature Over Time"
@@ -488,7 +488,7 @@ ggplot(daily_avg_temp_kes20,
         legend.position = "top",
         legend.justification = c(1, 1))
 ```
-![](outputs/heatmap.png){fig-align="center" width="100%"}
+![](outputs/heatmap.png){fig-align="left" width="60%"}
 
 ```{r}
 #| code-summary: "Create Stacked Bar Chart Showing Proportion of Spawning Season Days That Met Temp Theshold"
@@ -561,11 +561,11 @@ ggplot(spawning_exceedance, aes(y = factor(year,
         legend.position = "none")
 
 ```
-![](outputs/temp-prop-plot.png){fig-align="center" width="100%"}
+![](outputs/temp-prop-plot.png){fig-align="left" width="60%"}
 
 
 # Final Infographic:
-![](images/an-upstream-battle.png){fig-align="center" width="100%"}
+![](images/an-upstream-battle.png){fig-align="left" width="80%"}
 
 
 
