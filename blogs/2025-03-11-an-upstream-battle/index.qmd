@@ -72,7 +72,7 @@ I'm especially proud of the salmon population over time data viz, which was the 
 
 
 Here is my infographic "An Upstream Battle" - I hope that you enjoy!
-![](images/an-upstream-battle.png){fig-align="left" width="80%"}
+![](images/an-upstream-battle.png){fig-align="left" width="70%"}
 
 
 # Workflow
@@ -202,7 +202,7 @@ ggplot() +
         )
 
 ```
-![](outputs/habitat-map.png){fig-align="left" width="60%"}
+![](outputs/habitat-map.png){fig-align="left" width="50%"}
 
 
 ```{r}
@@ -565,7 +565,7 @@ ggplot(spawning_exceedance, aes(y = factor(year,
 
 
 # Final Infographic:
-![](images/an-upstream-battle.png){fig-align="left" width="80%"}
+![](images/an-upstream-battle.png){fig-align="left" width="70%"}
 
 
 
