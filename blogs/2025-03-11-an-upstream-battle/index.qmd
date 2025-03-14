@@ -23,7 +23,7 @@ Winter-Run Chinook salmon, found only in California's Upper Sacramento River Val
 
 Every year from November to August, winter-run Chinook, embark on an upstream journey from the San Francisco Bay to the upper Sacramento River Valley. Today, salmon travel as far north as [Keswick Dam](https://www.google.com/maps?sca_esv=8ca7c5c78d795a81&output=search&q=keswick+dam&source=lnms&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpIgVFCTcbZI9VMGzNoV0iOZkckJJygdiLH6_g992ly-N3ZhTu1MHW3iZwH0a8xO8HT5cXYWFWHd5GFYF_JIB7CqYuKL48e-cysAxF4wlrCT3LikHJ_W-hUikuzKYcfDCyX2eLsZjb0U42rho0jS-HH_FqAxzySx8O0w7rx8Lx3DOoDF3IyHwPXISO7l2u8Ix-gnQ-4Q&entry=mc&ved=1t:200715&ictx=111), which completely blocks access to their historic spawning grounds. In the early 1990s winter-run Chinook narrowly escaped extinction. Their persistent battle to survive has inspired my infographic, *"An Upstream Battle for Winter-Run Chinook in California"*. 
 
-![](images/an-upstream-battle-small.png){fig-align="left" width="70%"}
+![](images/an-upstream-battle-small.png){fig-align="left" width="60%"}
 
 
 # The Design Process:
