@@ -32,7 +32,7 @@ With this infographic, I wanted to explore the following questions:
 
 **1) How have dams impacted winter-run Chinook salmon habitat?**
 
-**2) How has historic Chinook salmon abundance changed over time for winter-run Chinook?** (spoiler: winter run chinook salmon are on the endangered species list)
+**2) How has historic Chinook salmon abundance changed over time for winter-run Chinook?** (spoiler: winter run Chinook salmon are on the endangered species list)
 
 **3) How does stream water temperature impact Chinook salmon abundance for winter-run salmon?**
 
@@ -45,13 +45,13 @@ My goal for the infographic is to raise awareness about the challenges that salm
 **For the map:**
 
 - California State Boundary from the [California Department of Education](https://hub.arcgis.com/datasets/ca7b47512a2a442fbfa039bded0b6eaf_0/explore?uiVersion=content-views)
-- Boundary of the Sacramento-San Joaquin River Delta and a line feature for the Sacramento River from [NOAA Fisheries' Salmon Critical Habitat database for the West Coast Region] (https://www.fisheries.noaa.gov/resource/map/critical-habitat-maps-and-gis-data-west-coast-region)
-- Habitat boundary for winter-run ESU Chinook salmon habitat in the Sacramento River [ds800] from [NOAA and the California Department of Fish and Wildlife](https://apps.wildlife.ca.gov/bios6/?al=ds800)
+- Boundary of the Sacramento-San Joaquin River Delta and a line feature for the Sacramento River from [NOAA Fisheries' Salmon Critical Habitat database for the West Coast Region](https://www.fisheries.noaa.gov/resource/map/critical-habitat-maps-and-gis-data-west-coast-region)
+- Habitat boundary for winter-run ESU Chinook salmon habitat in the Sacramento River from [NOAA and the California Department of Fish and Wildlife](https://apps.wildlife.ca.gov/bios6/?al=ds800)
 - Point feature for Keswick Dam from the i17 California Jurisdictional Dams dataset from [California Open Data Portal](https://data.ca.gov/dataset/i17-california-jurisdictional-dams)
 
 **For the habitat donut chart:**
 
-I also gathered other statistics on the impact of dams on Chinook salmon habitat from [NOAA Fisheries](https://www.fisheries.noaa.gov/west-coast/endangered-species-conservation/recovery-through-reintroductions-californias-central-valley-salmon).
+I retrieve statistics on the impact of dams on Chinook salmon habitat from [NOAA Fisheries](https://www.fisheries.noaa.gov/west-coast/endangered-species-conservation/recovery-through-reintroductions-californias-central-valley-salmon).
 
 #### <u>**Salmon Population Data:**</u>
 
