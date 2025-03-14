@@ -1,6 +1,5 @@
 ---
 title: "Visualizing An Upstream Battle For Winter-Run Chinook in California"
-subtitle: "How I Created My Infographic in R"
 author: "Nicole Pepper"
 date: last-modified
 execute: 
@@ -14,68 +13,89 @@ format:
 editor_options: 
   chunk_output_type: console
 output: html_document
-image: "images/cover-image.png"
+image: "images/cover-photo.png"
 ---
 
 # The Upstream Battle
-Salmon populations in California have faced significant challenges over the past century. Today, the State's remaining salmon populations continue to battle environmental challenges introduced by [diversions and dams built throughout the 1890s to 1960s, [which have led to decreased flows, decreased water quality, and increased water temperatures](https://www.fisheries.noaa.gov/west-coast/endangered-species-conservation/recovery-through-reintroductions-californias-central-valley-salmon). These barriers have restricted access to historic spawning habitat and impacted the free flow of cool river water, critical for their survival.
+**Salmon populations in California have faced significant challenges over the past century.** Today, the State's remaining salmon populations continue to battle environmental challenges introduced by diversions and dams, built throughout the 1890s to 1960s, [which have led to decreased flows, decreased water quality, and increased water temperatures](https://www.fisheries.noaa.gov/west-coast/endangered-species-conservation/recovery-through-reintroductions-californias-central-valley-salmon). 
 
+Winter-Run Chinook salmon, found only in California's Upper Sacramento River Valley, have been particularly hit hard by these environmental challenges because they uniquely spawn during the hot summer months when river and ambient temperatures are often at their hottest. Cool river temperatures, below 53.5°F, are critical for the successful maturation and survival of their eggs.
 
-Winter-Run Chinook salmon, only found in the upper Sacramento Valley, have been particularly hit hard by these environmental challenges because they uniquely spawn during the hot summer months when river and ambient temperatures are often at their hottest. In the early 1990s winter-run Chinook narrowly escaped extinction. Every year from November to August, winter-run Chinook, embark on an upstream journey from the San Francisco Bay to the upper Sacramento River Valley. Today, salmon travel as far north as Keswick Dam, which completely blocks access to their historic spawning grounds.
+Every year from November to August, winter-run Chinook, embark on an upstream journey from the San Francisco Bay to the upper Sacramento River Valley. Today, salmon travel as far north as [Keswick Dam](https://www.google.com/maps?sca_esv=8ca7c5c78d795a81&output=search&q=keswick+dam&source=lnms&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpIgVFCTcbZI9VMGzNoV0iOZkckJJygdiLH6_g992ly-N3ZhTu1MHW3iZwH0a8xO8HT5cXYWFWHd5GFYF_JIB7CqYuKL48e-cysAxF4wlrCT3LikHJ_W-hUikuzKYcfDCyX2eLsZjb0U42rho0jS-HH_FqAxzySx8O0w7rx8Lx3DOoDF3IyHwPXISO7l2u8Ix-gnQ-4Q&entry=mc&ved=1t:200715&ictx=111), which completely blocks access to their historic spawning grounds. In the early 1990s winter-run Chinook narrowly escaped extinction. Their persistent battle to survive has inspired my infographic, *"An Upstream Battle for Winter-Run Chinook in California"*. 
 
+![](images/an-upstream-battle-small.png){fig-align="left" width="70%"}
 
-Their persistent battle to survive has inspired my infographic, *"An Upstream Battle for Winter-Run Chinook in California"*. 
-
-![](images/an-upstream-battle.png){fig-align="left" width="70%"}
 
 # The Design Process:
 
 With this infographic, I wanted to explore the following questions:
 
-1) How have dams impacted winter-run Chinook salmon habitat?
-2) How has historic Chinook salmon abundance changed over time for winter-run Chinook? (spoiler - winter run chinook salmon are on the endangered species list)
-3) How does stream water temperature impact Chinook salmon abundance for winter-run salmon?
+**1) How have dams impacted winter-run Chinook salmon habitat?**
 
-My goal for the infographic is to raise awareness about the challenges salmon populations in Northern California face, particularly winter-run Chinook salmon, and to inspire community engagement and approval for conservation initiatives that support this critical species. My intended audience for the piece are the general public, community stakeholders, conservation and fisheries managers, as well as environmental advocates. 
+**2) How has historic Chinook salmon abundance changed over time for winter-run Chinook?** (spoiler: winter run chinook salmon are on the endangered species list)
 
+**3) How does stream water temperature impact Chinook salmon abundance for winter-run salmon?**
 
-##### Salmon Habitat Data:
-For Question #1, I compiled a few shapefile datasets to illustrate the impact of dams on salmon habitat including:
+My goal for the infographic is to raise awareness about the challenges that salmon in Northern California face, particularly for winter-run Chinook salmon, and to inspire community engagement and approval for conservation initiatives that support this critical species. My intended audience for the piece are the general public, community stakeholders, conservation and fisheries managers, as well as environmental advocates. 
 
-- a California State Boundary from the [California Department of Education.](https://hub.arcgis.com/datasets/ca7b47512a2a442fbfa039bded0b6eaf_0/explore?uiVersion=content-views).
-- a boundary of the Sacramento-San Joaquin River Delta and a line feature for the Sacramento River from [NOAA Fisheries' Salmon Critical Habitat database for the West Coast Region] (https://www.fisheries.noaa.gov/resource/map/critical-habitat-maps-and-gis-data-west-coast-region)
-- a habitat boundary for winter-run ESU Chinook salmon habitat in the Sacramento River [ds800] from [NOAA and the California Department of Fish and Wildlife.](https://apps.wildlife.ca.gov/bios6/?al=ds800)
-- a point feature for Keswick Dam from the i17 California Jurisdictional Dams dataset from [California Open Data Portal](https://data.ca.gov/dataset/i17-california-jurisdictional-dams)
-- I also gathered other statistics on the impact of dams on Chinook salmon habitat from [NOAA Fisheries](https://www.fisheries.noaa.gov/west-coast/endangered-species-conservation/recovery-through-reintroductions-californias-central-valley-salmon)
+# The Data:
 
-##### Salmon Population Data:
-For Question #2, I used a salmon population dataset from [The Nature Conservancy](https://casalmon.org/statewide-status/#all-species). This dataset provides annual estimates of adult population size for various salmon species, including winter-run Chinook, across California. I also gathered other statistics including the percent of historic abundance from [NOAA Fisheries](https://www.fisheries.noaa.gov/west-coast/endangered-species-conservation/recovery-through-reintroductions-californias-central-valley-salmon)
+#### <u>**Salmon Habitat Data:**</u>
 
+**For the map:**
 
-##### Stream Temperature Data:
-For Question #3, I got stream temperature data from [California Department of Water Resources at the California Data Exchange Center](https://cdec.water.ca.gov/dynamicapp/wsSensorData). I retrieved data from the Kewsick site, right below Keswick Dam, which is now a critical spawning location for Chinook, since it is the furthest north reach that is accessible for fish. The dataset provides hourly stream temperature readings from 2020 - present.
+- California State Boundary from the [California Department of Education](https://hub.arcgis.com/datasets/ca7b47512a2a442fbfa039bded0b6eaf_0/explore?uiVersion=content-views)
+- Boundary of the Sacramento-San Joaquin River Delta and a line feature for the Sacramento River from [NOAA Fisheries' Salmon Critical Habitat database for the West Coast Region] (https://www.fisheries.noaa.gov/resource/map/critical-habitat-maps-and-gis-data-west-coast-region)
+- Habitat boundary for winter-run ESU Chinook salmon habitat in the Sacramento River [ds800] from [NOAA and the California Department of Fish and Wildlife](https://apps.wildlife.ca.gov/bios6/?al=ds800)
+- Point feature for Keswick Dam from the i17 California Jurisdictional Dams dataset from [California Open Data Portal](https://data.ca.gov/dataset/i17-california-jurisdictional-dams)
 
+**For the habitat donut chart:**
+
+I also gathered other statistics on the impact of dams on Chinook salmon habitat from [NOAA Fisheries](https://www.fisheries.noaa.gov/west-coast/endangered-species-conservation/recovery-through-reintroductions-californias-central-valley-salmon).
+
+#### <u>**Salmon Population Data:**</u>
+
+**For the stream & donut charts:**
+
+I used a salmon population dataset from [The Nature Conservancy](https://casalmon.org/statewide-status/#all-species). This dataset provides annual estimates of adult population size for various salmon species, including winter-run Chinook, across California. 
+
+#### <u>**Stream Temperature Data:**</u>
+
+**For the river heatmap:**
+
+I used stream temperature data from [California Department of Water Resources at the California Data Exchange Center](https://cdec.water.ca.gov/dynamicapp/wsSensorData). I retrieved data from the Kewsick site, right below Keswick Dam, which is now a critical spawning location for Chinook, since it is the furthest north reach that is accessible for fish. The dataset provides hourly stream temperature readings from 2020 - present.
+
+# The Design Choices:
+
+#### <u>**Colors:**</u>
+For my color palette, I selected a combination of shades of **blue** and **reddish-pink**. I selected blue, because the color is a good universal representation water, which is an important theme of my piece. The pink is inspired by the distinctive reddish-pink hue that male Chinook salmon often develop during spawning - though my choice of hot pink is intentionally more vibrant to add visual interest. I also prioritized accessibility by selecting color hues and saturation levels that are colorblind-friendly.
+
+#### <u>**Font:**</u>
+I chose **Brief River**, by Green Adventure Studio, for my headers and **Apple Li Gothic**, by Apple, for my body text. I selected Brief River because I liked how it was chunky and nastalgic. Being a serif font, I felt like it was a great fit for my river-themed graphic. I selected Li Gothic for my body text because I liked how it was minimal, balanced, and legible.
+
+#### <u>**Graphic Form:**</u>
+For my infographic design & layout, I built everything around the central themes of **salmon and rivers**. The graphic form that I centered my piece around is the filled-area plot of winter-run Chinook population from the 1970s to 2023. The dramatic decline in population, illustrated by the graph immediately stuck me -- and given the theme of the piece, I was inspired to shape it like a flowing river by using a filled blue area.
+
+Through further research, I added identified several key historic events that I wanted to highlight using text annotations. These include when the population dropped below 200 in the early 1990s, a temporary rebound in population when there was a 5-year period increased delta release flows, and the [Battle Creek Restoration Project](https://wildlife.ca.gov/Conservation/Fishes/Chinook-Salmon/Winter-run?utm_source=chatgpt.com) which released approximately 20K juvenile Chinook into Battle Creek, a tributary of the Sacramento River. To visually reinforce the connection between dams and reduced flows, I incorporated an illustration of a dam, making it appear that the graph is water flowing out of the dam. 
+
+![An early concept for what I wanted my final infographic to look like.](images/layout.jpg){fig-align="left" width="50%"}
+
+# The Design Process:
+One of the biggest challenges was balancing the complexity of the story with visual appeal. I wanted to include all the significant data and historical context without overwhelming the viewer. It took me several iterations to craft a visual narrative, guiding the viewers naturally from one element to the next, while building a clear and cohesive way.
+
+The most difficult element for me was figuring out how to incorporate the river temperature data. I experimented with several variations of heatmaps. Initially, I felt like the continuous heatmap - the style that is in my final infographic - was too detailed, so I simplified the graph by aggregating and summarizing the days that days-per-month that exceeded the temperature threshold of 53.3°F in a calendar-style heatmap.
+
+![Calendar-style heatmap.](outputs/calendar-style-plot.png){fig-align="left" width="60%"}
+
+However, even though the calendar-style graph looked simpler it took more time to interpret and lost key details due to aggregation. After discussing it with my peers, I ended up deciding to revert to the continuous heatmap, which ultimately conveyed the data more effectively. I ended up spacing out the bars for the months, which helped reduce the visual intensity of graph. 
+
+I'm especially proud of the salmon population over time data viz, which was the first graph that I put together with the data and ended up being the center piece for the infographic. Although it's a simple area chart, I think the annotations help add clarity by highlighting the key takeaways. Additionally, by adding the dam illustration and styling the graph in a way that makes it look like water flowing from the dam, adds visual impact and helps tie together the story.
 
 Two of the key takeaways that I want viewers to gather from my infographic include:
 
 1) **Winter-Run Chinook salmon populations have faced a severe decline.** In the 90s, Winter run Chinook narrowly avoided extinction, as their population fell below 200, which earned them a spot on the endangered species list.
-2) **Their battle for survival continues.** Warm river temperatures continue to threaten spawning success, as river temperatures in recent years, regularly exceed the minimum temperature needed for eggs to successfully spawn.
+2) **Their battle for survival continues.** Warm river temperatures continue to threaten spawning success, as river temperatures in recent years, regularly exceed the temperature threshold critical for the successful maturation and survival of their eggs.
 
-## Design Process Choices:
-
-### Colors:
-For my color palette, I chose a variety of shades of blue and reddish-pink. The blue represents water and the river that is critical habitat for the salmon. The pink is inspired by Chinook salmon males, which often take on a reddish-pink hue during spawning, though I must say that my hot pink is a bit exaggerated. I wanted to make sure that my visualization was accessible to people with color-blindness, so  also ensured that the color hues and saturation that I chose were colorblind-friendly.
-
-### Graphic form:
-The graphic form that I centered my piece around was a filled-area plot of winter-run Chinook population from the 1970s to 2024. When I saw the shape of the graph, on its own it clearly communicated the dramatic decline of the population. After doing some research, I added annotations to a few important historic events that were illustrated in the shape of the graph. Including when the population dropped below 200 in the early 1990s, when there was a 5-year period of mandatory increased delta release flows which temporarily bumped up the population, and when a rehabilitation project introduced 20K juvenile Chinook into Battle Creek, a sub-basin of the Sacramento River. Additionally, since the piece is closely centered around the impact of dams and reduced flows, I incorporated an illustration of a dam, so that the graph looks like water flowing out of the dam. 
-
-One of the biggest challenges that I faced was how to communicate everything that I wanted in a cohesive. I did a ton of research and found out a bunk of interesting facts and patterns that I thought helped put together the species. So it took me a lot of iterations to figure out how to fit everything. One of the most challenging elements for me to figure out was how to incorporate river temperature data. I tried a couple variations of a heatmap, both the continuous and the calendar style heatmaps, to show river temperatures over the past few years. At first I felt like the continuous heatmap was too detailed for my infographic so I tried to simplify the graph by aggregating and summarizing by month in a calendar style heatmap - however, even though at first look the graphic looked simpler it actually took more time to digest and interpret and it lost important details, showing temperatures day by day. After discussing with peers, I ended up going with the continuous heatmap graph. 
-
-At the start of project, I didn't have a very clear vision for the final outcome. My early iterations looked at all salmon species and through data exploration I ended up discovering the impactful story of the decline of winter-run Chinook. I ended up doing a lot of research on the winter-run Chinook and it really helped me craft a strong narrative.
-
-![An early concept for what I wanted my final infographic to look like.](images/layout.jpg){fig-align="left" width="60%"}
-
-I'm especially proud of the salmon population over time data viz, which was the first graph that I put together with the data and ended up being the center piece for the infographic. Although it's a simple area chart, I think the annotations help add clarity by highlighting the key takeaways. Additionally, by adding the dam illustration and styling the graph in a way that makes it look like water flowing from the dam, adds visual impact and helps tie together the story.
 
 
 # The Code:
@@ -137,13 +157,24 @@ kes_stream_temp <- read.csv(here::here("data","KWK_25_w_temp.csv")) |>
 #| code-summary: "Define Color Palettes"
 # Define color palettes
 temp_palette <- c("#004564","#65D8FE", "#FC90A9","#E11847")
+
+primary_palette <- c(
+  "ocean" = "#004564",
+  "river" = "#20566E",
+  "cascade" = "#65D8FE",
+  "salmon" = "#FC90A9",
+  "crimson" = "#E11847",
+  "light-blue" = "#D5FFFD",
+  "white" = "white"
+)
+
 ```
 
 
 ### Map of Current & Historic Chinook Habitat
 ```{r}
 #| code-summary: "Clean Data"
-# Transform the CRS for all layers after reading them
+# Transform CRS to match
 ca_state <- st_transform(ca_state, st_crs(4326))
 dams <- st_transform(dams, st_crs(4326)) |> filter(NAME == "Keswick")
 habitat <- st_transform(habitat, st_crs(4326))
@@ -158,104 +189,106 @@ river <- st_transform(river, st_crs(4326))
 # ---- Create a map of Chinook Salmon Habitat in Northern California ---
 
 ggplot() +
-    
-    # Load CA outline
-    geom_sf(data = ca_state,
-            fill = "#20566E",
-            color = NA) + 
-    
-    # Load chinook habitat boundaries
-    geom_sf(data = habitat,
-            aes(fill = Class),
-            fill = c("#FC90A9","#65D8FE"),
-            color = c(alpha("#FC90A9", 0.6),
-                      alpha("#65D8FE", 0.6)),
-            alpha = 0.3) + 
-    
-    # Load Sacramento River
-    geom_sf(data = river,
-            color = "#65D8FE") +
-    
-    # Load SF Bay
-     geom_sf(data = bay,
-             fill =  "#004564",
-             color = "#004564") +
-    
-    # Load Keswick Dam
-    geom_sf(data = dams,
-            color = "#FE6571") +
-    
-    # Add river annotation
-    annotate("text",
-             x = 1, y = 1, 
-             label = "The Saramento River",
-             color = "#65D8FE",
-             fontface = "bold",
-             size = 2.5) +
-    
-    # Define Albers Equal Area proj for California
-    coord_sf(crs = st_crs(3311)) +
-    
-    # Define theme
-    theme_void() + 
-    theme(
-        plot.background = element_rect(fill = "#004564")
-        )
+# Load CA outline
+  geom_sf(data = ca_state,
+          fill = primary_palette["river"],
+          color = NA) + 
+  
+  # Load chinook habitat boundaries
+  geom_sf(data = habitat,
+          aes(fill = Class),
+          fill = c(primary_palette["salmon"],
+                   primary_palette["cascade"]),
+          color = c(alpha(primary_palette["salmon"], 0.6),
+                    alpha(primary_palette["cascade"], 0.6)),
+          alpha = 0.3) + 
+  
+  # Load Sacramento River
+  geom_sf(data = river,
+          color = primary_palette["cascade"]) +
+  
+  # Load SF Bay
+  geom_sf(data = bay,
+          fill = primary_palette["ocean"],
+          color = primary_palette["ocean"]) +
+  
+  # Load Keswick Dam
+  geom_sf(data = dams,
+          color = primary_palette["crimson"]) +
+  
+  # Add river annotation
+  annotate("text",
+           x = 1, y = 1, 
+           label = "The Sacramento River",
+           color = primary_palette["cascade"],
+           fontface = "bold",
+           size = 2.5) +
+  
+  # Define Albers Equal Area proj for California
+  coord_sf(crs = st_crs(3311)) +
+  
+  # Define theme
+  theme_void() + 
+  theme(
+    plot.background = element_rect(fill = primary_palette["ocean"])
+  )
 
 ```
 ![](outputs/habitat-map.png){fig-align="left" width="50%"}
 
 ### Donut Charts
 ```{r}
-#| code-summary: "Create Donut Chart of Chinook Population Proportion"
+#| code-summary: "Create Donut Chart of Chinook Population"
 
-# Define chinook population proportion
+# Define chinook population proportion, based on 2023 and 1970 pop estimates
 pop_prop <- data.frame(
   category = c("Remaining", "Historic Pop"),
-  value = c(4, 96)
+  value = c(5, 95)
 )
 
 # Create the donut chart
-ggplot(pop_prop, aes(x = 2,
+ggplot(pop_prop, aes(x = 1,  # Set x to a constant value
                      y = value,
                      fill = category)) +
-    
+  
   geom_bar(stat = "identity",
            width = 1,
-           color = "white") +  
-    
-  coord_polar("y", start = 0) +
-
-  # Define width and height of chart
-  xlim(0.2, 2.5) +
-    
+           color = "white") +  # Bar borders
+  
+  coord_polar("y", start = 0) +  # Transform to polar coordinates
+  
+  # Define the width of the donut
+    xlim(0.2,
+       2.5) +
+  
   scale_fill_manual(values = c( "#F94B74", "#65D8FE")) +
-  labs(title = "Only 4% of Historic Population Remains") +
-    
+  
+  labs(title = "Only 5% of Historic Population Remains") +
+  
   theme_void() +
-
+  
   theme(
     plot.title = element_text(face = "bold",
-                              color = "white",
+                              color = primary_palette["white"],
                               size = 16,
                               hjust = 0.5),
-    
     panel.grid = element_blank(),
     axis.ticks = element_blank(),
-    plot.background = element_rect(fill = "#004564",
+    plot.background = element_rect(fill = primary_palette["ocean"],
                                    color = NA),
     legend.position = "none"
-  ) 
+  )
 ```
 ![](outputs/pop-plot.png){fig-align="left" width="60%"}
+
 
 ```{r}
 #| code-summary: "Create Donut Chart of Access to Historic Spawning Grounds"
 
-# Define habitat proportion
+# Define habitat proportion, based estimates from CalFish and Boydstun 2001
 pop_prop <- data.frame(
   category = c("Remaining", "Historic Pop"),
-  value = c(20, 80)
+  value = c(10, 90)
 )
 
 # Create the donut chart
@@ -275,19 +308,19 @@ ggplot(pop_prop, aes(x = 2,
     
   scale_fill_manual(values = c( "#F94B74", "#65D8FE")) +
     
-  labs(title = "80% of historic spawning habitat\nis no longer accessible") +
+  labs(title = "90% of historic spawning habitat\nis no longer accessible") +
     
   theme_void() +
 
   theme(
     plot.title = element_text(face = "bold",
-                              color = "white",
+                              color = primary_palette["white"],
                               size = 16,
                               hjust = 0.5),
     
     panel.grid = element_blank(),
     axis.ticks = element_blank(),
-    plot.background = element_rect(fill = "#004564",
+    plot.background = element_rect(fill = primary_palette["ocean"],
                                    color = NA),
     legend.position = "none"
   ) 
@@ -338,44 +371,44 @@ ggplot(data = winter_salmon,
         # Add a bracket for increased delta release ----
         geom_segment(aes(x = 2000, xend = 2000,
                          y = 9500, yend = 11000),
-                     color = "#65D8FE",
+                     color = primary_palette["cascade"],
                      size = .25) +
         
         geom_segment(aes(x = 2006, xend = 2006,
                          y = 9500, yend = 11000),
-                     color = "#65D8FE",
+                     color = primary_palette["cascade"],
                      size = .25) +
         
         geom_segment(aes(x = 2000, xend = 2006,
                          y = 11000, yend = 11000),
-                     color = "#65D8FE",
+                     color = primary_palette["cascade"],
                      size = .25) +
     
     # Add red arrow for 1994 - population less than 200 ----
     annotate("text",
              x = 1993, y = 5000, 
              label = "↓",
-             color = "#FC90A9",
+             color = primary_palette["salmon"],
              size = 8) +
     
     # Add population annotation for 1994
     annotate("text", x = 1993, y = 16000, 
              label = "Population Drops\nto less than 200",
-             color = "white",
+             color = primary_palette["white"],
              size = 3,
              fontface = "bold") +
     
     # Add endangered annotation for 1994
     annotate("text", x = 1993, y = 10000, 
              label = "Put on the endangered\n species list",
-             color = "white",
+             color = primary_palette["white"],
              size = 2.5) +
     
      # Add battle creek annotation for 2018
     annotate("text",
              x = 2018, y = 9000, 
              label = "↓",
-             color = "white",
+             color = primary_palette["white"],
              size = 8,
              fontface = "bold") +
     
@@ -383,14 +416,14 @@ ggplot(data = winter_salmon,
     annotate("text",
              x = 2018, y = 15000, 
              label = "20k juvenile Chinook\nreleased in Battle Creek",
-             color = "white",
+             color = primary_palette["white"],
              size = 2.5) +
     
     # Add bracket annotation
     annotate("text",
              x = 2003, y = 15000, 
              label = "20% Increase\nin Delta Release",
-             color = "white",
+             color = primary_palette["white"],
              size = 2.5) +
     
     labs(
@@ -402,23 +435,23 @@ ggplot(data = winter_salmon,
   theme_minimal() +
   theme(
         plot.title = element_text(face = "bold",
-                                  color = "white",
+                                  color = primary_palette["white"],
                                   size = 12),
         axis.text.x = element_text(size = 10,
                                    face = "bold",
-                                   color = "white"),
+                                   color = primary_palette["white"]),
         axis.text.y = element_text(size = 10,
                                    face = "bold",
-                                   color = "white"),
+                                   color = primary_palette["white"]),
         axis.title.y = element_text(size = 11,
                                     face = "bold",
-                                    color = "white",
+                                    color = primary_palette["white"],
                                     angle = 0,
                                     vjust = .5),
         axis.title.x = element_blank(),
         panel.grid = element_blank(),
         axis.ticks = element_blank(),
-        plot.background = element_rect(fill = "#004564",
+        plot.background = element_rect(fill = primary_palette["ocean"],
                                        color = NA),
         legend.position = "none"
         )
@@ -461,7 +494,7 @@ ggplot(daily_avg_temp_kes20,
                 xmax = as.numeric(strptime("08-31", "%m-%d")$yday),
                 ymin = -Inf,
                 ymax = Inf),
-            color = "#D5FFFD",
+            color = primary_palette["light-blue"],
             fill = NA,
             size = 1.5) +
     
@@ -470,8 +503,8 @@ ggplot(daily_avg_temp_kes20,
                 xmax = as.numeric(strptime("08-31", "%m-%d")$yday),
                 ymin = 0,
                 ymax = .4),
-            fill = "#D5FFFD",
-            color = "#D5FFFD",
+            fill = primary_palette["light-blue"],
+            color = primary_palette["light-blue"],
             size = 1) +
     
   # Label spawning season
@@ -479,7 +512,7 @@ ggplot(daily_avg_temp_kes20,
                      as.numeric(strptime("08-31", "%m-%d")$yday + 1)) / 2,
                 y = 0.25,
                 label = "Spawning Season: Apr. 1 - Aug. 31"),
-            color = "#004564",
+            color = primary_palette["ocean"],
             fontface = "bold",
             size = 3) +
     
@@ -488,16 +521,16 @@ ggplot(daily_avg_temp_kes20,
     
   labs(title = "Daily maximum river temperature below Keswick Dam.") +
   theme_void() +
-  theme(plot.title = element_text(color = "white",
+  theme(plot.title = element_text(color = primary_palette["white"],
                                   face = "bold",
                                   size = 16),
-        axis.text.y = element_text(color = "white",
+        axis.text.y = element_text(color = primary_palette["white"],
                                    face = "bold",
                                    size = 20), 
         axis.ticks.y = element_blank(),
-        plot.background = element_rect(fill = "#004564",
+        plot.background = element_rect(fill = primary_palette["ocean"],
                                        color = NA),
-        legend.text = element_text(color = "white",
+        legend.text = element_text(color = primary_palette["white"],
                                    size = 12),
         legend.title = element_blank(),
         legend.position = "top",
@@ -512,7 +545,7 @@ ggplot(daily_avg_temp_kes20,
 ```{r}
 #| code-summary: "Prep Data"
 
-# ---- Calculate days exceeding the threshold of 53.3°F ----
+# ---- Calculate days exceeding the threshold of 53.5°F ----
 
 # Define threshold
 threshold <- 53.5 
@@ -548,7 +581,7 @@ ggplot(spawning_exceedance, aes(y = factor(year,
                                 x = proportion, 
                                 fill = exceed_type)) +
   geom_bar(stat = "identity",
-           color = "white",
+           color = primary_palette["white"],
            size = 0.5) +
   
   # Add labels for percentage
@@ -556,7 +589,7 @@ ggplot(spawning_exceedance, aes(y = factor(year,
                                paste0(round(proportion * 100), "%"), 
                                "")),
             position = position_stack(vjust = 0.5), 
-            color = "white", 
+            color = primary_palette["white"], 
             fontface = "bold",
             size = 12) +
   
@@ -571,7 +604,7 @@ ggplot(spawning_exceedance, aes(y = factor(year,
   theme_minimal() +
     
   theme(plot.title = element_text(face = "bold",
-                                  color = "white",
+                                  color = primary_palette["white"],
                                   size = 20,
                                   hjust = 0.5),
         
@@ -581,7 +614,7 @@ ggplot(spawning_exceedance, aes(y = factor(year,
         axis.title.y = element_blank(),
         panel.grid = element_blank(),
         axis.ticks = element_blank(),
-        plot.background = element_rect(fill = "#004564",
+        plot.background = element_rect(fill = primary_palette["ocean"],
                                        color = NA),
         legend.position = "none")
 
@@ -590,10 +623,26 @@ ggplot(spawning_exceedance, aes(y = factor(year,
 
 
 # Final Infographic:
-![](images/an-upstream-battle.png){fig-align="left" width="70%"}
+![](images/an-upstream-battle-small.png){fig-align="left" width="70%"}
 
 
 
 #### Acknowledgments:
-This assignment was created for UCSB MEDS, EDS 240 - Data Visualization & Communication. Thank you to our professor Sam Cisk and teaching assistants Annie Adams and Sloane Stephenson for their wisdom and support throughout the class.
+This assignment was created for UCSB MEDS, EDS 240 - Data Visualization & Communication. Thank you to our professor Sam Shanny-Csik and teaching assistants Annie Adams and Sloane Stephenson for their wisdom and support throughout the class.
+
+
+#### References:
+California Department of Education. (n.d.). California State Boundary. Retrieved from https://hub.arcgis.com/datasets/ca7b47512a2a442fbfa039bded0b6eaf_0/explore?uiVersion=content-views
+
+NOAA Fisheries. (n.d.). Salmon Critical Habitat Maps and GIS Data - West Coast Region. Retrieved from https://www.fisheries.noaa.gov/resource/map/critical-habitat-maps-and-gis-data-west-coast-region
+
+NOAA Fisheries & California Department of Fish and Wildlife. (n.d.). Winter-run Chinook Salmon Habitat Boundary [ds800]. Retrieved from https://apps.wildlife.ca.gov/bios6/?al=ds800
+
+California Open Data Portal. (n.d.). i17 California Jurisdictional Dams Dataset. Retrieved from https://data.ca.gov/dataset/i17-california-jurisdictional-dams
+
+NOAA Fisheries. (n.d.). Recovery through Reintroductions: California's Central Valley Salmon. Retrieved from https://www.fisheries.noaa.gov/west-coast/endangered-species-conservation/recovery-through-reintroductions-californias-central-valley-salmon
+
+The Nature Conservancy. (n.d.). Statewide Status of Salmon Species in California. Retrieved from https://casalmon.org/statewide-status/#all-species
+
+California Department of Water Resources. (n.d.). California Data Exchange Center: Stream Temperature Data. Retrieved from https://cdec.water.ca.gov/dynamicapp/wsSensorData
 
