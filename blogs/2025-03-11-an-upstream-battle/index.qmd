@@ -67,6 +67,8 @@ I used stream temperature data from [California Department of Water Resources at
 
 # The Design Choices:
 
+![](images/style-guide.png){fig-align="left" width="70%"}
+
 #### <u>**Colors:**</u>
 For my color palette, I selected a combination of shades of **blue** and **reddish-pink**. I selected blue, because the color is a good universal representation water, which is an important theme of my piece. The pink is inspired by the distinctive reddish-pink hue that male Chinook salmon often develop during spawning - though my choice of hot pink is intentionally more vibrant to add visual interest. I also prioritized accessibility by selecting color hues and saturation levels that are colorblind-friendly.
 
