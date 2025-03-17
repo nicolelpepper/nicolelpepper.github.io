@@ -32,9 +32,9 @@ With this infographic, I wanted to explore the following questions:
 
 **1) How have dams altered habitat for winter-run Chinook?**
 
-**2)  How has the abundance of winter-run Chinook salmon changed over time?** (spoiler: They're now on the endangered species list)
+**2)How has their abundance changed over time?** (Spoiler: They're now on the endangered species list)
 
-**3) How do river water temperatures influence winter-run Chinook salmon spawning?**
+**3) How do river water temperatures influence their spawning?**
 
 My goal for the infographic is to raise awareness about the challenges that salmon in Northern California face, particularly for winter-run Chinook salmon, and to inspire community engagement and approval for conservation initiatives that support this critical species. My intended audience for the piece are the general public, community stakeholders, conservation and fisheries managers, as well as environmental advocates. 
 
@@ -83,7 +83,7 @@ Through further research, I added identified several key historic events that I 
 ![An early concept for what I wanted my final infographic to look like.](images/layout.jpg){fig-align="left" width="50%"}
 
 # The Design Process:
-One of the biggest challenges was balancing the complexity of the story with visual appeal. I wanted to include all the significant data and historical context without overwhelming the viewer. It took me several iterations to craft a visual narrative, guiding the viewers naturally from one element to the next, while building a clear and cohesive way.
+One of the biggest challenges was balancing the complexity of the story with visual appeal. I wanted to include all the significant data and historical context without overwhelming the viewer. It took me several iterations to craft a visual narrative, guiding the viewers naturally from one element to the next, while building a clear and cohesive message.
 
 The most difficult element for me was figuring out how to incorporate the river temperature data. I experimented with several variations of heatmaps. Initially, I felt like the continuous heatmap - the style that is in my final infographic - was too detailed, so I simplified the graph by aggregating and summarizing the days that days-per-month that exceeded the temperature threshold of 53.3°F in a calendar-style heatmap.
 
