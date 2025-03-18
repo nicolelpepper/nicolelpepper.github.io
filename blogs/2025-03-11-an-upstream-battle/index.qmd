@@ -238,7 +238,7 @@ ggplot() +
 ```
 ![](outputs/habitat-map.png){fig-align="left" width="50%"}
 
-### Donut Charts
+### The Donut Charts
 ```{r}
 #| code-summary: "Create Donut Chart of Chinook Population"
 
@@ -329,7 +329,7 @@ ggplot(pop_prop, aes(x = 2,
 ```
 ![](outputs/habitat-plot.png){fig-align="left" width="60%"}
 
-### Stream Chart of WR-Chinook Population Over Time
+### The Stream Chart
 
 ```{r}
 #| code-summary: "Prep Data"
@@ -462,7 +462,7 @@ ggplot(data = winter_salmon,
 ![](outputs/population-plot.png){fig-align="left" width="60%"}
 
 
-### Stream Temperature Heatmap
+### The Heatmap
 
 ```{r}
 #| code-summary: "Prep Data"
@@ -541,9 +541,7 @@ ggplot(daily_avg_temp_kes20,
 ![](outputs/heatmap.png){fig-align="left" width="60%"}
 
 
-### Stacked Bar Chart
-
-
+### The Stacked Bar Chart
 ```{r}
 #| code-summary: "Prep Data"
 
