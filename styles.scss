@@ -12,32 +12,38 @@
 //$merriweather-sans: "Merriweather Sans", serif
 
 // Colors
-$sky: #3498db;
+$sky: #0388A6;
 $clouds: #f1fdffff;
 $grass: #9CB8AE;
-$corn: #FFC745;
 $otter: #007A78;
 $avocado: #75A744;
-$ocean: #063840;
+$ocean: #023859;
 $evergreen: #002E2C;
+$corn: #F29B30;
+$charcoal: #212121;
 
 
 // Quarto Sass Variables
-$body-bg: $clouds;
-$navbar-bg: $ocean;
+$body-bg: $grass;
+$navbar-bg: $charcoal;
 $navbar-fd: $sky;
-$navbar-hl: $avocado;
+$navbar-hl: $corn;
 
 /*-- scss:rules --*/
 
-h1, h2 {
-  letter-spacing: 2px;
-  font-weight: 500;
+
+body {
+  color: $charcoal;
 }
 
+h1, h2, h3 {
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: $ocean;
+}
 
 .title{
-  color: $evergreen;
+  color: $ocean;
 }
 
 .center-text {
@@ -63,4 +69,55 @@ h1, h2 {
 .navbar-brand {
   max-height: 100px;
   width: auto;
+}
+
+a {
+  color: $ocean; 
+}
+
+
+a:hover {
+  color: $sky; 
+}
+
+pre code {
+  background-color: $ocean; /* Light gray background for code */
+  color: $clouds; /* Dark gray text for code */
+  padding: 10px; /* Add padding around the code */
+  border-radius: 5px; /* Round corners */
+}
+
+.code-chunk-dropdown {
+  background-color: $ocean; /* Light background for dropdown */
+  color: $clouds; /* Text color for dropdown */
+  border: 1px solid #ccc; /* Border around dropdown */
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.code-chunk-dropdown:hover {
+  background-color: #e0e0e0; /* Hover effect */
+}
+
+/* Change color for the blog title (usually h1 or h2) */
+.blog-title {
+  color: #2F4F4F; /* Set the color for the title */
+  font-family: 'Arial', sans-serif; /* Optional: change the font */
+  font-weight: bold; /* Optional: make it bold */
+}
+
+/* Change color for the blog description (usually a paragraph) */
+.blog-description {
+  color: #808080; /* Set the color for the description */
+  font-family: 'Georgia', serif; /* Optional: change the font */
+  font-style: italic; /* Optional: make the description italic */
+}
+
+/* Example for title and description together */
+.blog-post h1, .blog-post h2 {
+  color: #4B0082; /* Set a different color for the title */
+}
+
+.blog-post .description {
+  color: #696969; /* Set a different color for the description */
 }
