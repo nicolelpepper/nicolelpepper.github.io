@@ -15,19 +15,23 @@
 $sky: #0388A6;
 $clouds: #f1fdffff;
 $grass: #9CB8AE;
+$seafoam:#D5FFFD;
 $otter: #007A78;
 $avocado: #75A744;
+$hot-salmon: #F94B74;
+$salmon: #FC90A9;
 $ocean: #023859;
+$river: #20566E;
 $evergreen: #002E2C;
 $corn: #F29B30;
 $charcoal: #212121;
 
 
 // Quarto Sass Variables
-$body-bg: $grass;
-$navbar-bg: $charcoal;
+$body-bg: $seafoam;
+$navbar-bg: $ocean;
 $navbar-fd: $sky;
-$navbar-hl: $corn;
+$navbar-hl: $hot-salmon;
 
 /*-- scss:rules --*/
 
@@ -81,14 +85,14 @@ a:hover {
 }
 
 pre code {
-  background-color: $ocean; /* Light gray background for code */
+  background-color: $clouds; /* Light gray background for code */
   color: $clouds; /* Dark gray text for code */
   padding: 10px; /* Add padding around the code */
   border-radius: 5px; /* Round corners */
 }
 
 .code-chunk-dropdown {
-  background-color: $ocean; /* Light background for dropdown */
+  background-color: $clouds; /* Light background for dropdown */
   color: $clouds; /* Text color for dropdown */
   border: 1px solid #ccc; /* Border around dropdown */
   padding: 5px;
