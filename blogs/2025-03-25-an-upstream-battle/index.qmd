@@ -1,0 +1,1194 @@
+---
+title: "An Upstream Battle For Winter-Run Chinook in California"
+author: "Nicole Pepper"
+description: "Designing an Infographic in R"
+date: last-modified
+execute:
+  eval: false
+  warning: false
+  message: false
+format:
+  html:
+    toc: true 
+    code-fold: true
+editor_options: 
+  chunk_output_type: console
+output: html_document
+image: "images/cover-photo.png"
+---
+
+
+# The Upstream Battle
+**Salmon populations in California have faced significant challenges over the past century.** Today, the State's remaining salmon populations continue to battle environmental challenges introduced by diversions and dams, built throughout the 1890s to 1960s, [which have led to decreased flows, decreased water quality, and increased water temperatures](https://www.fisheries.noaa.gov/west-coast/endangered-species-conservation/recovery-through-reintroductions-californias-central-valley-salmon). 
+
+Winter-Run Chinook salmon, found only in California's Upper Sacramento River Valley, have been particularly hit hard by these environmental challenges because they uniquely spawn during the hot summer months when river and ambient temperatures are often at their hottest. Cool river temperatures, below 53.5°F, are critical for the successful maturation and survival of their eggs.
+
+Every year from November to August, winter-run Chinook, embark on an upstream journey from the San Francisco Bay to the upper Sacramento River Valley. Today, salmon travel as far north as [Keswick Dam](https://www.google.com/maps?sca_esv=8ca7c5c78d795a81&output=search&q=keswick+dam&source=lnms&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpIgVFCTcbZI9VMGzNoV0iOZkckJJygdiLH6_g992ly-N3ZhTu1MHW3iZwH0a8xO8HT5cXYWFWHd5GFYF_JIB7CqYuKL48e-cysAxF4wlrCT3LikHJ_W-hUikuzKYcfDCyX2eLsZjb0U42rho0jS-HH_FqAxzySx8O0w7rx8Lx3DOoDF3IyHwPXISO7l2u8Ix-gnQ-4Q&entry=mc&ved=1t:200715&ictx=111), which completely blocks access to their historic spawning grounds. In the early 1990s winter-run Chinook narrowly escaped extinction. Their persistent battle to survive has inspired my infographic, *"An Upstream Battle for Winter-Run Chinook in California"*. 
+
+![](images/an-upstream-battle-small.png){fig-align="left" width="55%"}
+
+# The Data
+::: {.panel-tabset}
+
+## Overview
+
+*Explore the following tabs to learn about the data sources used for this visualization.*
+
+## Map
+
+##### Geospatial Data:
+- *California State Boundary* [Shapefile]. Retrieved from [California Department of Education](https://hub.arcgis.com/datasets/ca7b47512a2a442fbfa039bded0b6eaf_0/explore?uiVersion=content-views) (Accessed April 2025).  
+- *Sacramento-San Joaquin River Delta Boundary* [Shapefile]. Retrieved from [NOAA Fisheries](https://www.fisheries.noaa.gov/resource/map/critical-habitat-maps-and-gis-data-west-coast-region) Salmon Critical Habitat Database (Accessed April 2025).  
+- *Sacramento River* [Shapefile]. Retrieved from [NOAA Fisheries](https://www.fisheries.noaa.gov/resource/map/critical-habitat-maps-and-gis-data-west-coast-region) Salmon Critical Habitat Database (Accessed April 2025).  
+- *Winter-run ESU Chinook Salmon Habitat Boundary* [Shapefile]. Retrieved from [NOAA & CDFW](https://apps.wildlife.ca.gov/bios6/?al=ds800) (Accessed April 2025).  
+- *Keswick Dam* [Shapefile]. Retrieved from [California Open Data Portal](https://data.ca.gov/dataset/i17-california-jurisdictional-dams) i17 California Jurisdictional Dams Dataset (Accessed April 2025).
+
+## Donut Charts
+
+##### Percent Habitat Donut Chart:
+
+ *Habitat Loss Data* [Webpage]. Retrieved from [NOAA Fisheries](https://www.fisheries.noaa.gov) (Accessed April 2025).  
+ - Quote reference: *“While many factors have affected the salmonid populations in California’s Central Valley, a driving factor is the presence of large dams. As dams have been constructed over the past century, as much as 95% of the salmonid spawning habitat has been lost.”* – [NOAA Fisheries](https://www.fisheries.noaa.gov) (Accessed April 2025).  
+
+##### Percent Population Chart:
+
+*Salmon Population Data* [Dataset]. Retrieved from [The Nature Conservancy](https://www.nature.org) (Accessed April 2025).  
+- Dataset provides annual estimates of adult population size for various salmon species, including winter-run Chinook, across California.  
+- Calculation based on adult winter-run Chinook salmon population estimates from **2023** compared to **1970**.  
+
+## Stream Chart
+
+##### Primary Dataset:
+
+*Salmon Population Data* [Dataset]. Retrieved from [The Nature Conservancy](https://www.nature.org) (Accessed April 2025).  
+- This dataset provides annual estimates of adult population size for various salmon species, including winter-run Chinook, across California. 
+
+##### Annotations:
+
+*Battle Creek Restoration Project* [Webpage]. Retrieved from [California Department of Fish and Wildlife](https://wildlife.ca.gov/Conservation/Fishes/Chinook-Salmon/Winter-run?utm_source=chatgpt.com) (Accessed April 2025).
+
+## Heatmap
+
+*Stream Temperature Data* California Department of Water Resources. *Kewsick Site Stream Temperature Data* [Dataset]. Retrieved from [California Data Exchange Center](https://cdec.water.ca.gov) (Accessed April 2025).  
+
+- Keswick Dam is a critical spawning location for Chinook, since it is now the furthest north reach that is accessible for fish. The dataset provides hourly stream temperature readings from 2020 - present.
+
+## Software
+
+#### Programming Language
+- R
+
+#### Software
+- R-Studio: For data manipulation and creating graphic elements
+- Affinity: For final layout and graphic design
+
+::: 
+
+# The Design Choices
+
+::: {.panel-tabset}
+## Theme
+All of the design elements for my infographic are inspired by the resilience of salmon and rivers. I aimed for a style that was engaging, informative, and approachable - while balancing the seriousness of the issue. Explore the following tabs to learn more about my design choices.
+
+*Explore the following tabs to learn more about my design choices.*
+
+## Colors
+![](images/color-guide.png){fig-align="left" width="60%"}
+For my color palette, I chose a combination of blue and pink. Blue serves as a universal representation of water, I selected the shades based on an image of a river in Northern California. The pink is inspired by the distinctive reddish-pink hue that male Chinook salmon develop during spawning, though I opted for a more vibrant hot pink to enhance visual interest. I also prioritized accessibility by selecting color hues and saturation levels that are colorblind-friendly.
+
+## Typography
+![](images/font-guide.png){fig-align="left" width="60%"}
+
+#### Header
+I chose Brief River, by Green Adventure Studio, for my headers because I liked how it was chunky and nostalgic. Being a serif font and having thicker, more bubbly letters, I felt like it was a good fit for my fish & river-theme. I selected Li Gothic for my body text because I liked how it was minimal, balanced, and legible.
+
+#### Body Text
+I chose **Brief River**, by Green Adventure Studio, for my headers and **Apple Li Gothic**, by Apple, for my body text. I selected Brief River because I liked how it was chunky and nastalgic. Being a serif font, I felt like it was a great fit for my river-themed graphic. I selected Li Gothic for my body text because I liked how it was minimal, balanced, and legible.
+
+## Accessibility
+
+#### Colorblind-Friendly
+I use a colorblind-friendly palette with high contrast colors so that the visualization is accessible to those with color vision deficiencies.
+ 
+#### Alt Text
+I include descriptive alt text so screen readers can accurately convey the content to visually impaired users.
+
+#### Labels & Annotations
+I place labels directly on charts and highlight key takeaways with text to improve readability and comprehension.
+
+:::
+
+# The Design Process
+
+I designed this infographic around the central themes of salmon and rivers. One of the biggest challenges was balancing the complexity of the story and historical context without overwhelming the viewer. Through several iterations, I crafted a visual narrative, guiding the viewers naturally from one element to the next building a clear and cohesive message.
+
+The infographic is structured to read from the top to bottom, with the title, description, two donut charts, and map at the top to provide critical context about the precarious state of winter-run Chinook salmon. At the center is a filled-area plot depicting winter-run Chinook population from the 1970s to 2023. The dramatic decline in population, immediately stood out to me, and given the theme of the piece, I was inspired to shape it like a flowing river by using a filled blue area. To ensure that the reader took away context regarding the decline in population, I pointed out key historic events using text annotations including when the population dropped below 200 in the early 1990s, a temporary rebound in population when there was a 5-year period increased delta release flows, and the [Battle Creek Restoration Project](https://wildlife.ca.gov/Conservation/Fishes/Chinook-Salmon/Winter-run?utm_source=chatgpt.com) which released approximately 20K juvenile Chinook into Battle Creek, a tributary of the Sacramento River. To further reinforce the connection between dams and reduced flows, I incorporated an illustration of a dam next to the y-axis, making it appear as though the graph represents water flowing out of the dam. 
+
+One of the most challenging elements to integrate was the river temperature data, a critical factor affecting salmon survival. I used stream temperature data from [California Department of Water Resources at the California Data Exchange Center](https://cdec.water.ca.gov/dynamicapp/wsSensorData) for a site right below Kewsick Dam, which is now a critical spawning location for Chinook, since it is the furthest north reach that is accessible for fish. The dataset provides hourly stream temperature readings from 2020 - present. I experimented with several variations of heatmaps. Initially, I felt like the continuous heatmap displaying a color associated with the max daily temperature (the style that is in my final infographic) was too detailed, so I simplified the graph by aggregating and summarizing the days that days-per-month that exceeded the temperature threshold of 53.3°F in a calendar-style heatmap.
+
+![Calendar-style heatmap.](outputs/calendar-style-plot.png){fig-align="left" width="60%"}
+
+However, even though the calendar-style graph looked simpler it was more difficult to interpret and lost key details due to aggregation. After discussing it with my peers, I ultimately decided to revert to the continuous heatmap, which conveyed the data more effectively. To improve the readability, I spaced out the bars for the months and matched the colors palette with the rest of the theme.
+
+My goal for the infographic is to raise awareness about the challenges that salmon in Northern California face, particularly for winter-run Chinook salmon, and to inspire community engagement and approval for conservation initiatives that support this critical species. My intended audience for the piece are the general public, community stakeholders, conservation and fisheries managers, as well as environmental advocates. 
+
+# The Code:
+
+Below is the code for used to build the individual elements in my infographic. All of the graphic elements were created in R. After designing the graphs, I exported them as `.pdfs` imported them into Affinity for final formatting and to incorporate custom illustrations into the final piece.
+
+```{r}
+#| code-summary: "Load Libraries"
+
+# ---- Load libraries ----
+
+# Data wrangling  
+library(here)  
+library(dplyr)  
+library(tidyverse)  
+library(janitor)  
+library(readxl)  
+
+
+# Spatial data processing  
+library(sf)  
+library(smoothr)  
+
+# Data visualization  
+library(ggplot2)  
+library(ggstream)  
+library(scales)
+
+```
+
+```{r}
+#| code-summary: "Load Data"
+
+# ---- Read in Salmon population data ----
+salmon_ca <- read_excel(here::here("data","upstream","State_of_Salmon_in_CA_083024.xlsx")) |> 
+    clean_names()
+
+
+# ---- Read in Chinook Habitat map data ----
+ca_state <- st_read(here::here("data", "upstream", "California_State_Boundary", "California_State_Boundary.shp")) |>
+    smooth(method = "chaikin") # smooth() to simplify geometries
+river <- st_read(here::here("data", "upstream", "river", "sac_river.shp")) |>
+    st_union() |>
+    smooth(method = "chaikin")
+bay <- st_read(here::here("data", "upstream", "river", "sac_bay_wr_chinook.shp")) |> smooth(method = "chaikin")
+habitat <- st_read(here::here("data","upstream", "river", "salmon_habitat.shp")) |> smooth(method = "chaikin")
+dams <- st_read(here::here("data", "upstream", "river", "chinook_dams.shp"))
+
+
+# ---- Read in Sacramento River temp data for Keswick Dam ----
+kes_stream_temp <- read.csv(here::here("data","upstream", "KWK_25_w_temp.csv")) |>
+  clean_names() |>
+  mutate(obs_date = as.Date(obs_date),
+         day_of_year = yday(obs_date),
+         year = year(obs_date),
+         month = month(obs_date, label = TRUE))|>
+  filter(year < 2025)
+
+
+```
+
+```{r}
+#| code-summary: "Define Color Palettes"
+# Define color palettes
+temp_palette <- c("#004564","#65D8FE", "#FC90A9","#E11847")
+
+primary_palette <- c(
+  "ocean" = "#004564",
+  "river" = "#20566E",
+  "cascade" = "#65D8FE",
+  "salmon" = "#FC90A9",
+  "crimson" = "#E11847",
+  "light-blue" = "#D5FFFD",
+  "white" = "white"
+)
+
+```
+
+
+### The Map
+```{r}
+#| code-summary: "Clean Data"
+# Transform CRS to match
+ca_state <- st_transform(ca_state, st_crs(4326))
+dams <- st_transform(dams, st_crs(4326)) |> filter(NAME == "Keswick")
+habitat <- st_transform(habitat, st_crs(4326))
+bay <- st_transform(bay, st_crs(4326)) |> st_make_valid()
+river <- st_transform(river, st_crs(4326)) 
+
+```
+
+```{r}
+#| code-summary: "Create Habitat Map"
+
+# ---- Create a map of Chinook Salmon Habitat in Northern California ---
+
+ggplot() +
+# Load CA outline
+  geom_sf(data = ca_state,
+          fill = primary_palette["river"],
+          color = NA) + 
+  
+  # Load chinook habitat boundaries
+  geom_sf(data = habitat,
+          aes(fill = Class),
+          fill = c(primary_palette["salmon"],
+                   primary_palette["cascade"]),
+          color = c(alpha(primary_palette["salmon"], 0.6),
+                    alpha(primary_palette["cascade"], 0.6)),
+          alpha = 0.3) + 
+  
+  # Load Sacramento River
+  geom_sf(data = river,
+          color = primary_palette["cascade"]) +
+  
+  # Load SF Bay
+  geom_sf(data = bay,
+          fill = primary_palette["ocean"],
+          color = primary_palette["ocean"]) +
+  
+  # Load Keswick Dam
+  geom_sf(data = dams,
+          color = primary_palette["crimson"]) +
+    
+  # Add river annotation
+  annotate("text",
+            x = -121.5, y = 39.2,
+           label = "Sacramento River",
+           color = primary_palette["cascade"],
+           fontface = "bold",
+           size = 2.5) +
+  
+  # Define Albers Equal Area proj for California
+  coord_sf(crs = st_crs(3311)) +
+  
+  # Define theme
+  theme_void() + 
+  theme(
+    plot.background = element_rect(fill = primary_palette["ocean"])
+  )
+
+```
+![](outputs/habitat-map.png){fig-align="left" width="50%"}
+
+### The Donut Charts
+```{r}
+#| code-summary: "Create Donut Chart of Chinook Population"
+
+# Define chinook population proportion, based on 2023 and 1970 pop estimates
+pop_prop <- data.frame(
+  category = c("Remaining", "Historic Pop"),
+  value = c(5, 95)
+)
+
+# Create the donut chart
+ggplot(pop_prop, aes(x = 2,  # Set x to a constant value
+                     y = value,
+                     fill = category)) +
+  
+  geom_bar(stat = "identity",
+           width = 1,
+           color = "white") +  # Bar borders
+  
+  coord_polar("y", start = 0) +  # Transform to polar coordinates
+  
+  # Define the width of the donut
+    xlim(0.2,
+       2.5) +
+  
+  scale_fill_manual(values = c( "#F94B74", "#65D8FE")) +
+  
+  labs(title = "Only 5% of Historic Population Remains") +
+  
+  theme_void() +
+  
+  theme(
+    plot.title = element_text(face = "bold",
+                              color = primary_palette["white"],
+                              size = 16,
+                              hjust = 0.5),
+    panel.grid = element_blank(),
+    axis.ticks = element_blank(),
+    plot.background = element_rect(fill = primary_palette["ocean"],
+                                   color = NA),
+    legend.position = "none"
+  )
+```
+![](outputs/pop-plot.png){fig-align="left" width="60%"}
+
+
+```{r}
+#| code-summary: "Create Donut Chart of Access to Historic Spawning Grounds"
+
+# Define habitat proportion, based estimates from CalFish and Boydstun 2001
+pop_prop <- data.frame(
+  category = c("Remaining", "Historic Pop"),
+  value = c(10, 90)
+)
+
+# Create the donut chart
+ggplot(pop_prop, aes(x = 2,
+                     y = value,
+                     fill = category)) +
+    
+  geom_bar(stat = "identity",
+           width = 1,
+           color = "white") +
+    
+  coord_polar("y", start = 0) +
+
+  # Define width and height of chart
+  xlim(0.2,
+       2.5) +
+    
+  scale_fill_manual(values = c( "#F94B74", "#65D8FE")) +
+    
+  labs(title = "90% of historic spawning habitat\nis no longer accessible") +
+    
+  theme_void() +
+
+  theme(
+    plot.title = element_text(face = "bold",
+                              color = primary_palette["white"],
+                              size = 16,
+                              hjust = 0.5),
+    
+    panel.grid = element_blank(),
+    axis.ticks = element_blank(),
+    plot.background = element_rect(fill = primary_palette["ocean"],
+                                   color = NA),
+    legend.position = "none"
+  ) 
+```
+![](outputs/habitat-plot.png){fig-align="left" width="60%"}
+
+### The Stream Chart
+
+```{r}
+#| code-summary: "Prep Data"
+#| 
+# Clean and filter data for winter-run chinook
+winter_salmon <- salmon_ca |>
+    filter(c_name == "Chinook") |>
+    filter(r_timing == "Winter-run Chinook") |>
+    dplyr::group_by(y_end,
+                    r_timing) |>
+    dplyr::summarise(abun_estimate = sum(abun_estimate, na.rm = TRUE),
+                     .groups = "drop") 
+
+```
+
+
+```{r,fig.asp=.5, out.width="100%"}
+#| code-summary: "Create Stream Chart"
+ 
+# --- Filled stream chart for winter-run salmon abundance ----
+
+# Define plot
+ggplot(data = winter_salmon,
+       aes(x = y_end,
+           y = abun_estimate,
+           fill = r_timing)) +
+    
+    # Add stream geometry for salmon abundance over time
+    geom_stream(type = "ridge") +
+    
+    # Define color scheme
+    scale_fill_manual(values = "#65D8FE") +
+    
+    # Label y axis with K for thousands
+    scale_y_continuous(labels = scales::label_number(scale = 1e-3,
+                                                     suffix = "K"),
+                        breaks = c(10e3, 30e3, 50e3),
+                        expand = c(0, 0)) +
+  
+    # Edit x axis labels and breaks
+    scale_x_continuous(breaks = seq(1970, 2030, by = 10),
+                       expand = c(0,0)) +
+    
+    # ---- Add annotations ----
+    
+    # 1994 label for pop below 200 ----
+            # Add red arrow for 1994 - population less than 200 ----
+            annotate("text",
+                     x = 1994, y = 5000, 
+                     label = "↓",
+                     color = primary_palette["salmon"],
+                     size = 1) +
+            
+            # Add population text annotation
+            annotate("text", x = 1994, y = 11500, 
+                     label = "1994\nPopulation Drops\nto less than 200",
+                     color = primary_palette["white"],
+                     size = 3,
+                     fontface = "bold") +
+            
+            # Add endangered text annotation
+            annotate("text", x = 1993, y = 8000, 
+                     label = "Put on the endangered\n species list",
+                     color = primary_palette["white"],
+                     size = 2.5) +
+  
+      # Add 2000 - 2005 bracket for increased delta release ----
+            # Add bracket from 2000 - 2005 ----
+            geom_segment(aes(x = 2000, xend = 2000,
+                             y = 9500, yend = 11000),
+                         color = primary_palette["cascade"],
+                         size = .25,
+                         linetype = "dashed") +
+            
+            geom_segment(aes(x = 2005, xend = 2005,
+                             y = 9500, yend = 11000),
+                         color = primary_palette["cascade"],
+                         size = .25,
+                         linetype = "dashed") +
+            
+            geom_segment(aes(x = 2000, xend = 2005,
+                             y = 11000, yend = 11000),
+                         color = primary_palette["cascade"],
+                         size = .25,
+                         linetype = "dashed") +  
+  
+            # add text annotation for 20% increase
+            annotate("text",
+                       x = 2002.5, y = 13500, 
+                       label = "2000-2005\n20% Increase\nin Delta Release",
+                       color = primary_palette["white"],
+                       size = 2.5) +
+  
+      # Add 2018 label for battle creek ----
+             # Add arrow
+              geom_segment(aes(x = 2018, xend = 2018,
+                             y = 0, yend = 7500),
+                         color = primary_palette["cascade"],
+                         size = .25,
+                         linetype = "dashed") +
+            
+            # Add annotation for battle creek
+            annotate("text",
+                     x = 2018, y = 10000, 
+                     label = "2018\n20k juvenile Chinook\nreleased in Battle Creek",
+                     color = primary_palette["white"],
+                     size = 2.5) +
+  
+   # Add 2021 label for eggs lost ----
+             # Add arrow
+              geom_segment(aes(x = 2021, xend = 2021,
+                             y = 0, yend = 17000),
+                         color = primary_palette["cascade"],
+                         size = .25,
+                         linetype = "dashed") +
+            
+            # Add annotation for battle creek
+            annotate("text",
+                     x = 2020, y = 20000, 
+                     label = "2021\nAn estimated 75%\nof eggs were lost due\nto high river temperatures",
+                     color = primary_palette["white"],
+                     size = 2.5) +
+    
+    labs(
+        title = "In the 90s winter-run Chinook narrowly avoided extinction",
+        y = "Estimated\nWinter-Run\nChinook\nAdult\nPopulation",
+        fill = "Return Type") +
+    
+  # Define theme
+  theme_minimal() +
+  theme(
+        plot.title = element_text(face = "bold",
+                                  color = primary_palette["white"],
+                                  size = 12),
+        axis.text.x = element_text(size = 10,
+                                   face = "bold",
+                                   color = primary_palette["white"]),
+        axis.text.y = element_text(size = 10,
+                                   face = "bold",
+                                   color = primary_palette["white"]),
+        axis.title.y = element_text(size = 11,
+                                    face = "bold",
+                                    color = primary_palette["white"],
+                                    angle = 0,
+                                    vjust = .5),
+        axis.title.x = element_blank(),
+        panel.grid = element_blank(),
+        axis.line.x = element_line(color = primary_palette["white"], size = 0.5),
+        axis.ticks.x = element_line(color = primary_palette["white"], size = 0.5),
+        axis.ticks.y = element_blank(),
+        plot.background = element_rect(fill = primary_palette["ocean"],
+                                       color = NA),
+        legend.position = "none"
+        ) 
+    
+```
+![](outputs/stream-chart.png){fig-align="left" width="60%"}
+
+
+### The Heatmap
+
+```{r}
+#| code-summary: "Prep Data"
+
+# ---- Calculate average and max daily stream temperature ----
+daily_avg_temp_kes20 <- kes_stream_temp |>
+  group_by(day_of_year,
+           year) |>
+  summarise(avg_temp = mean(value, na.rm = TRUE),
+            max_temp = max(value, na.rm = TRUE)) |>
+  ungroup()
+
+```
+
+
+```{r, fig.asp=1.5, out.width="100%"}
+#| code-summary: "Create Heatmap"
+
+# ---- Create heatmap of Keswick stream temperature by day of year ----
+ggplot(daily_avg_temp_kes20,
+       aes(x = day_of_year,
+           y = factor(year), # facet by year
+           fill = max_temp)) +
+    
+  geom_tile() +
+    
+ coord_cartesian(clip = "off") +
+     
+  # Add a box around April 15 to August 31
+  geom_rect(aes(xmin = as.numeric(strptime("04-15", "%m-%d")$yday),
+                xmax = as.numeric(strptime("08-31", "%m-%d")$yday),
+                ymin = -Inf,
+                ymax = Inf),
+            color = primary_palette["light-blue"],
+            fill = NA,
+            size = 1.5) +
+    
+  # Add a small rectangle below the spawning season dates
+  geom_rect(aes(xmin = as.numeric(strptime("04-15", "%m-%d")$yday),
+                xmax = as.numeric(strptime("08-31", "%m-%d")$yday),
+                ymin = 0,
+                ymax = .4),
+            fill = primary_palette["light-blue"],
+            color = primary_palette["light-blue"],
+            size = 1) +
+    
+  # Label spawning season
+  geom_text(aes(x = (as.numeric(strptime("04-15", "%m-%d")$yday + 1) + 
+                     as.numeric(strptime("08-31", "%m-%d")$yday + 1)) / 2,
+                y = 0.25,
+                label = "Spawning Season: Apr. 1 - Aug. 31"),
+            color = primary_palette["ocean"],
+            fontface = "bold",
+            size = 3) +
+    
+    scale_fill_gradientn(colors = temp_palette) +
+    scale_y_discrete(limits = rev(levels(factor(daily_avg_temp_kes20$year)))) +  
+    
+  labs(title = "Daily maximum river temperature below Keswick Dam.") +
+  theme_void() +
+  theme(plot.title = element_text(color = primary_palette["white"],
+                                  face = "bold",
+                                  size = 16),
+        axis.text.y = element_text(color = primary_palette["white"],
+                                   face = "bold",
+                                   size = 20), 
+        axis.ticks.y = element_blank(),
+        plot.background = element_rect(fill = primary_palette["ocean"],
+                                       color = NA),
+        legend.text = element_text(color = primary_palette["white"],
+                                   size = 12),
+        legend.title = element_blank(),
+        legend.position = "top",
+        legend.justification = c(1, 1))
+```
+![](outputs/heatmap.png){fig-align="left" width="60%"}
+
+
+### The Stacked Bar Chart
+```{r}
+#| code-summary: "Prep Data"
+
+# ---- Calculate days exceeding the threshold of 53.5°F ----
+
+# Define threshold
+threshold <- 53.5 
+
+# Flag days where any hourly observation exceeds the threshold
+daily_exceedance <- kes_stream_temp |>
+  group_by(year, month, obs_date) |>
+  summarise(exceed_threshold = as.integer(any(value > threshold,
+                                              na.rm = TRUE))) |>
+  ungroup()
+
+# ---- Filter data for spawning season (April - August) ----
+spawning_exceedance <- daily_exceedance |>
+  filter(month %in% c("Apr", "May", "Jun", "Jul", "Aug")) |> 
+  group_by(year) |>
+  summarise(exceed_days = sum(exceed_threshold),
+            total_days = n()) |>
+  mutate(non_exceed_days = total_days - exceed_days) |>
+  pivot_longer(cols = c(exceed_days, non_exceed_days), 
+               names_to = "exceed_type", 
+               values_to = "days") |>
+  mutate(proportion = days / total_days)
+
+```
+
+```{r}
+#| code-summary: "Create Stacked Bar Chart"
+
+
+# ---- Stacked bar chart showing proportion per year that exceeded or didn't ----
+ggplot(spawning_exceedance, aes(y = factor(year,
+                                           levels = rev(unique(year))), 
+                                x = proportion, 
+                                fill = exceed_type)) +
+  geom_bar(stat = "identity",
+           color = primary_palette["white"],
+           size = 0.5) +
+  
+  # Add labels for percentage
+  geom_text(aes(label = ifelse(round(proportion * 100) >= 15, 
+                               paste0(round(proportion * 100), "%"), 
+                               "")),
+            position = position_stack(vjust = 0.5), 
+            color = primary_palette["white"], 
+            fontface = "bold",
+            size = 12) +
+  
+  scale_fill_manual(name = "Temperature Status", 
+                    values = c("exceed_days" = "#F94B74", 
+                               "non_exceed_days" = "#20566E")) +
+ 
+  scale_x_continuous(labels = scales::percent) +
+
+  labs(title = "Percent of spawning season days that met and exceeded the threshold") +
+    
+  theme_minimal() +
+    
+  theme(plot.title = element_text(face = "bold",
+                                  color = primary_palette["white"],
+                                  size = 20,
+                                  hjust = 0.5),
+        
+        axis.text.x = element_blank(),
+        axis.text.y = element_blank(),
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        panel.grid = element_blank(),
+        axis.ticks = element_blank(),
+        plot.background = element_rect(fill = primary_palette["ocean"],
+                                       color = NA),
+        legend.position = "none")
+
+```
+![](outputs/temp-prop-plot.png){fig-align="left" width="60%"}
+
+### The Full Code
+```{r}
+#| code-summary: "Expand to See Full Code"
+
+# ---- Load libraries ----
+
+# Data wrangling  
+library(here)  
+library(dplyr)  
+library(tidyverse)  
+library(janitor)  
+library(readxl)  
+
+# Spatial data processing  
+library(sf)  
+library(smoothr)  
+
+# Data visualization  
+library(ggplot2)  
+library(ggstream)  
+library(scales)
+
+# ---- Read in data ----
+
+# Read in Salmon population data
+salmon_ca <- read_excel(here::here("data","upstream","State_of_Salmon_in_CA_083024.xlsx")) |> 
+    clean_names()
+
+
+# Read in Chinook Habitat map data
+ca_state <- st_read(here::here("data", "upstream", "California_State_Boundary", "California_State_Boundary.shp")) |> smooth(method = "chaikin") # smooth() to simplify geometries
+river <- st_read(here::here("data", "upstream", "river", "sac_river.shp")) |> st_union() |> smooth(method = "chaikin")
+bay <- st_read(here::here("data", "upstream", "river", "sac_bay_wr_chinook.shp")) |> smooth(method = "chaikin")
+habitat <- st_read(here::here("data","upstream", "river", "salmon_habitat.shp")) |> smooth(method = "chaikin")
+dams <- st_read(here::here("data", "upstream", "river", "chinook_dams.shp"))
+
+
+# Read in Sacramento River temp data for Keswick Dam
+kes_stream_temp <- read.csv(here::here("data","upstream", "KWK_25_w_temp.csv")) |>
+  clean_names() |>
+  mutate(obs_date = as.Date(obs_date),
+         day_of_year = yday(obs_date),
+         year = year(obs_date),
+         month = month(obs_date, label = TRUE))|>
+  filter(year < 2025)
+
+# ---- Define color palettes ----
+
+# Define heatmap palette
+temp_palette <- c("#004564","#65D8FE", "#FC90A9","#E11847")
+
+# Define primary palette
+primary_palette <- c(
+  "ocean" = "#004564",
+  "river" = "#20566E",
+  "cascade" = "#65D8FE",
+  "salmon" = "#FC90A9",
+  "crimson" = "#E11847",
+  "light-blue" = "#D5FFFD",
+  "white" = "white"
+)
+
+
+# ---- Create The Map ----
+
+# Transform CRS to match
+ca_state <- st_transform(ca_state, st_crs(4326))
+dams <- st_transform(dams, st_crs(4326)) |> filter(NAME == "Keswick")
+habitat <- st_transform(habitat, st_crs(4326))
+bay <- st_transform(bay, st_crs(4326)) |> st_make_valid()
+river <- st_transform(river, st_crs(4326)) 
+
+# Create map
+ggplot() +
+  # Load CA outline
+  geom_sf(data = ca_state,
+          fill = primary_palette["river"],
+          color = NA) + 
+  
+  # Load chinook habitat boundaries
+  geom_sf(data = habitat,
+          aes(fill = Class),
+          fill = c(primary_palette["salmon"],
+                   primary_palette["cascade"]),
+          color = c(alpha(primary_palette["salmon"], 0.6),
+                    alpha(primary_palette["cascade"], 0.6)),
+          alpha = 0.3) + 
+  
+  # Load Sacramento River
+  geom_sf(data = river,
+          color = primary_palette["cascade"]) +
+  
+  # Load SF Bay
+  geom_sf(data = bay,
+          fill = primary_palette["ocean"],
+          color = primary_palette["ocean"]) +
+  
+  # Load Keswick Dam
+  geom_sf(data = dams,
+          color = primary_palette["crimson"]) +
+  
+  # Add river annotation
+  annotate("text",
+           x = 1, y = 1, 
+           label = "The Sacramento River",
+           color = primary_palette["cascade"],
+           fontface = "bold",
+           size = 2.5) +
+  
+  # Define Albers Equal Area proj for California
+  coord_sf(crs = st_crs(3311)) +
+  
+  # Define theme
+  theme_void() + 
+  theme(
+    plot.background = element_rect(fill = primary_palette["ocean"])
+  )
+
+# ---- Create The Donut Charts ----
+
+# Define chinook population proportion, based on 2023 and 1970 pop estimates
+pop_prop <- data.frame(
+  category = c("Remaining", "Historic Pop"),
+  value = c(5, 95)
+)
+
+# Create habitat donut chart
+ggplot(pop_prop, aes(x = 2,  # Set x to a constant value
+                     y = value,
+                     fill = category)) +
+  
+  geom_bar(stat = "identity",
+           width = 1,
+           color = "white") +  # Bar borders
+  
+  coord_polar("y", start = 0) +  # Transform to polar coordinates
+  
+  # Define the width of the donut
+    xlim(0.2,
+       2.5) +
+  
+  scale_fill_manual(values = c( "#F94B74", "#65D8FE")) +
+  
+  labs(title = "Only 5% of Historic Population Remains") +
+  
+  theme_void() +
+  
+  theme(
+    plot.title = element_text(face = "bold",
+                              color = primary_palette["white"],
+                              size = 16,
+                              hjust = 0.5),
+    panel.grid = element_blank(),
+    axis.ticks = element_blank(),
+    plot.background = element_rect(fill = primary_palette["ocean"],
+                                   color = NA),
+    legend.position = "none"
+  )
+
+# Define habitat proportion, based estimates from CalFish and Boydstun 2001
+pop_prop <- data.frame(
+  category = c("Remaining", "Historic Pop"),
+  value = c(10, 90)
+)
+
+# Create population donut chart
+ggplot(pop_prop, aes(x = 2,
+                     y = value,
+                     fill = category)) +
+    
+  geom_bar(stat = "identity",
+           width = 1,
+           color = "white") +
+    
+  coord_polar("y", start = 0) +
+
+  # Define width and height of chart
+  xlim(0.2,
+       2.5) +
+    
+  scale_fill_manual(values = c( "#F94B74", "#65D8FE")) +
+    
+  labs(title = "90% of historic spawning habitat\nis no longer accessible") +
+    
+  theme_void() +
+
+  theme(
+    plot.title = element_text(face = "bold",
+                              color = primary_palette["white"],
+                              size = 16,
+                              hjust = 0.5),
+    
+    panel.grid = element_blank(),
+    axis.ticks = element_blank(),
+    plot.background = element_rect(fill = primary_palette["ocean"],
+                                   color = NA),
+    legend.position = "none"
+  ) 
+
+# ---- Create The Stream Chart ----
+
+# Clean and filter data for winter-run chinook
+winter_salmon <- salmon_ca |>
+    filter(c_name == "Chinook") |>
+    filter(r_timing == "Winter-run Chinook") |>
+    dplyr::group_by(y_end,
+                    r_timing) |>
+    dplyr::summarise(abun_estimate = sum(abun_estimate, na.rm = TRUE),
+                     .groups = "drop") 
+
+
+# Create stream chart for salmon abundance
+
+# Define plot
+ggplot(data = winter_salmon,
+       aes(x = y_end,
+           y = abun_estimate,
+           fill = r_timing)) +
+    
+    # Add stream geometry for salmon abundance over time
+    geom_stream(type = "ridge") +
+    
+    # Define color scheme
+    scale_fill_manual(values = "#65D8FE") +
+    
+    # Label y axis with K for thousands
+    scale_y_continuous(labels = scales::label_number(scale = 1e-3,
+                                                     suffix = "K"),
+                        breaks = c(10e3, 30e3, 50e3),
+                        expand = c(0, 0)) +
+  
+    # Edit x axis labels and breaks
+    scale_x_continuous(breaks = seq(1970, 2030, by = 10),
+                       expand = c(0,0)) +
+    
+    # ---- Add annotations ----
+    
+    # 1994 label for pop below 200 ----
+            # Add red arrow for 1994 - population less than 200 ----
+            annotate("text",
+                     x = 1994, y = 5000, 
+                     label = "↓",
+                     color = primary_palette["salmon"],
+                     size = 1) +
+            
+            # Add population text annotation
+            annotate("text", x = 1994, y = 11500, 
+                     label = "1994\nPopulation Drops\nto less than 200",
+                     color = primary_palette["white"],
+                     size = 3,
+                     fontface = "bold") +
+            
+            # Add endangered text annotation
+            annotate("text", x = 1993, y = 8000, 
+                     label = "Put on the endangered\n species list",
+                     color = primary_palette["white"],
+                     size = 2.5) +
+  
+      # Add 2000 - 2005 bracket for increased delta release ----
+            # Add bracket from 2000 - 2005 ----
+            geom_segment(aes(x = 2000, xend = 2000,
+                             y = 9500, yend = 11000),
+                         color = primary_palette["cascade"],
+                         size = .25,
+                         linetype = "dashed") +
+            
+            geom_segment(aes(x = 2005, xend = 2005,
+                             y = 9500, yend = 11000),
+                         color = primary_palette["cascade"],
+                         size = .25,
+                         linetype = "dashed") +
+            
+            geom_segment(aes(x = 2000, xend = 2005,
+                             y = 11000, yend = 11000),
+                         color = primary_palette["cascade"],
+                         size = .25,
+                         linetype = "dashed") +  
+  
+            # add text annotation for 20% increase
+            annotate("text",
+                       x = 2002.5, y = 13500, 
+                       label = "2000-2005\n20% Increase\nin Delta Release",
+                       color = primary_palette["white"],
+                       size = 2.5) +
+  
+      # Add 2018 label for battle creek ----
+             # Add arrow
+              geom_segment(aes(x = 2018, xend = 2018,
+                             y = 0, yend = 7500),
+                         color = primary_palette["cascade"],
+                         size = .25,
+                         linetype = "dashed") +
+            
+            # Add annotation for battle creek
+            annotate("text",
+                     x = 2018, y = 10000, 
+                     label = "2018\n20k juvenile Chinook\nreleased in Battle Creek",
+                     color = primary_palette["white"],
+                     size = 2.5) +
+  
+   # Add 2021 label for eggs lost ----
+             # Add arrow
+              geom_segment(aes(x = 2021, xend = 2021,
+                             y = 0, yend = 17000),
+                         color = primary_palette["cascade"],
+                         size = .25,
+                         linetype = "dashed") +
+            
+            # Add annotation for battle creek
+            annotate("text",
+                     x = 2020, y = 20000, 
+                     label = "2021\nAn estimated 75%\nof eggs were lost due\nto high river temperatures",
+                     color = primary_palette["white"],
+                     size = 2.5) +
+    
+    labs(
+        title = "In the 90s winter-run Chinook narrowly avoided extinction",
+        y = "Estimated\nWinter-Run\nChinook\nAdult\nPopulation",
+        fill = "Return Type") +
+    
+  # Define theme
+  theme_minimal() +
+  theme(
+        plot.title = element_text(face = "bold",
+                                  color = primary_palette["white"],
+                                  size = 12),
+        axis.text.x = element_text(size = 10,
+                                   face = "bold",
+                                   color = primary_palette["white"]),
+        axis.text.y = element_text(size = 10,
+                                   face = "bold",
+                                   color = primary_palette["white"]),
+        axis.title.y = element_text(size = 11,
+                                    face = "bold",
+                                    color = primary_palette["white"],
+                                    angle = 0,
+                                    vjust = .5),
+        axis.title.x = element_blank(),
+        panel.grid = element_blank(),
+        axis.line.x = element_line(color = primary_palette["white"], size = 0.5),
+        axis.ticks.x = element_line(color = primary_palette["white"], size = 0.5),
+        axis.ticks.y = element_blank(),
+        plot.background = element_rect(fill = primary_palette["ocean"],
+                                       color = NA),
+        legend.position = "none"
+        ) 
+    
+# ---- Create the Heatmap ----
+
+# Calculate average and max daily stream temperature
+daily_avg_temp_kes20 <- kes_stream_temp |>
+  group_by(day_of_year,
+           year) |>
+  summarise(avg_temp = mean(value, na.rm = TRUE),
+            max_temp = max(value, na.rm = TRUE)) |>
+  ungroup()
+
+# Create heatmap of Keswick stream temperature by day of year
+ggplot(daily_avg_temp_kes20,
+       aes(x = day_of_year,
+           y = factor(year), # facet by year
+           fill = max_temp)) +
+    
+  geom_tile() +
+    
+ coord_cartesian(clip = "off") +
+     
+  # Add a box around April 15 to August 31
+  geom_rect(aes(xmin = as.numeric(strptime("04-15", "%m-%d")$yday),
+                xmax = as.numeric(strptime("08-31", "%m-%d")$yday),
+                ymin = -Inf,
+                ymax = Inf),
+            color = primary_palette["light-blue"],
+            fill = NA,
+            size = 1.5) +
+    
+  # Add a small rectangle below the spawning season dates
+  geom_rect(aes(xmin = as.numeric(strptime("04-15", "%m-%d")$yday),
+                xmax = as.numeric(strptime("08-31", "%m-%d")$yday),
+                ymin = 0,
+                ymax = .4),
+            fill = primary_palette["light-blue"],
+            color = primary_palette["light-blue"],
+            size = 1) +
+    
+  # Label spawning season
+  geom_text(aes(x = (as.numeric(strptime("04-15", "%m-%d")$yday + 1) + 
+                     as.numeric(strptime("08-31", "%m-%d")$yday + 1)) / 2,
+                y = 0.25,
+                label = "Spawning Season: Apr. 1 - Aug. 31"),
+            color = primary_palette["ocean"],
+            fontface = "bold",
+            size = 3) +
+    
+    scale_fill_gradientn(colors = temp_palette) +
+    scale_y_discrete(limits = rev(levels(factor(daily_avg_temp_kes20$year)))) +  
+    
+  labs(title = "Daily maximum river temperature below Keswick Dam.") +
+  theme_void() +
+  theme(plot.title = element_text(color = primary_palette["white"],
+                                  face = "bold",
+                                  size = 16),
+        axis.text.y = element_text(color = primary_palette["white"],
+                                   face = "bold",
+                                   size = 20), 
+        axis.ticks.y = element_blank(),
+        plot.background = element_rect(fill = primary_palette["ocean"],
+                                       color = NA),
+        legend.text = element_text(color = primary_palette["white"],
+                                   size = 12),
+        legend.title = element_blank(),
+        legend.position = "top",
+        legend.justification = c(1, 1))
+
+# ---- Create stacked bar chart ----
+
+# Calculate days exceeding the threshold of 53.5°F
+threshold <- 53.5 # Define threshold
+
+# Flag days where any hourly observation exceeds the threshold
+daily_exceedance <- kes_stream_temp |>
+  group_by(year, month, obs_date) |>
+  summarise(exceed_threshold = as.integer(any(value > threshold,
+                                              na.rm = TRUE))) |>
+  ungroup()
+
+# Filter data for spawning season (April - August)
+spawning_exceedance <- daily_exceedance |>
+  filter(month %in% c("Apr", "May", "Jun", "Jul", "Aug")) |> 
+  group_by(year) |>
+  summarise(exceed_days = sum(exceed_threshold),
+            total_days = n()) |>
+  mutate(non_exceed_days = total_days - exceed_days) |>
+  pivot_longer(cols = c(exceed_days, non_exceed_days), 
+               names_to = "exceed_type", 
+               values_to = "days") |>
+  mutate(proportion = days / total_days)
+
+
+# Create Stacked bar chart showing proportion per year that exceeded or didn't
+ggplot(spawning_exceedance, aes(y = factor(year,
+                                           levels = rev(unique(year))), 
+                                x = proportion, 
+                                fill = exceed_type)) +
+  geom_bar(stat = "identity",
+           color = primary_palette["white"],
+           size = 0.5) +
+  
+  # Add labels for percentage
+  geom_text(aes(label = ifelse(round(proportion * 100) >= 15, 
+                               paste0(round(proportion * 100), "%"), 
+                               "")),
+            position = position_stack(vjust = 0.5), 
+            color = primary_palette["white"], 
+            fontface = "bold",
+            size = 12) +
+  
+  scale_fill_manual(name = "Temperature Status", 
+                    values = c("exceed_days" = "#F94B74", 
+                               "non_exceed_days" = "#20566E")) +
+ 
+  scale_x_continuous(labels = scales::percent) +
+
+  labs(title = "Percent of spawning season days that met and exceeded the threshold") +
+    
+  theme_minimal() +
+    
+  theme(plot.title = element_text(face = "bold",
+                                  color = primary_palette["white"],
+                                  size = 20,
+                                  hjust = 0.5),
+        
+        axis.text.x = element_blank(),
+        axis.text.y = element_blank(),
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        panel.grid = element_blank(),
+        axis.ticks = element_blank(),
+        plot.background = element_rect(fill = primary_palette["ocean"],
+                                       color = NA),
+        legend.position = "none")
+
+```
+
+
+# Final Infographic:
+![](images/an-upstream-battle-small.png){fig-align="left" width="70%"}
+
+
+
+#### Acknowledgments:
+This assignment was created for UCSB MEDS, EDS 240 - Data Visualization & Communication. Thank you to our professor Sam Shanny-Csik and teaching assistants Annie Adams and Sloane Stephenson for their wisdom and support throughout the class.
+
+#### References:
+California Department of Education. (n.d.). California State Boundary. Retrieved from https://hub.arcgis.com/datasets/ca7b47512a2a442fbfa039bded0b6eaf_0/explore?uiVersion=content-views
+
+NOAA Fisheries. (n.d.). Salmon Critical Habitat Maps and GIS Data - West Coast Region. Retrieved from https://www.fisheries.noaa.gov/resource/map/critical-habitat-maps-and-gis-data-west-coast-region
+
+NOAA Fisheries & California Department of Fish and Wildlife. (n.d.). Winter-run Chinook Salmon Habitat Boundary [ds800]. Retrieved from https://apps.wildlife.ca.gov/bios6/?al=ds800
+
+California Open Data Portal. (n.d.). i17 California Jurisdictional Dams Dataset. Retrieved from https://data.ca.gov/dataset/i17-california-jurisdictional-dams
+
+NOAA Fisheries. (n.d.). Recovery through Reintroductions: California's Central Valley Salmon. Retrieved from https://www.fisheries.noaa.gov/west-coast/endangered-species-conservation/recovery-through-reintroductions-californias-central-valley-salmon
+
+The Nature Conservancy. (n.d.). Statewide Status of Salmon Species in California. Retrieved from https://casalmon.org/statewide-status/#all-species
+
+California Department of Water Resources. (n.d.). California Data Exchange Center: Stream Temperature Data. Retrieved from https://cdec.water.ca.gov/dynamicapp/wsSensorData
+
