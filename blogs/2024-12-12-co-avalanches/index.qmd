@@ -2,6 +2,7 @@
 title: "A Look At Elevated Risk Factors for Avalanche Accidents in Colorado"
 subtitle: "Uncovering the Role of Season and Elevation for Avalanche Risk in R"
 description: "UCSB MEDS - EDS 222 - Stats for Environmental Data Science"
+date: "2024-12-12"
 author: Nicole Pepper
 format: 
   html:
