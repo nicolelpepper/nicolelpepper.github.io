@@ -16,6 +16,7 @@ editor_options:
   chunk_output_type: console
 output: html_document
 page-layout: full
+categories: [statistics, MEDS, R]
 ---
 
 There is something wondrous about getting yourself up a snowy mountain, beit by the power of a snowmobile or skis underfoot - surrounded by nothing but peaks, trees, and your trusty companions beside. Winter recreation can be really fun, exciting, and uniquely challenging. With advancements in touring and navigating equipment (and cool photos on social media), it's no surprise that backcountry winter adventures are more popular than ever.

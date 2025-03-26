@@ -15,6 +15,7 @@ editor_options:
   chunk_output_type: console
 output: html_document
 image: "images/cover-photo.png"
+categories: [data-viz, MEDS, R]
 ---
 
 
