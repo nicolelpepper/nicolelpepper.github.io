@@ -129,7 +129,7 @@
   padding: 10px;
   border-radius: 50%;
   cursor: pointer;
-  z-index: 2;
+  z-index: 9999;
   text-decoration: none;
   display: flex;
   justify-content: center;
