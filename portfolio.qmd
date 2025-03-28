@@ -156,7 +156,7 @@ editor_options:
 <div id="map11" class="lightbox">
   <a href="#" class="close">X</a>
   <a href="#map10" class="prev">←</a>
-    <a href="#map12" class="next">→</a>
+  <a href="#map12" class="next">→</a>
   <div class="overlay"></div> <!-- Overlay Background -->
   <img src="images/portfolio/HOLC.png" alt="Los Angeles Historic Redlining Map">
   <p>The above map displays the Home Owners’ Loan Corporation (HOLC) Grades, also known as redlining, in Los Angeles, California. Historically, these boundaries were used by mortgage lenders to identify ‘hazardous’ or high risk areas predominately made up of black and minority populations, as well as low income areas, to avoid for mortgage lending. Practices like redlining are a clear illustration of systemic racism and the enduring legacy of slavery. Impacts from redlining are still being felt today. Designed In R-Studio.</p>
@@ -169,9 +169,41 @@ editor_options:
 <div id="map12" class="lightbox">
   <a href="#" class="close">X</a>
   <a href="#map11" class="prev">←</a>
+  <a href="#map13" class="next">→</a>
   <div class="overlay"></div> <!-- Overlay Background -->
   <img src="images/portfolio/outage.gif" alt="Power Outage Animation" loop="true">
   <p>This animation shows a map of Houston's night light intensity on a typical night before the storm (February 7, 2023), compared to night light intensity after the storm (Feb 16, 2023), when the Houston region in Texas experienced widespread power outages. The night light intensity ranges from no light (dark blue), to pink (mid light intensity), to yellow (highest light intensity). Designed In R-Studio.</p>
+</div>
+
+<!-- Antarctica -->
+<a href="#map13" class="lightbox-thumbnail">
+  ![Morgan Creek Fire Map](images/portfolio/Antarctica_T.png){.thumbnail}
+</a>
+<div id="map13" class="lightbox">
+  <a href="#" class="close">X</a>
+  <a href="#map12" class="prev">←</a>
+  <a href="#map14 class="next">→</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="images/portfolio/Antarctica.png" alt="Antarctica" loop="true">
+  <p>In 2020, the Morgan Creek Fire burned over 7,500 acres. The above satellite image, from Copernicus Sentinel-2, was taken on October 6, 2020. This image rendition
+utilizes the near and shortwave infrared reflectance to highlight the fire’s active burn in bright red, its burn scar in deep red, and the resulting smoke blowing to the
+east in an ambient blue. Designed in Google Earth Engine and QGIS.</p>
+
+</div>
+
+<!-- Morgan Creek Fire -->
+<a href="#map14" class="lightbox-thumbnail">
+  ![Morgan Creek Fire Map](images/portfolio/Morgan-Creek-Fire-T.png){.thumbnail}
+</a>
+<div id="map14" class="lightbox">
+  <a href="#" class="close">X</a>
+  <a href="#map13" class="prev">←</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="images/portfolio/Morgan-Creek-Fire.png" alt="Morgan Creek Fire Map" loop="true">
+  <p>In 2020, the Morgan Creek Fire burned over 7,500 acres. The above satellite image, from Copernicus Sentinel-2, was taken on October 6, 2020. This image rendition
+utilizes the near and shortwave infrared reflectance to highlight the fire’s active burn in bright red, its burn scar in deep red, and the resulting smoke blowing to the
+east in an ambient blue. Designed in Google Earth Engine and QGIS.</p>
+
 </div>
 
 :::
@@ -207,12 +239,41 @@ editor_options:
 </div>
 
 
-<!-- Peak SWE -->
+<!-- Country Emissions -->
 <a href="#dv3" class="lightbox-thumbnail">
-  ![Peak SWE](images/portfolio/SWE_T.png){.thumbnail}
+  ![Emissions by Country](images/portfolio/country_emissions_T.png){.thumbnail}
 </a>
 <div id="dv3" class="lightbox">
+  <a href="#" class="close">X</a>
   <a href="#dv2" class="prev">←</a>
+  <a href="#dv4" class="next">→</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="images/portfolio/country_emissions.png" alt="Fishing vessel emissions by country" loop="true">
+  <p>This plot shows the proportion of global fishing vessel emissions by country from 2016 - 2014. Data source is Global Fish Watch. Designed in R-Studio.</p>
+
+</div>
+
+
+<!-- Gera Emissions -->
+<a href="#dv4" class="lightbox-thumbnail">
+  ![Emissions by Country](images/portfolio/gear-emissions_T.png){.thumbnail}
+</a>
+<div id="dv4" class="lightbox">
+  <a href="#" class="close">X</a>
+  <a href="#dv3" class="prev">←</a>
+  <a href="#dv5" class="next">→</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="images/portfolio/gear-emissions.png" alt="Fishing vessel emissions by gear type" loop="true">
+  <p>This plot shows the proportion of global fishing vessel emissions by gear type from 2016 - 2014. Data source is Global Fish Watch. Designed in R-Studio.</p>
+
+</div>
+
+<!-- Peak SWE -->
+<a href="#dv5" class="lightbox-thumbnail">
+  ![Peak SWE](images/portfolio/SWE_T.png){.thumbnail}
+</a>
+<div id="dv5" class="lightbox">
+  <a href="#dv4" class="prev">←</a>
   <a href="#" class="close">X</a>
   <div class="overlay"></div> <!-- Overlay Background -->
   <img src="images/portfolio/SWE.png" alt="Line graph showing the change in peak SWE at the Tower Station in Northern Colorado.">
