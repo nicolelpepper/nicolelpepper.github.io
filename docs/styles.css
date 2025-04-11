@@ -1,0 +1,179 @@
+/* Unified Gallery Layout (Grid) */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Set 5 items per row */
+  gap: 15px;
+  justify-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* For screens smaller than 768px (mobile) */
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on mobile */
+  }
+}
+
+/* Thumbnail Styling */
+.thumbnail {
+  display: block;
+  width: 100%; /* Make the thumbnail take full width of the grid cell */
+  max-width: 300px; /* Set a max width for the thumbnail */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Crop the image to fit */
+  transition: transform 0.2s; /* Hover effect */
+}
+
+.thumbnail:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Lightbox Styling */
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999; /* Keep lightbox above content */
+  text-align: center;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease; /* Smooth fade-in effect */
+}
+
+/* Description Styling */
+.lightbox p {
+  text-align: left;
+  max-width: 30%;
+  margin: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 3; /* Ensure description is above overlay */
+}
+
+/* Lightbox Background Overlay */
+.lightbox .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); /* Dark overlay */
+  z-index: 1;
+}
+
+/* Image Styling in Lightbox */
+.lightbox img {
+  max-width: 80%;
+  max-height: 80%;
+  z-index: 3; /* Ensure the image is on top of the overlay */
+}
+
+/* Lightbox Description Styling */
+.lightbox p {
+  color: #f1fdffff;
+  font-size: 18px;
+  margin-top: 10px;
+  z-index: 3; /* Ensure the description is on top of the overlay */
+}
+
+/* Show lightbox when targeted */
+#map1:target, #map2:target, #map3:target, #map4:target, #map5:target, #map6:target, #map7:target, #map8:target, #map9:target, #map10:target, #map11:target, #map12:target, #map13:target, #map14:target, #dv1:target, #dv2:target, #dv3:target, #dv4:target, #dv5:target, #info1:target, #info2:target, #info3:target, #info4:target, #info5:target, #info6:target {
+  display: flex;
+}
+
+/* Close Button Styling (perfect circle) */
+.close {
+  position: absolute;
+  top: 80px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 3;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Close Button Hover */
+.close:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Navigation Arrows (Left and Right) */
+.next, .prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 9999;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox.active embed {
+  z-index: 300;
+}
+
+.lightbox.active .overlay {
+  display: block;
+}
+
+embed {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 80vh;
+  border: none;
+}
+
+/* Next/Previous Arrow Hover */
+.next:hover, .prev:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.next {
+  right: 10px;
+}
+
+.prev {
+  left: 10px;
+}
+
+/* Table of Contents (TOC) Sidebar */
+.toc-sidebar {
+  display: block; /* Default TOC display */
+  z-index: 10; /* Ensure TOC is below the lightbox */
+}
+
+/* Hide TOC when lightbox is active */
+.toc-hidden {
+  display: none; /* Class to hide TOC */
+}
+
