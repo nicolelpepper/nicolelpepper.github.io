@@ -15,8 +15,7 @@
 $sky: #0388A6;
 $clouds: #f1fdffff;
 $grass: #9CB8AE;
-$seafoam:#D5FFFD;
-$otter: #007A78;
+$seafoam:#E8FFFD;
 $avocado: #75A744;
 $hot-salmon: #F94B74;
 $salmon: #FC90A9;
@@ -25,13 +24,15 @@ $river: #20566E;
 $evergreen: #002E2C;
 $corn: #F29B30;
 $charcoal: #212121;
+$otter: #426E6F;
+$offwhite: #FBFFFF;
 
 
 // Quarto Sass Variables
 $body-bg: $seafoam;
-$navbar-bg: $ocean;
+$navbar-bg: $otter;
 $navbar-fd: $sky;
-$navbar-hl: $hot-salmon;
+$navbar-hl: $corn;
 
 /*-- scss:rules --*/
 
@@ -43,11 +44,11 @@ body {
 h1, h2, h3 {
   letter-spacing: 2px;
   font-weight: 500;
-  color: $ocean;
+  color: $evergreen;
 }
 
 .title{
-  color: $ocean;
+  color: $evergreen;
 }
 
 .center-text {
@@ -76,7 +77,7 @@ h1, h2, h3 {
 }
 
 a {
-  color: $ocean; 
+  color: $otter; 
 }
 
 
@@ -106,7 +107,7 @@ pre code {
 /* Change color for the blog title (usually h1 or h2) */
 .blog-title {
   color: #2F4F4F; /* Set the color for the title */
-  font-family: 'Arial', sans-serif; /* Optional: change the font */
+  font-family: 'Georgia', sans-serif; /* Optional: change the font */
   font-weight: bold; /* Optional: make it bold */
 }
 
@@ -115,13 +116,4 @@ pre code {
   color: #808080; /* Set the color for the description */
   font-family: 'Georgia', serif; /* Optional: change the font */
   font-style: italic; /* Optional: make the description italic */
-}
-
-/* Example for title and description together */
-.blog-post h1, .blog-post h2 {
-  color: #4B0082; /* Set a different color for the title */
-}
-
-.blog-post .description {
-  color: #696969; /* Set a different color for the description */
 }
