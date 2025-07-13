@@ -1,28 +1,35 @@
 ---
 title: "Nicole Pepper"
+description: nicolelpepper@gmail.com
 image: images/Pepper_Headshot.jpeg
 about:
   template: trestles
   image-shape: rounded
   image-width: 16em
   links:
+    - text: Email
+      href: mailto:nicolelpepper@gmail.com
+      target: _blank
+      
     - icon: github
       text: Github
       href: https://github.com/nicolelpepper
       target: _blank
-    
-    - text: LinkedIn
+
+    - icon: linkedin
+      text: LinkedIn
       href: https://www.linkedin.com/in/nicole-pepper/
       target: _blank
-    - text: Email
-      href: mailto:nicolelpepper@gmail.com
+      
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/maps.and.pepper/
+      target: _blank
+      
+    - text: Bluesky
+      href: https://bsky.app/profile/maps-and-pepper.bsky.social
       target: _blank
 ---
-
-### Hey there!
-
-I'm Nicole Pepper, a data scientist with a focus leveraging spatial and diverse datasets to tackle environmental challenges. When I'm not wrangling data, you'll find me enjoying the great outdoors, especially in the mountains. Take a look around to learn more about my work and the impact I'm striving to make.
-
 
 ### Education
 
@@ -33,7 +40,9 @@ I'm Nicole Pepper, a data scientist with a focus leveraging spatial and diverse 
 
 ### Professional Experience
 
-**NASA Acres** *Program and Communications Coordinator* (May 2023 - Present)
+**Woodwell Climate Research Center** *Cartography Intern* (June 2025 - Present)
+
+**NASA Acres** *Program and Communications Coordinator* (May 2023 - June 2025)
 
 **Colorado Mountain College** *GIS Teaching Assistant and Tutor* (April 2020 - June 2024)
 
@@ -43,11 +52,13 @@ I'm Nicole Pepper, a data scientist with a focus leveraging spatial and diverse 
 
 **GIS & Data Science:**
 
-- **Programming Languages:** Python, R, JavaScript, BASH, Markdown
+- **Programming Languages:** Python, R, JavaScript, BASH, Markdown, SQL
 - **Software:** ESRI Suite Products (ArcGIS Pro, ArcGIS Online, & others), QGIS, RStudio, Visual Studio Code, Google Earth Engine
+- **Interactive & Webmapping:** Shiny, Mapbox, Leaflet, Tableau, ArcGIS Online
 
 **Graphic Design & Production:**
 
 - **Graphic Design:** Adobe Illustrator, Affinity, Canva
 - **Video & Audio Production:** Adobe Premiere Pro
 - **Web Design:** Wordpress, SquareSpace, GitHub Pages, Quarto Markdown Websites
+
