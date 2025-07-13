@@ -1,9 +1,11 @@
 ---
 title: "Nicole Pepper"
 description: nicolelpepper@gmail.com
-image: images/Pepper_Headshot.jpeg
+image: images/banner.png
+image-shape: rectangular 
+image-width: full
 about:
-  template: trestles
+  template: marquee
   image-shape: rounded
   image-width: 16em
   links:
@@ -31,6 +33,15 @@ about:
       target: _blank
 ---
 
+I'm a data scientist with a focus on using spatial and diverse datasets to tackle pressing environmental challenges. Over the past six years, I have worked at the intersection of GIS, remote sensing, and environmental science—applying data-driven solutions to a range of environmental applications. 
+
+I'm a Cartography Intern with the Woodwell Climate Research Center where I support the cartography team in developing maps and visualizing environmental data to communicate the impacts of climate change.
+
+I spent the past two years as the Program and Communications Coordinator for NASA Acres, where I helped launch the program and coordinated a portfolio of national-scale research projects focused on advancing the use of satellite data to support U.S. agriculture and food security. Previously, I worked as a Geospatial Analyst for an environmental nonprofit in Northern Colorado, contributing to forest and riparian restoration efforts. Across all my professional roles, my focus has remained consistent: translating environmental data into meaningful action.
+
+I'm based out of Steamboat Springs, Colorado. When I’m not making maps or wrangling data, I like to spend my time outdoors including backpacking, snowboarding, and mountain biking.
+
+
 ### Education
 
 **University of California Santa Barbara, Bren School of Environmental Science & Management** *Masters in Environmental Data Science* (June 2025)
@@ -40,7 +51,7 @@ about:
 
 ### Professional Experience
 
-**Woodwell Climate Research Center** *Cartography Intern* (June 2025 - Present)
+<span style="font-family: 'Poppins', sans-serif; font-weight: 500;">Woodwell Climate Research Center</span>  
 
 **NASA Acres** *Program and Communications Coordinator* (May 2023 - June 2025)
 
@@ -54,9 +65,11 @@ about:
 
 - **Programming Languages:** Python, R, JavaScript, BASH, Markdown, SQL
 - **Software:** ESRI Suite Products (ArcGIS Pro, ArcGIS Online, & others), QGIS, RStudio, Visual Studio Code, Google Earth Engine
+- **Interactive & Webmapping:** Shiny, Mapbox, Leaflet, Tableau, ArcGIS Online
 
 **Graphic Design & Production:**
 
 - **Graphic Design:** Adobe Illustrator, Affinity, Canva
 - **Video & Audio Production:** Adobe Premiere Pro
 - **Web Design:** Wordpress, SquareSpace, GitHub Pages, Quarto Markdown Websites
+

@@ -31,34 +31,63 @@ about:
       target: _blank
 ---
 
-### Education
+I'm a data scientist with a focus on using spatial and diverse datasets to tackle pressing environmental challenges. Over the past six years, I have worked at the intersection of GIS, remote sensing, and environmental science—applying data-driven solutions to a range of environmental applications.
 
-**University of California Santa Barbara, Bren School of Environmental Science & Management** *Masters in Environmental Data Science* (June 2025)
+I'm based out of Steamboat Springs, Colorado. When I’m not making maps or wrangling data, I like to spend my time outdoors including backpacking, snowboarding, and mountain biking.
+
+---
+
+#### Education
+
+**University of California Santa Barbara, Bren School of Environmental Science & Management**  
+<em>Masters in Environmental Data Science</em>  
+<small>June 2025</small>
+
+**University of California Los Angeles**  
+<em>B.A. in Geography and Environmental Studies, Minor in Geospatial Information Systems & Technology</em>  
+<small>June 2018</small>
+
+---
+
+#### Professional Experience
+
+<span style="font-family: 'Poppins', sans-serif; font-weight: 600;">Woodwell Climate Research Center</span>  
+<em>Cartography Intern</em>  
+<small>June 2025 – Present</small>
+
+<span style="font-family: 'Poppins', sans-serif; font-weight: 600;">NASA Acres</span>  
+<em>Program & Communications Coordinator</em>  
+<small>May 2023 – June 2025</small>
+
+<span style="font-family: 'Poppins', sans-serif; font-weight: 600;">Environmental Markets Lab (EmLab) & Global Fishing Watch</span>  
+<em>Student Capstone Data Scientist</em>  
+<small>January 2025 – June 2025</small>
+
+<span style="font-family: 'Poppins', sans-serif; font-weight: 600;">Colorado Mountain College</span>  
+<em>GIS Teaching Assistant & Tutor</em>  
+<small>December 2019 – June 2024</small>
+
+<span style="font-family: 'Poppins', sans-serif; font-weight: 600;">Yampa Valley Sustainability Council</span>  
+<em>Geospatial Analyst & Internship Program Manager</em>  
+<small>April 2020 - May 2023</small>
 
 
-**University of California Los Angeles** *B.A. in Geography and Environmental Studies, Minor in Geospatial Information Systems & Technology* (June 2018)
+---
 
-### Professional Experience
+#### Skills
 
-**Woodwell Climate Research Center** *Cartography Intern* (June 2025 - Present)
+<span style="font-family: 'Poppins', sans-serif; font-weight: 600;">Programming Languages: </span>
+Python, R, JavaScript, BASH, Markdown, SQL
 
-**NASA Acres** *Program and Communications Coordinator* (May 2023 - June 2025)
+<span style="font-family: 'Poppins', sans-serif; font-weight: 600;">Data & GIS Software: </span>
+ESRI Suite Products (ArcGIS Pro, ArcGIS Online, & others), QGIS, RStudio, Visual Studio Code, Google Earth Engine, Eduard
 
-**Colorado Mountain College** *GIS Teaching Assistant and Tutor* (April 2020 - June 2024)
+<span style="font-family: 'Poppins', sans-serif; font-weight: 600;">Interactive & Webmapping: </span>
+Shiny, Mapbox, Leaflet, Tableau, ArcGIS Online
 
-**Yampa Valley Sustainability Council** *Geospatial Analyst & Internship Program Manager* (April 2020 - May 2023)
+<span style="font-family: 'Poppins', sans-serif; font-weight: 600;">Graphic Design & Video: </span>
+Adobe Suite (Illustrator, Photoshop, Premiere Pro), Affinity, Canva
 
-### Skills
-
-**GIS & Data Science:**
-
-- **Programming Languages:** Python, R, JavaScript, BASH, Markdown, SQL
-- **Software:** ESRI Suite Products (ArcGIS Pro, ArcGIS Online, & others), QGIS, RStudio, Visual Studio Code, Google Earth Engine
-- **Interactive & Webmapping:** Shiny, Mapbox, Leaflet, Tableau, ArcGIS Online
-
-**Graphic Design & Production:**
-
-- **Graphic Design:** Adobe Illustrator, Affinity, Canva
-- **Video & Audio Production:** Adobe Premiere Pro
-- **Web Design:** Wordpress, SquareSpace, GitHub Pages, Quarto Markdown Websites
+<span style="font-family: 'Poppins', sans-serif; font-weight: 600;">Web Design: </span>
+Wordpress, SquareSpace, GitHub Pages, Quarto Markdown Websites
 
