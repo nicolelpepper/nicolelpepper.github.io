@@ -21,12 +21,12 @@ about:
 
 ### Hey there!
 
-I'm Nicole Pepper, a graduate student at the University of California, Santa Barbara, pursuing a Master’s in Environmental Data Science (MEDS) at the Bren School. My passion lies in leveraging spatial and diverse datasets to tackle pressing environmental challenges and inspire meaningful action. When I'm not wrangling data, you'll find me enjoying the great outdoors, especially in the mountains. Take a look around to learn more about my work and the impact I'm striving to make.
+I'm Nicole Pepper, a data scientist with a focus leveraging spatial and diverse datasets to tackle environmental challenges. When I'm not wrangling data, you'll find me enjoying the great outdoors, especially in the mountains. Take a look around to learn more about my work and the impact I'm striving to make.
 
 
 ### Education
 
-**University of California Santa Barbara, Bren School of Environmental Science & Management** *Masters in Environmental Data Science* (Expected June 2025)
+**University of California Santa Barbara, Bren School of Environmental Science & Management** *Masters in Environmental Data Science* (June 2025)
 
 
 **University of California Los Angeles** *B.A. in Geography and Environmental Studies, Minor in Geospatial Information Systems & Technology* (June 2018)
