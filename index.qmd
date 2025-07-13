@@ -31,6 +31,7 @@ about:
       target: _blank
 ---
 
+#### About Me
 I'm a data scientist with a focus on using spatial and diverse datasets to tackle pressing environmental challenges. Over the past six years, I have worked at the intersection of GIS, remote sensing, and environmental science—applying data-driven solutions to a range of environmental applications.
 
 I'm based out of Steamboat Springs, Colorado. When I’m not making maps or wrangling data, I like to spend my time outdoors including backpacking, snowboarding, and mountain biking.
@@ -39,11 +40,11 @@ I'm based out of Steamboat Springs, Colorado. When I’m not making maps or wran
 
 #### Education
 
-**University of California Santa Barbara, Bren School of Environmental Science & Management**  
+<span style="font-family: 'Poppins', sans-serif; font-weight: 600;">University of California Santa Barbara, Bren School of Environmental Science & Management</span>  
 <em>Masters in Environmental Data Science</em>  
 <small>June 2025</small>
 
-**University of California Los Angeles**  
+<span style="font-family: 'Poppins', sans-serif; font-weight: 600;">University of California Los Angeles</span>  
 <em>B.A. in Geography and Environmental Studies, Minor in Geospatial Information Systems & Technology</em>  
 <small>June 2018</small>
 
