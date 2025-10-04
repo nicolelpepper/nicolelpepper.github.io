@@ -34,7 +34,9 @@ about:
 #### About Me
 I'm a data scientist with a focus on using spatial and diverse datasets to tackle pressing environmental challenges. Over the past six years, I have worked at the intersection of GIS, remote sensing, and environmental science—applying data-driven solutions to a range of environmental applications.
 
-I'm based out of Steamboat Springs, Colorado. When I’m not making maps or wrangling data, I like to spend my time outdoors including backpacking, snowboarding, and mountain biking.
+I'm passionate about creating maps, data visualization, and stories that help translate complicated data into something that resonates with different audiences.
+
+I call Steamboat Springs, Colorado my home. When I’m not making maps or wrangling data, I like to spend my time outdoors including backpacking, snowboarding, and mountain biking.
 
 ---
 
