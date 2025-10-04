@@ -63,11 +63,37 @@ editor_options:
 </a>
 <div id="seamissions" class="lightbox">
   <a href="#" class="close">X</a>
-  <a href="#sotf-co" class="next">→</a>
+  <a href="#alaska-temp" class="next">→</a>
   <a href="#us-100yr-rain" class="prev">←</a>
   <div class="overlay"></div> <!-- Overlay Background -->
   <img src="images/portfolio/seamissions.png" alt="Total Annual Fishing Vessel Emissions 2024">
   <p> Created for Environmental Markets Lab (EmLab). Data accessed via Google Earth Engine, map designed using MAPublisher.</p>
+</div>
+
+<!-- Alaska native languages -->
+<a href="#alaska-native" class="lightbox-thumbnail">
+  ![Alaska Native Languages](images/portfolio/alaska-native-T.png){.thumbnail}
+</a>
+<div id="alaska-native" class="lightbox">
+  <a href="#" class="close">X</a>
+  <a href="#alaska-temp" class="next">→</a>
+  <a href="#seamissions" class="prev">←</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="images/portfolio/alaska-native.png" alt="Alaska Native Language Region Boundaries">
+  <p> Created for Woodwell Climate Research Center. Data accessed via Google Earth Engine, map designed using ArcGIS Pro & Maps for Adobe.</p>
+</div>
+
+<!-- Alaska temperature -->
+<a href="#alaska-temp" class="lightbox-thumbnail">
+  ![Alaska Temperature](images/portfolio/alaska-temp-T.png){.thumbnail}
+</a>
+<div id="alaska-temp" class="lightbox">
+  <a href="#" class="close">X</a>
+  <a href="#sotf-co" class="next">→</a>
+  <a href="#alaska-native" class="prev">←</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="images/portfolio/alaska-temp.png" alt="Alaska Summer Temperature">
+  <p> Created for Woodwell Climate Research Center. Data accessed via Google Earth Engine, map designed using ArcGIS Pro & Maps for Adobe.</p>
 </div>
 
 <!-- Colorado Science on the Fly -->
@@ -76,7 +102,7 @@ editor_options:
 </a>
 <div id="sotf-co" class="lightbox">
   <a href="#" class="close">X</a>
-  <a href="#us-100yr-rain" class="prev">←</a>
+  <a href="#seamissions" class="prev">←</a>
   <a href="#map3" class="next">→</a>
   <div class="overlay"></div> <!-- Overlay Background -->
   <img src="images/portfolio/SOTF_CO.png" alt="Colorado Science on the Fly">
@@ -90,24 +116,12 @@ editor_options:
 <div id="map3" class="lightbox">
   <a href="#" class="close">X</a>
   <a href="#sotf-co" class="prev">←</a>
-  <a href="#map4" class="next">→</a>
+  <a href="#map5" class="next">→</a>
   <div class="overlay"></div> <!-- Overlay Background -->
   <img src="images/portfolio/CRB.png" alt="">
   <p>Created for Yampa Valley Sustainability Council. Designed in ArcGIS Pro.</p>
 </div>
 
-<!-- Upper Yampa River Topo Map -->
-<a href="#map4" class="lightbox-thumbnail">
-  ![Upper Yampa River Topo Map](images/portfolio/UY_T.png){.thumbnail}
-</a>
-<div id="map4" class="lightbox">
-  <a href="#" class="close">X</a>
-  <a href="#map3" class="prev">←</a>
-  <a href="#map5" class="next">→</a>
-  <div class="overlay"></div> <!-- Overlay Background -->
-  <img src="images/portfolio/UY.png" alt="Upper Yampa River Topographic Map">
-  <p>Created for Yampa Valley Sustainability Council. Designed in QGIS.</p>
-</div>
 
 <!-- Routt County Map -->
 <a href="#map5" class="lightbox-thumbnail">
@@ -115,7 +129,7 @@ editor_options:
 </a>
 <div id="map5" class="lightbox">
   <a href="#" class="close">X</a>
-  <a href="#map4" class="prev">←</a>
+  <a href="#map3" class="prev">←</a>
     <a href="#map6" class="next">→</a>
   <div class="overlay"></div> <!-- Overlay Background -->
   <img src="images/portfolio/RC.png" alt="CA County-Level AQI">
@@ -168,35 +182,9 @@ editor_options:
 <div id="map9" class="lightbox">
   <a href="#" class="close">X</a>
   <a href="#map8" class="prev">←</a>
-    <a href="#map10" class="next">→</a>
-  <div class="overlay"></div> <!-- Overlay Background -->
-  <img src="images/portfolio/CA_LowInc.png" alt="CA County-Level Low Income">
-  <p>Created for a graduate course at UCSB. Designed in R-Studio.</p>
-</div>
-
-<!-- Tulare County POC -->
-<a href="#map10" class="lightbox-thumbnail">
-  ![Tulare County CA Percent POC](images/portfolio/Tulare_POC_T.png){.thumbnail}
-</a>
-<div id="map10" class="lightbox">
-  <a href="#" class="close">X</a>
-  <a href="#map9" class="prev">←</a>
-    <a href="#map11" class="next">→</a>
-  <div class="overlay"></div> <!-- Overlay Background -->
-  <img src="images/portfolio/Tulare_POC.png" alt="Tulare County Percent Households with People of Color">
-  <p>Created for a graduate course at UCSB. Designed in R-Studio.</p>
-</div>
-
-<!-- Tulare County Cancer -->
-<a href="#map11" class="lightbox-thumbnail">
-  ![Tulare County CA Low Income](images/portfolio/Tulare_Cancer_T.png){.thumbnail}
-</a>
-<div id="map11" class="lightbox">
-  <a href="#" class="close">X</a>
-  <a href="#map10" class="prev">←</a>
     <a href="#map12" class="next">→</a>
   <div class="overlay"></div> <!-- Overlay Background -->
-  <img src="images/portfolio/Tulare_Cancer.png" alt="Tulare County Percent Cancer Rate">
+  <img src="images/portfolio/CA_LowInc.png" alt="CA County-Level Low Income">
   <p>Created for a graduate course at UCSB. Designed in R-Studio.</p>
 </div>
 
@@ -206,24 +194,11 @@ editor_options:
 </a>
 <div id="map12" class="lightbox">
   <a href="#" class="close">X</a>
-  <a href="#map11" class="prev">←</a>
-  <a href="#map13" class="next">→</a>
+  <a href="#map9" class="prev">←</a>
+  <a href="#map14" class="next">→</a>
   <div class="overlay"></div> <!-- Overlay Background -->
   <img src="images/portfolio/HOLC.png" alt="Los Angeles Historic Redlining Map">
   <p>Created for a graduate course at UCSB. Designed in R-Studio.</p>
-</div>
-
-<!-- Power Outage -->
-<a href="#map13" class="lightbox-thumbnail">
-  ![Houston Power Outage](images/portfolio/outage_t.png){.thumbnail}
-</a>
-<div id="map13" class="lightbox">
-  <a href="#" class="close">X</a>
-  <a href="#map12" class="prev">←</a>
-  <a href="#map14" class="next">→</a>
-  <div class="overlay"></div> <!-- Overlay Background -->
-  <img src="images/portfolio/outage.gif" alt="Power Outage Animation" loop="true">
-  <p>Created for a graduate course at UCSB. Designed In R-Studio.</p>
 </div>
 
 <!-- Antarctica -->
@@ -232,7 +207,7 @@ editor_options:
 </a>
 <div id="map14" class="lightbox">
   <a href="#" class="close">X</a>
-  <a href="#map13" class="prev">←</a>
+  <a href="#map12" class="prev">←</a>
   <a href="#map15" class="next">→</a>
   <div class="overlay"></div> <!-- Overlay Background -->
   <img src="images/portfolio/Antarctica.png" alt="Antarctica" loop="true">
@@ -259,6 +234,45 @@ editor_options:
 
 ::: {.gallery}
 
+
+<!-- Alaska Temp Chart -->
+<a href="#alaska-temp-chart" class="lightbox-thumbnail">
+  ![Alaska Summer Temp Chart](images/portfolio/alaska-temp-chart-T.png){.thumbnail}
+</a>
+<div id="alaska-temp-chart" class="lightbox">
+  <a href="#" class="close">X</a>
+  <a href="#stream-temp-chart" class="next">→</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="images/portfolio/alaska-temp-chart-T.png" alt="Alaska June & July Average Temperature Anomaly">
+  <p>Created for Woodwell Climate Research Center, designed in R.</p>
+</div>
+
+<!-- Alaska Stream Temp Chart -->
+<a href="#stream-temp-chart" class="lightbox-thumbnail">
+  ![Alaska Stream Temp Chart](images/portfolio/stream-temp-chart-T.png){.thumbnail}
+</a>
+<div id="stream-temp-chart" class="lightbox">
+  <a href="#" class="close">X</a>
+  <a href="#upstream" class="next">→</a>
+  <a href="#alaska-temp-chart" class="prev">←</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="images/portfolio/stream-temp-chart.png" alt="Alaska Stream Temperature Chart">
+  <p>Created for Woodwell Climate Research Center, designed in R.</p>
+</div>
+
+<!--  An Upstream Battle -->
+<a href="#upstream" class="lightbox-thumbnail">
+  ![An Upstream Battle](images/portfolio/an-upstream-battle-T.png){.thumbnail}
+</a>
+<div id="upstream" class="lightbox">
+  <a href="#" class="close">X</a>
+  <a href="#dv1" class="next">→</a>
+  <a href="#stream-temp-chart" class="prev">←</a>
+  <div class="overlay"></div> <!-- Overlay Background -->
+  <img src="images/portfolio/an-upstream-battle.png" alt="An Upstream Battle">
+  <p>Created for Graduate Course, designed in R & Affinity.</p>
+</div>
+
 <!-- US FEMA Risk -->
 <a href="#dv1" class="lightbox-thumbnail">
   ![US FEMA Risk](images/portfolio/US_FEMA_T.png){.thumbnail}
@@ -266,6 +280,7 @@ editor_options:
 <div id="dv1" class="lightbox">
   <a href="#" class="close">X</a>
   <a href="#dv2" class="next">→</a>
+  <a href="#stream-temp-chart" class="prev">←</a>
   <div class="overlay"></div> <!-- Overlay Background -->
   <img src="images/portfolio/US_FEMA.png" alt="This boxplot shows how FEMA National Risk Index scores for counties in California compare to those in other states. The plot shows the distribution of county FEMA Natural Hazard Ratings for counties on the x-axis, grouped by state on the y-axis. The plot reveals that California counties face the greatest natural hazard risk in the United States. With more than 75% of its counties falling above relatively moderate risk and more than 50% of counties falling in the high risk category.">
   <p>Created for a graduate course at UCSB, designed in R.</p>
@@ -336,6 +351,10 @@ editor_options:
 
 # Seamissions Explorer
 <iframe src="https://emlab-ucsb.shinyapps.io/seamissions-explorer/" 
+        width="100%" height="500" frameborder="0" allowfullscreen allow="geolocation"></iframe>
+        
+# Chinook Salmon StoryMap
+<iframe src="https://www.woodwellclimate.org/what-happens-when-salmon-dont-return/" 
         width="100%" height="500" frameborder="0" allowfullscreen allow="geolocation"></iframe>
 
 # YRFRP StoryMap
