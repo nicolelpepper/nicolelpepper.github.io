@@ -2,7 +2,7 @@
 title: "What happens when salmon don’t return?"
 description: "Regional warming in the Arctic is exacerbating the decline of Yukon River Chinook Salmon"
 author: "Nicole Pepper & Ellis Gould"
-date: 10/03/2025
+date: 09/10/2025
 execute:
   eval: false
   warning: false
