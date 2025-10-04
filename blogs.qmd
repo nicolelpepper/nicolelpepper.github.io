@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Feature Articles"
 listing:
   contents: blogs
   type: grid

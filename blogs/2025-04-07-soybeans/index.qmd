@@ -1,0 +1,42 @@
+---
+title: "Researchers are Using Satellite Imagery to Help Predict Soybean Quality Before Harvest"
+description: "NASA Acres project with Kansas State University"
+author: "Nicole Pepper"
+date: 04/07/2025
+execute:
+  eval: false
+  warning: false
+  message: false
+format:
+  html:
+    toc: true 
+    code-fold: true
+editor_options: 
+  chunk_output_type: console
+output: html_document
+image: "images/soybeans.png"
+categories: [NASA Acres, Rangelands]
+---
+##### Originally published on [NASA Acres's website](https://www.nasaacres.org/news/mapping-soybean-quality)
+
+![ ](images/soybeans.png)
+
+*This map shows predicted soybean seed oil content, with values ranging from 18% (blue) to 24% (yellow) for the 2022 growing season in the U.S. Midwest. White dots mark the locations of field samples used to train the model.*
+
+Soybean production in the U.S. has steadily been on the rise over the past two decades, driven by both its versatility and economic value - with [national acreage growing by over 18 percent](https://www.ers.usda.gov/amber-waves/2023/july/u-s-soybean-production-expands-since-2002-as-farmers-adopt-new-practices-technologies#:~:text=Soybean%20Acreage%2C%20Yields%20Trend%20Upward,than%2050%20bushels%20an%20acre). Each soybean is made of both meal and oil, which are used in products from food, to biofuel, to fiber. Soybeans are a key source of high-quality protein in animal feed and are used in a variety of fermented and non-fermented foods for human consumption.
+
+
+This map shows predicted soybean seed oil content, with values ranging from 18% (blue) to 24% (yellow) for the 2022 growing season in the U.S. Midwest. White dots mark the locations of field samples used to train the model.
+
+Given their wide range of uses and market importance, there is a growing interest in improving soybean management practices and better understanding seed quality traits. To support this effort, a team of researchers, led by Ignacio Ciampitti (formerly at Kansas State University, now at Purdue University) and Carlos Hernandez (Kansas State University), is advancing research that integrates in-field crop data with open-source satellite imagery to better understand factors that influence soybean quality and predict traits, such as protein and oil content, before harvest time.
+
+This map shows predicted seed oil content for soybean fields across the U.S. Midwest for the 2022 growing season. Its values range from 18% (blue) to 24% (yellow) seed oil. By forecasting crop traits before harvest, farmers and agronomists can make more informed decisions about management practices, like optimizing harvest timing, and can better position their crops for market demand. Some key details from their early research show:
+
+- Predicting seed oil levels is slightly easier than predicting protein, as protein content is highly influenced by environmental factors.
+- The optimal timing for making predictions was identified to be around a week after the peak of vegetation greenness.
+- The XGBoost method was identified as the best predictive model for both quality traits.
+- Overall, models reported an absolute error of 1.7% for protein and 1.1% for oil concentrations.
+
+Details on the data and main method used to develop the above map and its limitations are detailed in [this article](https://www.researchgate.net/publication/372887449_On-farm_soybean_seed_protein_and_oil_prediction_using_satellite_data). This work is a part of a [broader multi-state, multi-year soybean research effort](https://soybeanresearchinfo.com/research-highlight/the-skys-the-limit-predicting-oil-and-protein-levels-within-soybean-fields/) led by Ciampitti, Hernandez, and Valentina Pereyra Picabea, funded by North Central Soybean Research Program (NCSRP). They have compiled a comprehensive database of satellite data and farmer surveys from over 400 fields across the Midwest to develop predictive tools for soybean quality. Now, Ciampitti is advancing this work on crop quality, as a pilot project within the Farm Innovation Ambassador Team (FIAT), a new NASA Acres program he is co-leading to strengthen collaboration and innovation between farmers and satellite data.
+
+For more information on FIAT, follow along with [our newsletter](https://www.nasaacres.org/newsletter) and reach via the [contact form](https://www.nasaacres.org/contact) with questions about getting involved.

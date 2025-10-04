@@ -87,7 +87,7 @@ ESRI Suite Products (ArcGIS Pro, ArcGIS Online, & others), QGIS, RStudio, Visual
 Shiny, Mapbox, Leaflet, Tableau, ArcGIS Online
 
 <span style="font-family: 'Poppins', sans-serif; font-weight: 600;">Graphic Design & Video: </span>
-Adobe Suite (Illustrator, Photoshop, Premiere Pro), Affinity, Canva
+Adobe Suite (Illustrator, Photoshop, Premiere Pro + Maps for Adobe & MAPublisher plugins), Affinity, Canva
 
 <span style="font-family: 'Poppins', sans-serif; font-weight: 600;">Web Design: </span>
 Wordpress, SquareSpace, GitHub Pages, Quarto Markdown Websites

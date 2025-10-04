@@ -1,0 +1,36 @@
+---
+title: "New Synthesis Highlights the Potential – and Current Limitations – of Satellite Data in Rangeland Management"
+description: "NASA Acres project with Colorado State University"
+author: "Nicole Pepper, Anthony Vorster, & Nicholas Young"
+date: 06/10/2025
+execute:
+  eval: false
+  warning: false
+  message: false
+format:
+  html:
+    toc: true 
+    code-fold: true
+editor_options: 
+  chunk_output_type: console
+output: html_document
+image: "images/co_range.png"
+categories: [NASA Acres, Rangelands]
+---
+##### Originally published on [NASA Acres's website](https://www.nasaacres.org/news/potential-of-satellite-data-in-rangeland-management)
+
+![ ](images/co_range.png)
+
+A new article released by researchers Tony Vorster and Nicholas Young at Colorado State University’s Natural Resource Ecology Laboratory, in partnership with the NASA Acres Consortium, explores how satellite imagery and other remote sensing technologies can inform rangeland management across the American West. The paper, ["Opportunities and Limitations of Remote Sensing for Rangeland Management"](https://static1.squarespace.com/static/6376910a05a7a254908d0ee7/t/683cbd0128b072629f16e122/1748811018868/Remote_Sensing_for_Rangeland_Management_Vorster+and+Young_2025.pdf), offers land stewards a grounded, practical guide to navigating the growing suite of digital tools.
+
+Drawing from years of field experience and data analysis, the authors offer insights into how free, satellite-based tools—such as the [Rangeland Analysis Platform](https://rangelands.app/), the [U.S. Drought Monitor](https://droughtmonitor.unl.edu/), and [Grass-Cast](https://grasscast.unl.edu/)—can support decisions ranging from grazing management to drought planning. The article synthesizes dozens of open-access remote sensing products now accessible to ranchers, consultants, and land agencies, and provides examples of how these tools can be used to inform rangeland management.
+
+The article outlines the strengths of current technology, including their ability to track vegetation, monitor drought conditions, and visualize landscape changes over time. But it also cautions against overreliance, noting key challenges like mismatches in timing, where data updates come too late to support timely decision, and spatial resolution that may be too coarse to accurately capture the scale of individual pastures. Interpreting these tools can be complex and requires careful considerations of their limitations, including errors that can be substantial. It can be challenging for users of remote sensing products to know which of the many products is the best fit for their particular application. The authors emphasize that remote sensing is most effective when used alongside—not as a replacement for— on-the-ground experience and local knowledge.
+
+![ ](images/field_work.png)
+
+“Remote sensing provides a bird’s-eye view that helps make sense of complex, dynamic landscapes,” said lead author Tony Vorster. “But it's not a silver bullet—it’s most powerful when combined with on-the-ground knowledge.”
+
+Looking ahead, the article points to promising innovations – from near-real-time mapping and drone-based monitoring, to the integration of remote sensing with tools like virtual fencing. The authors underscore the importance of continued collaboration among scientists, land managers, and technology developers to co-produce, interpret, and improve remote sensing tools and to ensure these products are practical and effective for rangeland managers.
+
+The work was published through the [Western Rangelands Dataas Initiative](https://merid.org/case-studies/western-rangelands-data-initiative/) with support from NASA Acres as well as the Walton Family Foundation and Conscience Bay Research.

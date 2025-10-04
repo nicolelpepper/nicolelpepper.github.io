@@ -177,3 +177,7 @@ embed {
   display: none; /* Class to hide TOC */
 }
 
+
+
+/* Hide embedded iframes from post cards/listing pages */
+.listing .post-embed { display: none !important; }

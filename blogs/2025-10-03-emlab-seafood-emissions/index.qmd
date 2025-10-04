@@ -1,0 +1,61 @@
+---
+title: "Bren School students help chart the course towards a global baseline for wild-caught seafood emissions"
+description: "Partnering with Environmental Markets Lab (emLab)"
+author: "Nicole Pepper & Carmen Hoyt"
+date: 10/03/2025
+execute:
+  eval: false
+  warning: false
+  message: false
+format:
+  html:
+    toc: true 
+    code-fold: true
+editor_options: 
+  chunk_output_type: console
+output: html_document
+image: "images/vessel_emissions.png"
+categories: [MEDS, R, emLab]
+---
+##### Originally published on [emLab's website](https://emlab.ucsb.edu/blog/bren-school-students-help-chart-course-towards-global-baseline-wild-caught-seafood-emissions)
+
+![ ](images/anchovies.jpg)
+
+Seafood is a notoriously difficult global commodity to trace. Once a vessel leaves port, its activity often becomes largely invisible — and that’s not just a figure of speech. Most industrial fishing takes place far offshore, and there's no global mandate requiring vessels to report their movement publicly. Without consistent tracking, it becomes incredibly difficult to know where fishing is happening, how intensely, and at what cost. This lack of transparency leaves buyers, consumers, and regulators in the dark. Most people are unaware of the origin of their seafood, let alone its environmental impact.
+
+A [2024 study](https://www.nature.com/articles/s41586-023-06825-8]) in Nature estimated that three out of four industrial fishing vessels are not publicly tracked using AIS (Automatic Identification System), a GPS-like technology used on some ships. In other words, the majority of fishing activity, and its associated greenhouse gas emissions, remains hidden from view. Recent advancements in complementary types of satellite monitoring, such as synthetic aperture radar (SAR), however, are beginning to change that by allowing us to see all industrial vessels at sea, even if they don’t carry AIS transponders.
+
+In March 2025, the Environmental Markets Lab (emLab) and Global Fishing Watch (GFW) [released a first-of-its-kind dataset](https://globalfishingwatch.org/article/mapping-industrial-vessel-emissions-at-sea/) estimating the greenhouse gas emissions of large industrial fishing vessels. Their novel approach combines AIS data with SAR data to estimate emissions from all industrial fishing vessels, regardless of whether or not they use AIS, creating the most comprehensive view of global fishing vessel activity and its climate impact to date.
+
+![ ](images/vessel_emissions.png)
+
+
+This gridded map illustrates the aggregated total annual CO₂ emissions from fishing vessels in 2024 detected by automatic identification system (AIS) and synthetic aperture radar (SAR). Each 1°×1° ocean cell is shaded by its emissions, ranging from 0 (light blue) to 6 million metric tons (bright purple) per grid cell.
+
+Earlier this year, we were part of a group of graduate students from the University of California, Santa Barbara’s [Bren School of Environmental Science and Management](https://bren.ucsb.edu/) that set out to leverage this dataset to create a first-of-its-kind global baseline that connects GFW-derived vessel emissions with seafood catch data from the United Nations Food and Agriculture Organization (FAO). This effectively would combine the most comprehensive map of global fishing vessel activity with production statistics by country or territory, species, and FAO Major Fishing Area. “Ultimately, our goal in this project was to enable consumers to compare the carbon cost of a tuna steak with that of a plate of shrimp or a filet of salmon,” says Gavin McDonald, Senior Project Scientist at emLab and faculty advisor for the project. "We also think that by implementing more sustainable fisheries management in some places, there could be strong emissions reduction co-benefits that could come along with that. This first-of-its-kind dataset will allow us to explore these sorts of questions."
+
+Together, with Joshua Mull and Stephen Carroll, our first challenge was linking these datasets while accounting for the nuance of fishing activity: Fleets don’t operate evenly across the oceans, and emissions vary widely by species, fishing method, and region. On top of that, catch reporting conventions don’t align with the scale at which emissions are tracked. To harmonize these datasets, our team built a flexible [data processing pipeline](https://github.com/Seamissions) to aggregate vessel emissions across country (flag), year, and species group from 2016 to 2022.
+
+This pipeline distributes emissions from AIS-broadcasting and SAR-detected non-broadcasting vessels across FAO regions to each country in proportion to their FAO-reported catch weights. However, as Carmen notes, “it’s important to recognize that this method relies on several assumptions, one being that only countries reporting catch to the FAO are fishing (and emitting) in these regions. That isn’t always the case; sometimes catches taken in one FAO may be landed in another, and in some cases the catches go unreported altogether.” This means that emissions attributed to a given country or species group should be interpreted with caution, as their reported emissions efficiency may be overstated in some cases and understated in others. Once all known and distributed non-broadcasting emissions were attributed to a specific country, a ratio of efficiency (in terms of emissions per unit catch, in metric tonnes) was calculated for each species group for each country for the years 2016 to 2022.
+
+Perhaps the most alarming trend we uncovered in our analysis shows that total global emissions have increased since 2016, while seafood catch has remained relatively constant over recent years. This demonstrates that we are putting more effort into catching fish without seeing the return, potentially reflecting a larger ecological concern for global fish stocks.
+
+
+
+![ ](images/species_emissions.png)
+
+This line chart compares total annual CO₂ emissions (blue) from fishing vessels with the total reported weight of seafood catch (yellow), both shown in million metric tons. From 2016 to 2022, CO₂ emissions have increased, while reported catch has remained relatively constant.
+ 
+
+Fishing efficiency is shaped by several factors, including vessel size, the gear and method used, and the distance traveled to and from fishing grounds. When emissions are high relative to the amount of seafood caught, efficiency is low. Conversely, higher efficiency reflects relatively low emissions per unit of catch. It’s not surprising, then, that our team found cods, hakes, haddocks – often caught with bottom trawling – followed by clams and arkshells – typically harvested with hydraulic dredging – among the least efficient. Both methods are not only fuel-intensive but also cause excessive damage to seafloor habitats. These preliminary insights are available to explore on our public dashboard, the [Seamissions Explorer](https://emlab-ucsb.shinyapps.io/seamissions-explorer/).
+
+This box-and-whisker plot shows the distribution of emissions efficiency across all countries reporting catch for each species group. Boxes represent the middle 50% of values, while whiskers indicate the full range. The figure is filtered to the ten species groups with the highest total annual emissions and ordered by their emissions efficiency (the ratio of total CO₂ emissions to total reported catch weight).
+
+“Sustainability in wild-caught seafood depends on many interconnected factors,” says Nicole, “And while we don’t suggest basing your seafood choices entirely on CO₂ emissions alone, we believe that CO₂ reduction goals align strongly with important co-benefits, from supporting more efficient fleets to protecting ocean ecosystems and public health.”
+
+This project was completed as part of our Bren School of Environmental Science & Management’s Master of Environmental Data Science capstone – a 20-week partnership where students work directly with client organizations in the role of environmental data scientists. Together, we developed a flexible data processing pipeline that can be adapted as new information becomes available, allowing partners to refine their harmonization method and extend the analysis into the future. “The experience of working with emLab within our capstone project,” Nicole shares, “gave us hands-on technical training and close mentorship, while also giving us the chance to contribute to the critical challenge of making wild-caught fishing more sustainable and transparent.”
+
+![ ](images/seamissions.jpg)
+*Photo of the Bren School team from left: Stephen Carroll, Nicole Pepper, Carmen Hoyt, and Joshua Mull* 
+ 
+**Maps and graphs by:** Nicole Pepper
